@@ -1,0 +1,2113 @@
+{
+  "materi": {
+    "1": {
+      "items": [
+        {
+          "key": "al_unwan",
+          "arab": "العُنْوَانُ",
+          "indo": "alamat"
+        },
+        {
+          "key": "as_syarii",
+          "arab": "الشَّارِعُ",
+          "indo": "jalan"
+        },
+        {
+          "key": "al_hayyu",
+          "arab": "الحَيُّ",
+          "indo": "perumahan / kampung"
+        },
+        {
+          "key": "al_baytu",
+          "arab": "البَيْتُ",
+          "indo": "rumah"
+        },
+        {
+          "key": "raqam_al_bayti",
+          "arab": "رَقَمُ البَيْتِ",
+          "indo": "nomor rumah"
+        },
+        {
+          "key": "raqam_al_hatif",
+          "arab": "رَقَمُ الهَاتِفِ",
+          "indo": "nomor telepon"
+        },
+        {
+          "key": "nazlun_maskanun",
+          "arab": "مَسْكَنٌ",
+          "indo": "tempat tinggal"
+        },
+        {
+          "key": "janiba",
+          "arab": "جَانِبَ",
+          "indo": "di samping"
+        },
+        {
+          "key": "amama",
+          "arab": "أَمَامَ",
+          "indo": "di depan"
+        },
+        {
+          "key": "khalfa",
+          "arab": "خَلْفَ",
+          "indo": "di belakang"
+        },
+        {
+          "key": "qaribun",
+          "arab": "قَرِيبٌ",
+          "indo": "dekat"
+        },
+        {
+          "key": "baidun",
+          "arab": "بَعِيدٌ",
+          "indo": "jauh"
+        },
+        {
+          "key": "al_masjid",
+          "arab": "المَسْجِدُ",
+          "indo": "masjid"
+        },
+        {
+          "key": "al_maktabah",
+          "arab": "المَكْتَبَةُ",
+          "indo": "perpustakaan"
+        },
+        {
+          "key": "al_madrasah",
+          "arab": "المَدْرَسَةُ",
+          "indo": "sekolah"
+        }
+      ],
+      "dialog": {
+        "1": {
+          "ahmad": {
+            "name": "أحمد",
+            "script": [
+              {
+                "audio": "ahmad-1",
+                "text": "أَيْنَ تَسْكُنُ يَا هَمْزَةَ؟"
+              },
+              {
+                "audio": "ahmad-2",
+                "text": "وَهَلْ بَيْتُكَ قَرِيبٌ مِنَ المَدْرَسَةِ؟"
+              },
+              {
+                "audio": "ahmad-3",
+                "text": "مَا رَقْمُ بَيْتِكَ يَا هَمْزَةَ؟"
+              },
+              {
+                "audio": "ahmad-4",
+                "text": "هَلْ بَيْتُكَ لَوْنُهُ أَزْرَقُ؟"
+              },
+              {
+                "audio": "ahmad-5",
+                "text": "اِيْوَهْ، شُكْرًا هَمْزَةَ، إِلَى اللِّقَاءِ."
+              }
+            ]
+          },
+          "hamzah": {
+            "name": "همزة",
+            "script": [
+              {
+                "audio": "hamzah-1",
+                "text": "أَسْكُنُ فِي الحَيِّ الجَدِيدِ، فِي الشَّارِعِ الرَّابِعِ."
+              },
+              {
+                "audio": "hamzah-2",
+                "text": "نَعَمْ، بَيْتِي أَمَامَ المَدْرَسَةِ."
+              },
+              {
+                "audio": "hamzah-3",
+                "text": "رَقْمُ بَيْتِي خَمْسَةٌ وَعِشْرُونَ."
+              },
+              {
+                "audio": "hamzah-4",
+                "text": "نَعَمْ، بَيْتِي لَوْنُهُ أَزْرَقُ."
+              },
+              {
+                "audio": "hamzah-5",
+                "text": "عَفْوًا، مَعَ السَّلَامَةِ."
+              }
+            ]
+          }
+        },
+        "2": {
+          "fatimah": {
+            "name": "فاطمة",
+            "script": [
+              {
+                "audio": "fatimah-1",
+                "text": "مِنْ فَضْلِكِ، أَيْنَ المَكْتَبَةُ؟"
+              },
+              {
+                "audio": "fatimah-2",
+                "text": "وَالمَسْجِدُ؟"
+              }
+            ]
+          },
+          "hindun": {
+            "name": "هند",
+            "script": [
+              {
+                "audio": "hindun-1",
+                "text": "هِيَ قَرِيبَةٌ، خَلْفَ المَدْرَسَةِ."
+              },
+              {
+                "audio": "hindun-2",
+                "text": "المَسْجِدُ جَانِبَ المَكْتَبَةِ."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "2": {
+      "items": [
+        {
+          "key": "ghurfat_an_nawm",
+          "arab": "غُرْفَةُ النَّوْمِ",
+          "indo": "kamar tidur"
+        },
+        {
+          "key": "ghurfat_al_julus",
+          "arab": "غُْرْفَةُ الْجُلُوْسِ",
+          "indo": "ruang tamu"
+        },
+        {
+          "key": "al_matbakh",
+          "arab": "اَلْمَطْبَخُ",
+          "indo": "dapur"
+        },
+        {
+          "key": "al_hammam",
+          "arab": "اَلْحَمَّامُ",
+          "indo": "kamar mandi"
+        },
+        {
+          "key": "al_hadiqah",
+          "arab": "اَلْحَدِيْقَةُ",
+          "indo": "taman"
+        },
+        {
+          "key": "al_bab",
+          "arab": "اَلْبَابُ",
+          "indo": "pintu"
+        },
+        {
+          "key": "an_nafidah",
+          "arab": "اَلنَّافِدَةُ",
+          "indo": "jendela"
+        },
+        {
+          "key": "as_saqf",
+          "arab": "اَلسَّقْفُ",
+          "indo": "atap"
+        },
+        {
+          "key": "al_bilat",
+          "arab": "اَلْبِلاَطُ",
+          "indo": "lantai"
+        },
+        {
+          "key": "ghurfat_al_akl",
+          "arab": "غُرْفَةُ اْلأَكْلِ",
+          "indo": "ruang makan"
+        },
+        {
+          "key": "as_sarir",
+          "arab": "اَلسَّرِيْرُ",
+          "indo": "tempat tidur"
+        },
+        {
+          "key": "al_khizanah",
+          "arab": "اَلْخِزَانَةُ",
+          "indo": "lemari"
+        },
+        {
+          "key": "al_maidah",
+          "arab": "اَلْمَائِدَةُ",
+          "indo": "meja makan"
+        },
+        {
+          "key": "al_misbah",
+          "arab": "اَلْمِصْبَاحُ",
+          "indo": "lampu"
+        },
+        {
+          "key": "as_surah",
+          "arab": "اَلصُّوْرَةُ",
+          "indo": "gambar"
+        }
+      ],
+      "dialog": {
+        "1": {
+          "script": [
+            {
+              "audio": "cerita-p1",
+              "text": "تَسْكُنُ عَائِلَةُ سَلْمَى فِي بَيْتٍ جَمِيلٍ فِي حَيِّ النُّورِ.",
+              "terjemah": "Keluarga Salma tinggal di sebuah rumah yang indah di kawasan An-Nur."
+            },
+            {
+              "audio": "cerita-p2",
+              "text": "يَقَعُ البَيْتُ قَرِيبًا مِنَ المَسْجِدِ وَالمَدْرَسَةِ.",
+              "terjemah": "Rumah itu terletak dekat dengan masjid dan sekolah."
+            },
+            {
+              "audio": "cerita-p3",
+              "text": "وَجَدَ حَدِيقَةً صَغِيرَةٌ أَمَامَ البَيْتِ، فِيهَا أَزْهَارٌ مُلَوَّنَةٌ وَشَجَرَةُ مَنْجَا كَبِيرَةٌ.",
+              "terjemah": "Terdapat sebuah taman kecil di depan rumah, di dalamnya ada bunga-bunga berwarna-warni dan sebuah pohon mangga besar."
+            },
+            {
+              "audio": "cerita-p4",
+              "text": "تُحِبُّ سَلْمَى الجُلُوسَ فِي الحَدِيقَةِ فِي الصَّبَاحِ لِتَقْرَأَ كِتَابَهَا.",
+              "terjemah": "Salma suka duduk di taman pada pagi hari untuk membaca bukunya."
+            },
+            {
+              "audio": "cerita-p5",
+              "text": "يَتَكَوَّنُ بَيْتُ سَلْمَى مِنْ أَرْبَعِ غُرَفٍ: غُرْفَةُ الجُلُوسِ، غُرْفَةُ النَّوْمِ، المَطْبَخُ، وَالحَمَّامُ.",
+              "terjemah": "Rumah Salma terdiri dari empat ruangan: ruang tamu, kamar tidur, dapur, dan kamar mandi."
+            },
+            {
+              "audio": "cerita-p6",
+              "text": "غُرْفَةُ الجُلُوسِ وَاسِعَةٌ وَفِيهَا كَنَبَاتٌ جَمِيلَةٌ وَتِلْفَازٌ كَبِيرٌ.",
+              "terjemah": "Ruang tamunya luas dan di dalamnya terdapat sofa-sofa yang indah serta sebuah televisi besar."
+            },
+            {
+              "audio": "cerita-p7",
+              "text": "أَمَّا غُرْفَةُ النَّوْمِ فَهِيَ مُرَتَّبَةٌ وَفِيهَا سَرِيرٌ وَخِزَانَةُ مَلَابِسٍ وَمِصْبَاحٌ صَغِيرٌ عَلَى الطَّاوِلَةِ.",
+              "terjemah": "Adapun kamar tidurnya rapi dan di dalamnya ada tempat tidur, lemari pakaian, serta sebuah lampu kecil di atas meja."
+            },
+            {
+              "audio": "cerita-p8",
+              "text": "تَطْبَخُ أُمُّ سَلْمَى فِي المَطْبَخِ كُلَّ صَبَاحٍ لِتُعِدَّ الفُطُورَ، وَسَلْمَى تُسَاعِدُهَا أَحْيَانًا فِي تَجْهِيزِ المَائِدَةِ.",
+              "terjemah": "Ibu Salma memasak di dapur setiap pagi untuk menyiapkan sarapan, dan Salma terkadang membantunya menyiapkan meja makan."
+            },
+            {
+              "audio": "cerita-p9",
+              "text": "وَبَعْدَ الغَدَاءِ، تَنْظُفُ العَائِلَةُ البَيْتَ مَعًا لِكَيْ يَبْقَى مُرَتَّبًا وَجَمِيلًا.",
+              "terjemah": "Dan setelah makan siang, keluarga membersihkan rumah bersama-sama agar tetap rapi dan indah."
+            },
+            {
+              "audio": "cerita-p10",
+              "text": "تُحِبُّ سَلْمَى بَيْتَهَا جِدًّا لِأَنَّهُ مَرِيحٌ وَهَادِئٌ.",
+              "terjemah": "Salma sangat menyukai rumahnya karena rumah itu nyaman dan tenang."
+            }
+          ]
+        },
+        "2": {
+          "script": [
+            {
+              "audio": "deskriptif-p1",
+              "text": "بَيْتِي بَسِيطٌ وَجَمِيلٌ.",
+              "terjemah": "Rumahku sederhana dan indah."
+            },
+            {
+              "audio": "deskriptif-p2",
+              "text": "هُوَ فِي حَيٍّ هَادِئٍ قَرِيبٍ مِنَ المَدْرَسَةِ.",
+              "terjemah": "Rumah itu berada di lingkungan yang tenang dan dekat dengan sekolah."
+            },
+            {
+              "audio": "deskriptif-p3",
+              "text": "أَمَامَ البَيْتِ سَاحَةٌ صَغِيرَةٌ فِيهَا أَزْهَارٌ مُلَوَّنَةٌ وَأَشْجَارٌ صَغِيرَةٌ.",
+              "terjemah": "Di depan rumah ada halaman kecil yang berisi bunga-bunga berwarna-warni dan pepohonan kecil."
+            },
+            {
+              "audio": "deskriptif-p4",
+              "text": "جُدْرَانُ البَيْتِ بَيْضَاءُ، وَالبَابُ بُنِّيٌّ، وَالنَّافِذَاتُ كَبِيرَةٌ تُدْخِلُ الضَّوْءَ.",
+              "terjemah": "Dinding rumah berwarna putih, pintunya berwarna cokelat, dan jendelanya besar sehingga memasukkan cahaya."
+            },
+            {
+              "audio": "deskriptif-p5",
+              "text": "يَتَكَوَّنُ البَيْتُ مِنْ ثَلَاثِ غُرَفٍ وَصَالَةٍ صَغِيرَةٍ.",
+              "terjemah": "Rumah ini terdiri dari tiga kamar dan sebuah ruang tamu kecil."
+            },
+            {
+              "audio": "deskriptif-p6",
+              "text": "غُرْفَةُ الجُلُوسِ وَاسِعَةٌ، وَفِيهَا أَرِيكَةٌ مُرِيحَةٌ وَتِلْفَازٌ مُتَوَسِّطُ الحَجْمِ.",
+              "terjemah": "Ruang tamunya luas, dan di dalamnya ada sofa yang nyaman serta televisi berukuran sedang."
+            },
+            {
+              "audio": "deskriptif-p7",
+              "text": "غُرْفَةُ النَّوْمِ مُرَتَّبَةٌ، وَالسَّرِيرُ فِيهَا صَغِيرٌ وَلَكِنَّهُ مُرِيحٌ.",
+              "terjemah": "Kamar tidurnya rapi, dan tempat tidurnya kecil tetapi nyaman."
+            },
+            {
+              "audio": "deskriptif-p8",
+              "text": "المَطْبَخُ نَظِيفٌ، وَالأَدَوَاتُ فِيهِ مُرَتَّبَةٌ عَلَى الرَّفِّ.",
+              "terjemah": "Dapurnya bersih, dan peralatan di dalamnya tersusun rapi di rak."
+            },
+            {
+              "audio": "deskriptif-p9",
+              "text": "الحَمَّامُ فِي طَرَفِ البَيْتِ، وَهُوَ صَغِيرٌ وَلَكِنَّهُ نَظِيفٌ.",
+              "terjemah": "Kamar mandi berada di bagian ujung rumah, dan ukurannya kecil tetapi bersih."
+            },
+            {
+              "audio": "deskriptif-p10",
+              "text": "نَافِذَةُ الحَمَّامِ صَغِيرَةٌ، وَالمِرْآةُ فَوْقَ المَغْسَلَةِ.",
+              "terjemah": "Jendela kamar mandi kecil, dan cermin berada di atas wastafel."
+            },
+            {
+              "audio": "deskriptif-p11",
+              "text": "البَيْتُ كُلُّهُ مُرَتَّبٌ، وَالأَثَاثُ فِيهِ بَسِيطٌ وَلَوْنُهُ هَادِئٌ.",
+              "terjemah": "Seluruh rumah tertata rapi, dan perabot di dalamnya sederhana serta berwarna lembut."
+            },
+            {
+              "audio": "deskriptif-p12",
+              "text": "الجَوُّ فِي البَيْتِ مَرِيحٌ، وَالإِقَامَةُ فِيهِ لَطِيفَةٌ.",
+              "terjemah": "Suasana di dalam rumah terasa nyaman, dan tinggal di sana menyenangkan."
+            }
+          ]
+        }
+      }
+    },
+    "3": {
+      "items": [
+        {
+          "key": "yastaiqizu",
+          "arab": "يَسْتَيْقِظُ",
+          "indo": "bangun"
+        },
+        {
+          "key": "yaghtasilu",
+          "arab": "يَغْتَسِلُ",
+          "indo": "mandi"
+        },
+        {
+          "key": "yalbasu",
+          "arab": "يَلْبَسُ",
+          "indo": "memakai baju"
+        },
+        {
+          "key": "ya'kulu",
+          "arab": "يَأْكُلُ",
+          "indo": "makan"
+        },
+        {
+          "key": "yaqra'u",
+          "arab": "يَقْرَأُ",
+          "indo": "membaca"
+        },
+        {
+          "key": "yaktubu",
+          "arab": "يَكْتُبُ",
+          "indo": "menulis"
+        },
+        {
+          "key": "yusyahidu",
+          "arab": "يُشَاهِدُ",
+          "indo": "menonton"
+        },
+        {
+          "key": "yadzhabu",
+          "arab": "يَذْهَبُ",
+          "indo": "pergi"
+        },
+        {
+          "key": "ya'udu",
+          "arab": "يَعُودُ",
+          "indo": "pulang"
+        },
+        {
+          "key": "yal'abu",
+          "arab": "يَلْعَبُ",
+          "indo": "bermain"
+        },
+        {
+          "key": "yanamu",
+          "arab": "يَنَامُ",
+          "indo": "tidur"
+        },
+        {
+          "key": "ya'malu",
+          "arab": "يَعْمَلُ",
+          "indo": "bekerja"
+        },
+        {
+          "key": "yusa'idu",
+          "arab": "يُسَاعِدُ",
+          "indo": "membantu"
+        },
+        {
+          "key": "yastahimmu",
+          "arab": "يَسْتَحِمُّ",
+          "indo": "mandi 2"
+        },
+        {
+          "key": "yunaddzifu",
+          "arab": "يُنَظِّفُ",
+          "indo": "membersihkan"
+        }
+      ],
+      "dialog": {
+        "1": {
+          "ummu": {
+            "name": "الأم",
+            "script": [
+              {
+                "audio": "ummu-1",
+                "text": "السَّلَامُ عَلَيْكُمْ يَا أَوْلَادُ، هَيَّا اسْتَيْقِظُوا."
+              },
+              {
+                "audio": "ummu-2",
+                "text": "أَوَّلًا، اغْتَسِلُوا ثُمَّ الْبَسُوا مَلَابِسَكُمْ."
+              },
+              {
+                "audio": "ummu-3",
+                "text": "جَيِّدٌ. بَعْدَ ذَلِكَ تَعَالَوْا إِلَى المَطْبَخِ لِلفُطُورِ."
+              },
+              {
+                "audio": "ummu-4",
+                "text": "خُبْزٌ، وَبَيْضٌ، وَحَلِيبٌ."
+              }
+            ]
+          },
+          "ahmad": {
+            "name": "أحمد",
+            "script": [
+              {
+                "audio": "1-ahmad-1",
+                "text": "وَعَلَيْكُمُ السَّلَامُ يَا أُمِّي، أَنَا مُسْتَيْقِظٌ."
+              },
+              {
+                "audio": "1-ahmad-2",
+                "text": "حَاضِرٌ يَا أُمِّي، سَأَسْتَحِمُّ الآنَ."
+              },
+              {
+                "audio": "1-ahmad-3",
+                "text": "مَاذَا أَعْدَدْتِ لِلفُطُورِ؟"
+              }
+            ]
+          },
+          "laila": {
+            "name": "ليلى",
+            "script": [
+              {
+                "audio": "laila-1",
+                "text": "وَأَنَا أَيْضًا يَا أُمِّي، مَاذَا سَنَفْعَلُ الْيَوْمَ؟"
+              },
+              {
+                "audio": "laila-2",
+                "text": "وَأَنَا سَأُرَتِّبُ سَرِيرِي أَوَّلًا ثُمَّ سَأَسْتَحِمُّ."
+              },
+              {
+                "audio": "laila-3",
+                "text": "رَائِعٌ! أَنَا أُحِبُّ الْبَيْضَ كَثِيرًا."
+              }
+            ]
+          },
+          "flow": [
+            {
+              "char": "ummu",
+              "index": 0
+            },
+            {
+              "char": "ahmad",
+              "index": 0
+            },
+            {
+              "char": "laila",
+              "index": 0
+            },
+            {
+              "char": "ummu",
+              "index": 1
+            },
+            {
+              "char": "ahmad",
+              "index": 1
+            },
+            {
+              "char": "laila",
+              "index": 1
+            },
+            {
+              "char": "ummu",
+              "index": 2
+            },
+            {
+              "char": "ahmad",
+              "index": 2
+            },
+            {
+              "char": "ummu",
+              "index": 3
+            },
+            {
+              "char": "laila",
+              "index": 2
+            }
+          ]
+        },
+        "2": {
+          "ummu": {
+            "name": "الأم",
+            "script": [
+              {
+                "audio": "ummu-5",
+                "text": "يَا أَحْمَدُ، هَلْ كَتَبْتَ وَاجِبَ المَدْرَسَةِ؟"
+              },
+              {
+                "audio": "ummu-6",
+                "text": "حَسَنًا، وَبَعْدَ ذَلِكَ سَاعِدَانِي فِي تَنْظِيفِ البَيْتِ."
+              },
+              {
+                "audio": "ummu-7",
+                "text": "بَارَكَ اللهُ لَكُمَا."
+              }
+            ]
+          },
+          "ahmad": {
+            "name": "أحمد",
+            "script": [
+              {
+                "audio": "1-ahmad-4",
+                "text": "نَعَمْ، كَتَبْتُهُ مَسَاءَ أَمْسِ."
+              },
+              {
+                "audio": "1-ahmad-5",
+                "text": "سَأَكْنُسُ غُرْفَةَ الجُلُوسِ."
+              }
+            ]
+          },
+          "laila": {
+            "name": "ليلى",
+            "script": [
+              {
+                "audio": "laila-4",
+                "text": "وَأَنَا سَأَكْتُبُ وَاجِبِي بَعْدَ قَلِيلٍ."
+              },
+              {
+                "audio": "laila-5",
+                "text": "وَأَنَا سَأَمْسَحُ الْمَائِدَةَ فِي الْمَطْبَخِ."
+              }
+            ]
+          },
+          "flow": [
+            {
+              "char": "ummu",
+              "index": 0
+            },
+            {
+              "char": "ahmad",
+              "index": 0
+            },
+            {
+              "char": "ummu",
+              "index": 1
+            },
+            {
+              "char": "ahmad",
+              "index": 1
+            },
+            {
+              "char": "laila",
+              "index": 1
+            },
+            {
+              "char": "ummu",
+              "index": 2
+            }
+          ]
+        },
+        "3": {
+          "script": [
+            {
+              "audio": "audio-1",
+              "text": "فِي الصَّبَاحِ،",
+              "terjemah": "Pada pagi hari,",
+              "cover": "cover-3"
+            },
+            {
+              "audio": "audio-2",
+              "text": "تَسْتَيْقِظُ أُسْرَةُ سَامِي مُبَكِّرًا.",
+              "terjemah": "Keluarga Sami bangun pagi-pagi.",
+              "cover": "cover-4"
+            },
+            {
+              "audio": "audio-3",
+              "text": "يَسْتَيْقِظُ سَامِي فِي السَّاعَةِ السَّادِسَةِ،",
+              "terjemah": "Sami bangun pada pukul enam,",
+              "cover": null
+            },
+            {
+              "audio": "audio-4",
+              "text": "ثُمَّ يَغْتَسِلُ وَيَلْبَسُ مَلَابِسَهُ لِلمَدْرَسَةِ.",
+              "terjemah": "kemudian ia mandi dan mengenakan pakaiannya untuk sekolah.",
+              "cover": "cover-5"
+            },
+            {
+              "audio": "audio-5",
+              "text": "أُمُّهُ تُعِدُّ الفُطُورَ فِي المَطْبَخِ.",
+              "terjemah": "Ibunya menyiapkan sarapan di dapur.",
+              "cover": "cover-6"
+            },
+            {
+              "audio": "audio-6",
+              "text": "وَأَبُوهُ يَقْرَأُ الجَرِيدَةَ فِي غُرْفَةِ الجُلُوسِ.",
+              "terjemah": "Ayahnya membaca koran di ruang tamu.",
+              "cover": "cover-7"
+            },
+            {
+              "audio": "audio-7",
+              "text": "بَعْدَ الفُطُورِ، يَذْهَبُ سَامِي إِلَى المَدْرَسَةِ مَعَ أُخْتِهِ لَيْلَى،",
+              "terjemah": "Setelah sarapan, Sami pergi ke sekolah bersama saudara perempuannya, Laila,",
+              "cover": "cover-8"
+            },
+            {
+              "audio": "audio-8",
+              "text": "وَيَعُودَانِ فِي السَّاعَةِ الثَّانِيَةِ ظُهْرًا.",
+              "terjemah": "dan mereka pulang pada pukul dua siang.",
+              "cover": "cover-9"
+            },
+            {
+              "audio": "audio-9",
+              "text": "يَكْتُبُ سَامِي وَاجِبَهُ فِي غُرْفَتِهِ،",
+              "terjemah": "Sami mengerjakan PR-nya di kamarnya,",
+              "cover": "cover-10"
+            },
+            {
+              "audio": "audio-10",
+              "text": "بَيْنَمَا تُسَاعِدُ لَيْلَى أُمَّهَا فِي تَنْظِيفِ البَيْتِ.",
+              "terjemah": "sementara Laila membantu ibunya membersihkan rumah.",
+              "cover": "cover-11"
+            },
+            {
+              "audio": "audio-11",
+              "text": "فِي المَسَاءِ، تَجْتَمِعُ الأُسْرَةُ لِتَنَاوُلِ العَشَاءِ،",
+              "terjemah": "Pada malam hari, keluarga berkumpul untuk makan malam,",
+              "cover": "cover-12"
+            },
+            {
+              "audio": "audio-12",
+              "text": "ثُمَّ يُشَاهِدُونَ التِّلْفَازَ مَعًا.",
+              "terjemah": "kemudian mereka menonton televisi bersama.",
+              "cover": "cover-13"
+            },
+            {
+              "audio": "audio-13",
+              "text": "وَقَبْلَ النَّوْمِ، يَقْرَأُ سَامِي قِصَّةً قَصِيرَةً، ثُمَّ يَقُولُ:",
+              "terjemah": "Sebelum tidur, Sami membaca sebuah cerita pendek, lalu berkata:",
+              "cover": "cover-14"
+            },
+            {
+              "audio": "audio-14",
+              "text": "كَانَ يَوْمًا جَمِيلًا مَعَ أُسْرَتِي.",
+              "terjemah": "Hari ini adalah hari yang indah bersama keluargaku.",
+              "cover": "cover-14"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "quiz": {
+    "1": {
+      "title": "BAB 4 – العنوان",
+      "grade": "Kelas VII MTs",
+      "questions": [
+        {
+          "id": 1,
+          "type": "audio_pg",
+          "audio": "bab4-1",
+          "question": "Pilih arti paling tepat dari kalimat:\nبَيْتِي أَمَامَ المَسْجِدِ",
+          "options": [
+            {
+              "label": "A",
+              "text": "Rumahku di samping masjid"
+            },
+            {
+              "label": "B",
+              "text": "Rumahku jauh dari masjid"
+            },
+            {
+              "label": "C",
+              "text": "Rumahku di depan masjid"
+            },
+            {
+              "label": "D",
+              "text": "Rumahku di belakang masjid"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 2,
+          "type": "audio_pg",
+          "audio": "bab4-2",
+          "question": "Apa arti dari kalimat المَكْتَبَةُ خَلْفَ المَدْرَسَةِ …",
+          "options": [
+            {
+              "label": "A",
+              "text": "Perpustakaan di depan sekolah"
+            },
+            {
+              "label": "B",
+              "text": "Perpustakaan di samping sekolah"
+            },
+            {
+              "label": "C",
+              "text": "Perpustakaan di belakang sekolah"
+            },
+            {
+              "label": "D",
+              "text": "Perpustakaan dekat sekolah"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 3,
+          "type": "pg",
+          "question": "Kata yang tidak menunjukkan tempat adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "أَمَامَ"
+            },
+            {
+              "label": "B",
+              "text": "خَلْفَ"
+            },
+            {
+              "label": "C",
+              "text": "جَانِبَ"
+            },
+            {
+              "label": "D",
+              "text": "رَقَمُ"
+            }
+          ],
+          "correct": "D"
+        },
+        {
+          "id": 4,
+          "type": "pg",
+          "question": "Pasangan kata yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "قَرِيبٌ = jauh"
+            },
+            {
+              "label": "B",
+              "text": "بَعِيدٌ = dekat"
+            },
+            {
+              "label": "C",
+              "text": "قَرِيبٌ ≠ بَعِيدٌ"
+            },
+            {
+              "label": "D",
+              "text": "قَرِيبٌ = belakang"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 5,
+          "type": "pg",
+          "question": "Manakah yang bukan termasuk alamat?",
+          "options": [
+            {
+              "label": "A",
+              "text": "الشَّارِعُ"
+            },
+            {
+              "label": "B",
+              "text": "الحَيُّ"
+            },
+            {
+              "label": "C",
+              "text": "رَقَمُ البَيْتِ"
+            },
+            {
+              "label": "D",
+              "text": "لَوْنُ البَيْتِ"
+            }
+          ],
+          "correct": "D"
+        },
+        {
+          "id": 6,
+          "type": "audio_pg",
+          "audio": "bab4-6",
+          "question": "اِخْتَرْ الجُمْلَةَ الصَّحِيْحَةَ:",
+          "options": [
+            {
+              "label": "A",
+              "text": "أَسْكُنُ إِلَى الشَّارِعِ"
+            },
+            {
+              "label": "B",
+              "text": "أَسْكُنُ فِي الشَّارِعِ"
+            },
+            {
+              "label": "C",
+              "text": "أَسْكُنُ عَلَى الشَّارِعِ"
+            },
+            {
+              "label": "D",
+              "text": "أَسْكُنُ مِنَ الشَّارِعِ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 7,
+          "type": "audio_pg",
+          "audio": "bab4-7",
+          "question": "Pilihlah kalimat yang cocok dengan teks hiwar:",
+          "options": [
+            {
+              "label": "A",
+              "text": "أَيْنَ بَيْتُكَ؟"
+            },
+            {
+              "label": "B",
+              "text": "هَلْ بَيْتُكَ قَرِيبٌ مِنَ المَدْرَسَةِ؟"
+            },
+            {
+              "label": "C",
+              "text": "مَا لَوْنُ بَيْتِكَ؟"
+            },
+            {
+              "label": "D",
+              "text": "كَمْ رَقْمُ بَيْتِكَ؟"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 8,
+          "type": "audio_pg",
+          "audio": "bab4-8",
+          "question": "Kata yang menunjukkan posisi masjid adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "البَيْتُ جَمِيلٌ"
+            },
+            {
+              "label": "B",
+              "text": "رَقْمُ البَيْتِ خَمْسَةٌ"
+            },
+            {
+              "label": "C",
+              "text": "المَسْجِدُ جَانِبَ المَكْتَبَةِ"
+            },
+            {
+              "label": "D",
+              "text": "أَيْنَ المَكْتَبَةُ؟"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 9,
+          "type": "audio_pg",
+          "audio": "bab4-9-10",
+          "question": "Mengapa Ahmad menanyakan أَيْنَ تَسْكُنُ kepada Hamzah?",
+          "options": [
+            {
+              "label": "A",
+              "text": "Ingin tahu warna rumah"
+            },
+            {
+              "label": "B",
+              "text": "Ingin tahu alamat Hamzah"
+            },
+            {
+              "label": "C",
+              "text": "Ingin tahu nomor telepon"
+            },
+            {
+              "label": "D",
+              "text": "Ingin tahu sekolah Hamzah"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 10,
+          "type": "audio_pg",
+          "audio": "bab4-9-10",
+          "question": "Jika rumah Hamzah قَرِيبٌ مِنَ المَدْرَسَةِ, maka …",
+          "options": [
+            {
+              "label": "A",
+              "text": "jauh dari sekolah"
+            },
+            {
+              "label": "B",
+              "text": "dekat dengan sekolah"
+            },
+            {
+              "label": "C",
+              "text": "di belakang sekolah"
+            },
+            {
+              "label": "D",
+              "text": "di samping sekolah"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 11,
+          "type": "audio_pg",
+          "audio": "bab4-11",
+          "question": "Jawaban yang PALING TEPAT untuk pertanyaan أَيْنَ تَسْكُنُ؟ adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "أَسْكُنُ فِي الحَيِّ الجَدِيدِ"
+            },
+            {
+              "label": "B",
+              "text": "لَوْنُ بَيْتِي أَزْرَقُ"
+            },
+            {
+              "label": "C",
+              "text": "رَقْمُ بَيْتِي خَمْسَةٌ"
+            },
+            {
+              "label": "D",
+              "text": "بَيْتِي جَمِيلٌ"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 12,
+          "type": "audio_pg",
+          "audio": "bab4-12",
+          "question": "Lengkapilah dialog berikut!\nأَحْمَدُ: هَلْ بَيْتُكَ قَرِيبٌ مِنَ المَدْرَسَةِ؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "نَعَمْ، بَيْتِي أَمَامَ المَدْرَسَةِ"
+            },
+            {
+              "label": "B",
+              "text": "أَسْكُنُ فِي الحَيِّ القَدِيمِ"
+            },
+            {
+              "label": "C",
+              "text": "لَوْنُ بَيْتِي أَخْضَرُ"
+            },
+            {
+              "label": "D",
+              "text": "رَقْمُ بَيْتِي عِشْرُونَ"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 13,
+          "type": "audio_pg",
+          "audio": "bab4-13",
+          "question": "Makna kalimat بَيْتِي جَانِبَ المَسْجِدِ adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "Rumahku jauh dari masjid"
+            },
+            {
+              "label": "B",
+              "text": "Rumahku di depan masjid"
+            },
+            {
+              "label": "C",
+              "text": "Rumahku di samping masjid"
+            },
+            {
+              "label": "D",
+              "text": "Rumahku di belakang masjid"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 14,
+          "type": "audio_pg",
+          "audio": "bab4-14",
+          "question": "Pertanyaan yang sesuai dengan jawaban فِي الشَّارِعِ الرَّابِعِ adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "مَا لَوْنُ بَيْتِكَ؟"
+            },
+            {
+              "label": "B",
+              "text": "أَيْنَ بَيْتُكَ؟"
+            },
+            {
+              "label": "C",
+              "text": "كَمْ رَقْمُ بَيْتِكَ؟"
+            },
+            {
+              "label": "D",
+              "text": "هَلْ بَيْتُكَ جَمِيلٌ؟"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 15,
+          "type": "audio_pg",
+          "audio": "bab4-15",
+          "question": "Kalimat نَعَمْ، بَيْتِي قَرِيبٌ مِنَ المَدْرَسَةِ berfungsi untuk …",
+          "options": [
+            {
+              "label": "A",
+              "text": "bertanya"
+            },
+            {
+              "label": "B",
+              "text": "memberi perintah"
+            },
+            {
+              "label": "C",
+              "text": "menjawab pertanyaan"
+            },
+            {
+              "label": "D",
+              "text": "menyapa"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 16,
+          "type": "audio_pg",
+          "audio": "bab4-16",
+          "question": "Perhatikan potongan hiwar berikut!\n1. بَيْتِي بَعِيدٌ عَنِ السُّوقِ\n2. هَلْ بَيْتُكَ قَرِيبٌ مِنَ السُّوقِ؟\n3. حَسَنًا\nUrutan yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "B",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 2 – 1"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 17,
+          "type": "audio_pg",
+          "audio": "bab4-17",
+          "question": "Perhatikan potongan hiwar berikut!\n1. فِي الشَّارِعِ الأَوَّلِ\n2. أَيْنَ بَيْتُكَ؟\n3. شُكْرًا\nUrutan yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "B",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 2 – 1"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 18,
+          "type": "audio_pg",
+          "audio": "bab4-18",
+          "question": "Perhatikan potongan hiwar berikut!\n1. نَعَمْ، أَعْرِفُهُ\n2. هَلْ تَعْرِفُ بَيْتَ أَحْمَدَ؟\n3. جَيِّدٌ\nUrutan yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "B",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 2 – 1"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 19,
+          "type": "audio_pg",
+          "audio": "bab4-19",
+          "question": "Perhatikan potongan hiwar berikut!\n1. لَوْنُهُ أَخْضَرُ\n2. مَا لَوْنُ بَيْتِكَ؟\n3. جَمِيلٌ\nUrutan yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "B",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 2 – 1"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 20,
+          "type": "audio_pg",
+          "audio": "bab4-20",
+          "question": "Perhatikan potongan hiwar berikut!\n1. خَلْفَ المَسْجِدِ\n2. أَيْنَ المَكْتَبَةُ؟\n3. فَهِمْتُ\nUrutan yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "B",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 2 – 1"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        }
+      ]
+    },
+    "2": {
+      "title": "BAB 5 – البيت",
+      "grade": "Kelas VII MTs",
+      "questions": [
+        {
+          "id": 1,
+          "type": "audio_pg",
+          "audio": "bab5-1",
+          "question": "Arti kata غُرْفَةُ النَّوْمِ adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "ruang tamu"
+            },
+            {
+              "label": "B",
+              "text": "kamar mandi"
+            },
+            {
+              "label": "C",
+              "text": "kamar tidur"
+            },
+            {
+              "label": "D",
+              "text": "dapur"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 2,
+          "type": "pg",
+          "question": "Manakah kosakata yang berarti dapur?",
+          "options": [
+            {
+              "label": "A",
+              "text": "اَلْحَدِيْقَة"
+            },
+            {
+              "label": "B",
+              "text": "اَلْمَطْبَخ"
+            },
+            {
+              "label": "C",
+              "text": "اَلْحَمَّام"
+            },
+            {
+              "label": "D",
+              "text": "اَلْبَابُ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 3,
+          "type": "audio_pg",
+          "audio": "bab5-3",
+          "question": "Di bawah ini yang biasanya ada di غرفة الجلوس adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "اَلسَّرِيْرُ"
+            },
+            {
+              "label": "B",
+              "text": "اَلْخِزَانَة"
+            },
+            {
+              "label": "C",
+              "text": "الْكَنِب"
+            },
+            {
+              "label": "D",
+              "text": "اَلْمَطْبَخُ"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 4,
+          "type": "audio_pg",
+          "audio": "bab5-4",
+          "question": "Berapa jumlah kamar di rumah Salma?",
+          "options": [
+            {
+              "label": "A",
+              "text": "ثَلاَثِ غُرَفٍ"
+            },
+            {
+              "label": "B",
+              "text": "أَرْبَعِ غُرَفٍ"
+            },
+            {
+              "label": "C",
+              "text": "خَمْسَ غُرَفٍ"
+            },
+            {
+              "label": "D",
+              "text": "غُرْفَتَانِ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 5,
+          "type": "audio_pg",
+          "audio": "bab5-5",
+          "question": "Di mana ibu Salma memasak?",
+          "options": [
+            {
+              "label": "A",
+              "text": "فِي الْحَدِيقَة"
+            },
+            {
+              "label": "B",
+              "text": "فِي غُرْفَةِ الْجُلُوسِ"
+            },
+            {
+              "label": "C",
+              "text": "فِي الْمَطْبَخ"
+            },
+            {
+              "label": "D",
+              "text": "فِي الْحَمَّام"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 6,
+          "type": "audio_pg",
+          "audio": "bab5-6",
+          "question": "Apa yang ada di ruang tamu?",
+          "options": [
+            {
+              "label": "A",
+              "text": "سَرِيرٌ"
+            },
+            {
+              "label": "B",
+              "text": "تِلْفَازٌ"
+            },
+            {
+              "label": "C",
+              "text": "خِزَانَةٌ"
+            },
+            {
+              "label": "D",
+              "text": "مَائِدَةٌ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 7,
+          "type": "audio_pg",
+          "audio": "bab5-7",
+          "question": "Apa yang ada di depan rumah?",
+          "options": [
+            {
+              "label": "A",
+              "text": "مَطْبَخ"
+            },
+            {
+              "label": "B",
+              "text": "حَمَّام"
+            },
+            {
+              "label": "C",
+              "text": "حَدِيقَةٌ"
+            },
+            {
+              "label": "D",
+              "text": "نَافِذَة"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 8,
+          "type": "audio_pg",
+          "audio": "bab5-8",
+          "question": "Apa yang Salma bantu siapkan?",
+          "options": [
+            {
+              "label": "A",
+              "text": "السَّرِيرُ"
+            },
+            {
+              "label": "B",
+              "text": "المَائِدَة"
+            },
+            {
+              "label": "C",
+              "text": "المِصْبَاحُ"
+            },
+            {
+              "label": "D",
+              "text": "البَابُ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 9,
+          "type": "isian",
+          "question": "Lengkapilah kalimat berikut!\nغُرْفَةُ النَّوْمِ فِيهَا ________ وَخِزَانَةٌ",
+          "correct_text": "السَّرِيرُ"
+        },
+        {
+          "id": 10,
+          "type": "isian",
+          "question": "Lengkapilah kalimat berikut!\nالحَمَّامُ ________ البَيْتِ\n(في / أمام / خلف)",
+          "correct_text": "في"
+        },
+        {
+          "id": 11,
+          "type": "audio_pg",
+          "audio": "bab5-11",
+          "question": "أَيْنَ تَسْكُنُ عَائِلَةُ سَلْمَى؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "فِي حَيِّ السَّلَامِ"
+            },
+            {
+              "label": "B",
+              "text": "فِي حَيِّ النُّورِ"
+            },
+            {
+              "label": "C",
+              "text": "فِي المَدْرَسَةِ"
+            },
+            {
+              "label": "D",
+              "text": "فِي المَسْجِدِ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 12,
+          "type": "audio_pg",
+          "audio": "bab5-12",
+          "question": "الْبَيْتُ قَرِيبٌ مِنْ …",
+          "options": [
+            {
+              "label": "A",
+              "text": "السُّوقِ وَالحَدِيقَةِ"
+            },
+            {
+              "label": "B",
+              "text": "البَيْتِ وَالمَدْرَسَةِ"
+            },
+            {
+              "label": "C",
+              "text": "المَسْجِدِ وَالمَدْرَسَةِ"
+            },
+            {
+              "label": "D",
+              "text": "الحَمَّامِ وَالمَطْبَخِ"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 13,
+          "type": "audio_pg",
+          "audio": "bab5-13",
+          "question": "كَمْ عَدَدُ غُرَفِ بَيْتِ سَلْمَى؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "ثَلَاثُ غُرَفٍ"
+            },
+            {
+              "label": "B",
+              "text": "أَرْبَعُ غُرَفٍ"
+            },
+            {
+              "label": "C",
+              "text": "خَمْسُ غُرَفٍ"
+            },
+            {
+              "label": "D",
+              "text": "غُرْفَتَانِ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 14,
+          "type": "audio_pg",
+          "audio": "bab5-14",
+          "question": "مَا لَوْنُ البَابِ؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "أَبْيَضُ"
+            },
+            {
+              "label": "B",
+              "text": "أَسْوَدُ"
+            },
+            {
+              "label": "C",
+              "text": "بُنِّيٌّ"
+            },
+            {
+              "label": "D",
+              "text": "أَخْضَرُ"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 15,
+          "type": "audio_pg",
+          "audio": "bab5-15",
+          "question": "مَاذَا فِي غُرْفَةِ الجُلُوسِ؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "سَرِيرٌ"
+            },
+            {
+              "label": "B",
+              "text": "أَرِيكَةٌ"
+            },
+            {
+              "label": "C",
+              "text": "خِزَانَةٌ"
+            },
+            {
+              "label": "D",
+              "text": "مَائِدَةٌ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 16,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. يَقَعُ البَيْتُ قَرِيبًا مِنَ المَسْجِدِ وَالمَدْرَسَةِ\n2. تَسْكُنُ عَائِلَةُ سَلْمَى فِي بَيْتٍ جَمِيلٍ فِي حَيِّ النُّورِ\n3. تُحِبُّ سَلْمَى الجُلُوسَ فِي الحَدِيقَةِ فِي الصَّبَاحِ\nUrutan yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "B",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 1 – 2"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 17,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. غُرْفَةُ الجُلُوسِ\n2. غُرْفَةُ النَّوْمِ\n3. المَطْبَخُ وَالحَمَّامُ\nUrutan sesuai teks adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "B",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 1 – 2"
+            },
+            {
+              "label": "D",
+              "text": "1 – 3 – 2"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 18,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. تَطْبَخُ أُمُّ سَلْمَى فِي المَطْبَخِ\n2. تُسَاعِدُهَا سَلْمَى فِي تَجْهِيزِ المَائِدَةِ\n3. تَنْظُفُ العَائِلَةُ البَيْتَ مَعًا\nUrutan yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "B",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 1 – 2"
+            },
+            {
+              "label": "D",
+              "text": "1 – 3 – 2"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 19,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. بَيْتِي بَسِيطٌ وَجَمِيلٌ\n2. يَتَكَوَّنُ البَيْتُ مِنْ ثَلَاثِ غُرَفٍ\n3. الحَمَّامُ فِي طَرَفِ البَيْتِ\nUrutan yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "B",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 1 – 2"
+            },
+            {
+              "label": "D",
+              "text": "1 – 3 – 2"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 20,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. الجَوُّ فِي البَيْتِ مَرِيحٌ\n2. البَيْتُ كُلُّهُ مُرَتَّبٌ\n3. الإِقَامَةُ فِيهِ لَطِيفَةٌ\nUrutan yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "B",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 2 – 1"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        }
+      ]
+    },
+    "3": {
+      "title": "BAB 6 – من يوميات الأسرة",
+      "grade": "Kelas VII MTs",
+      "questions": [
+        {
+          "id": 1,
+          "type": "audio_pg",
+          "audio": "bab6-1",
+          "question": "Apa arti kalimat tersebut?",
+          "options": [
+            {
+              "label": "A",
+              "text": "Ayo tidur"
+            },
+            {
+              "label": "B",
+              "text": "Ayo bangun"
+            },
+            {
+              "label": "C",
+              "text": "Ayo mandi"
+            },
+            {
+              "label": "D",
+              "text": "Ayo makan"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 2,
+          "type": "audio_pg",
+          "audio": "bab6-2",
+          "question": "Apa kegiatan pertama yang harus dilakukan anak-anak?",
+          "options": [
+            {
+              "label": "A",
+              "text": "makan"
+            },
+            {
+              "label": "B",
+              "text": "mandi"
+            },
+            {
+              "label": "C",
+              "text": "menonton TV"
+            },
+            {
+              "label": "D",
+              "text": "menulis"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 3,
+          "type": "audio_pg",
+          "audio": "bab6-3",
+          "question": "Kalimat tersebut digunakan untuk …",
+          "options": [
+            {
+              "label": "A",
+              "text": "menyuruh"
+            },
+            {
+              "label": "B",
+              "text": "melarang"
+            },
+            {
+              "label": "C",
+              "text": "bertanya"
+            },
+            {
+              "label": "D",
+              "text": "menjawab"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 4,
+          "type": "audio_pg",
+          "audio": "bab6-4",
+          "question": "Apa yang akan dilakukan Ahmad?",
+          "options": [
+            {
+              "label": "A",
+              "text": "menyapu ruang tamu"
+            },
+            {
+              "label": "B",
+              "text": "membersihkan dapur"
+            },
+            {
+              "label": "C",
+              "text": "menata kamar tidur"
+            },
+            {
+              "label": "D",
+              "text": "mencuci pakaian"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 5,
+          "type": "audio_pg",
+          "audio": "bab6-5",
+          "question": "Kapan keluarga menonton televisi?",
+          "options": [
+            {
+              "label": "A",
+              "text": "pagi hari"
+            },
+            {
+              "label": "B",
+              "text": "siang hari"
+            },
+            {
+              "label": "C",
+              "text": "sore hari"
+            },
+            {
+              "label": "D",
+              "text": "malam hari"
+            }
+          ],
+          "correct": "D"
+        },
+        {
+          "id": 6,
+          "type": "isian",
+          "question": "Lengkapilah kalimat berikut!\nيَسْتَيْقِظُ سَامِي فِي السَّاعَةِ ________",
+          "correct_text": "السَّادِسَةِ"
+        },
+        {
+          "id": 7,
+          "type": "isian",
+          "question": "Lengkapilah kalimat berikut!\nبَعْدَ الفُطُورِ، يَذْهَبُ سَامِي إِلَى ________",
+          "correct_text": "المَدْرَسَةِ"
+        },
+        {
+          "id": 8,
+          "type": "isian",
+          "question": "Lengkapilah kalimat berikut!\nلَيْلَى تُسَاعِدُ أُمَّهَا فِي ________ البَيْتِ",
+          "correct_text": "تَنْظِيفِ"
+        },
+        {
+          "id": 9,
+          "type": "audio_pg",
+          "audio": "bab6-9",
+          "question": "Kata يَغْتَسِلُ memiliki arti …",
+          "options": [
+            {
+              "label": "A",
+              "text": "tidur"
+            },
+            {
+              "label": "B",
+              "text": "mandi"
+            },
+            {
+              "label": "C",
+              "text": "makan"
+            },
+            {
+              "label": "D",
+              "text": "pergi"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 10,
+          "type": "pg",
+          "question": "Setelah makan malam, keluarga Sami biasanya …",
+          "options": [
+            {
+              "label": "A",
+              "text": "langsung tidur"
+            },
+            {
+              "label": "B",
+              "text": "bermain di luar"
+            },
+            {
+              "label": "C",
+              "text": "menonton televisi"
+            },
+            {
+              "label": "D",
+              "text": "pergi ke masjid"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 11,
+          "type": "audio_pg",
+          "audio": "bab6-11",
+          "question": "مَاذَا سَتَفْعَلُ لَيْلَى أَوَّلًا؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "سَتَغْتَسِلُ"
+            },
+            {
+              "label": "B",
+              "text": "سَتُرَتِّبُ سَرِيرَهَا"
+            },
+            {
+              "label": "C",
+              "text": "سَتَأْكُلُ"
+            },
+            {
+              "label": "D",
+              "text": "سَتَنَامُ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 12,
+          "type": "audio_pg",
+          "audio": "bab6-12",
+          "question": "إِلَى أَيْنَ يَذْهَبُ الأَوْلَادُ؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "إِلَى غُرْفَةِ الجُلُوسِ"
+            },
+            {
+              "label": "B",
+              "text": "إِلَى المَطْبَخِ"
+            },
+            {
+              "label": "C",
+              "text": "إِلَى الحَمَّامِ"
+            },
+            {
+              "label": "D",
+              "text": "إِلَى البَيْتِ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 13,
+          "type": "audio_pg",
+          "audio": "bab6-13",
+          "question": "مَاذَا يَفْعَلُ الأَبُ؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "يَكْتُبُ"
+            },
+            {
+              "label": "B",
+              "text": "يَقْرَأُ الجَرِيدَةَ"
+            },
+            {
+              "label": "C",
+              "text": "يُشَاهِدُ التِّلْفَازَ"
+            },
+            {
+              "label": "D",
+              "text": "يَنَامُ"
+            }
+          ],
+          "correct": "B"
+        },
+        {
+          "id": 14,
+          "type": "audio_pg",
+          "audio": "bab6-14",
+          "question": "مَتَى يَعُودُ سَامِي إِلَى البَيْتِ؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "السَّادِسَةِ صَبَاحًا"
+            },
+            {
+              "label": "B",
+              "text": "العَاشِرَةِ صَبَاحًا"
+            },
+            {
+              "label": "C",
+              "text": "الثَّانِيَةِ ظُهْرًا"
+            },
+            {
+              "label": "D",
+              "text": "السَّابِعَةِ مَسَاءً"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 15,
+          "type": "audio_pg",
+          "audio": "bab6-15",
+          "question": "مَاذَا يَفْعَلُ سَامِي قَبْلَ النَّوْمِ؟",
+          "options": [
+            {
+              "label": "A",
+              "text": "يَلْعَبُ"
+            },
+            {
+              "label": "B",
+              "text": "يَشْرَبُ الحَلِيبَ"
+            },
+            {
+              "label": "C",
+              "text": "يَقْرَأُ قِصَّةً"
+            },
+            {
+              "label": "D",
+              "text": "يُشَاهِدُ التِّلْفَازَ"
+            }
+          ],
+          "correct": "C"
+        },
+        {
+          "id": 16,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. وَعَلَيْكُمُ السَّلَامُ يَا أُمِّي، أَنَا مُسْتَيْقِظٌ\n2. السَّلَامُ عَلَيْكُمْ يَا أَوْلَادُ، هَيَّا اسْتَيْقِظُوا\n3. وَأَنَا أَيْضًا يَا أُمِّي، مَاذَا سَنَفْعَلُ اليَوْمَ؟\nUrutan hiwar yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "B",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 1 – 2"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 17,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. أَوَّلًا، اغْتَسِلُوا ثُمَّ الْبَسُوا مَلَابِسَكُمْ\n2. حَاضِرٌ يَا أُمِّي، سَأَسْتَحِمُّ الآنَ\n3. وَأَنَا سَأُرَتِّبُ سَرِيرِي أَوَّلًا ثُمَّ سَأَسْتَحِمُّ\nUrutan hiwar yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "B",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 2 – 1"
+            },
+            {
+              "label": "D",
+              "text": "1 – 3 – 2"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 18,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. جَيِّدٌ\n2. بَعْدَ ذَلِكَ تَعَالَوْا إِلَى المَطْبَخِ لِلفُطُورِ\n3. مَاذَا أَعْدَدْتِ لِلفُطُورِ؟\nUrutan hiwar yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "B",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 1 – 2"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 19,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. خُبْزٌ، وَبَيْضٌ، وَحَلِيبٌ\n2. مَاذَا أَعْدَدْتِ لِلفُطُورِ؟\n3. رَائِعٌ! أَنَا أُحِبُّ البَيْضَ كَثِيرًا\nUrutan hiwar yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "B",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "C",
+              "text": "3 – 1 – 2"
+            },
+            {
+              "label": "D",
+              "text": "2 – 3 – 1"
+            }
+          ],
+          "correct": "A"
+        },
+        {
+          "id": 20,
+          "type": "urut_pg",
+          "question": "Perhatikan potongan berikut!\n1. حَسَنًا، وَبَعْدَ ذَلِكَ سَاعِدَانِي فِي تَنْظِيفِ البَيْتِ\n2. سَأَكْنُسُ غُرْفَةَ الجُلُوسِ\n3. وَأَنَا سَأَمْسَحُ المَائِدَةَ فِي المَطْبَخِ\nUrutan hiwar yang benar adalah …",
+          "options": [
+            {
+              "label": "A",
+              "text": "1 – 2 – 3"
+            },
+            {
+              "label": "B",
+              "text": "2 – 1 – 3"
+            },
+            {
+              "label": "C",
+              "text": "1 – 3 – 2"
+            },
+            {
+              "label": "D",
+              "text": "3 – 2 – 1"
+            }
+          ],
+          "correct": "A"
+        }
+      ]
+    }
+  }
+}

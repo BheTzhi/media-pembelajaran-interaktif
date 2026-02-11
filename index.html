@@ -1,0 +1,429 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="authoring-tool" content="Adobe_Animate_CC" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>تعليم_20العربية</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      overflow: hidden;
+    }
+    #wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+    }
+    #animation_container {
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      background-color: white;
+    }
+    canvas {
+      display: block;
+      background-color: white;
+    }
+    /* Styling form siswa */
+    #formSiswa {
+      position: absolute;
+      width: 700px;
+      font-family:
+        "Traditional Arabic", "Scheherazade New", "Amiri", Arial, sans-serif;
+      color: #000;
+      background: transparent;
+      display: none;
+      /* awalnya disembunyikan, nanti show/hide dari Animate */
+      z-index: 1000;
+    }
+    #formSiswa .form-group {
+      margin-bottom: 5px;
+    }
+    #formSiswa label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 2px;
+      font-size: 20px;
+    }
+    #formSiswa input[type="text"] {
+      width: 100%;
+      height: 34px;
+      font-size: 24px;
+      padding: 8px;
+      font-weight: bold;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #000;
+    }
+  </style>
+  <!-- pakai lokal kalau untuk APK -->
+  <script src="js/createjs.min.js"></script>
+  <script src="index.js"></script>
+  <script>
+    var canvas,
+      stage,
+      exportRoot,
+      anim_container,
+      dom_overlay_container,
+      fnStartAnimation;
+    // input disini settignya
+    var inputRect = {
+      x: 480,
+      y: 500,
+      w: 700,
+      h: 45,
+    };
+    function init() {
+      canvas = document.getElementById("canvas");
+      anim_container = document.getElementById("animation_container");
+      dom_overlay_container = document.getElementById(
+        "dom_overlay_container",
+      );
+      // ⬇️ AMBIL INPUT DI SINI
+      domInput = document.getElementById("isianInput");
+      domFormSiswa = document.getElementById("formSiswa");
+      inputNama = document.getElementById("inputNama");
+      inputKelas = document.getElementById("inputKelas");
+      inputNip = document.getElementById("inputNip");
+      var comp = AdobeAn.getComposition("068A7D7ED7551241A48EAE0CCAF9F5AF");
+      var lib = comp.getLibrary();
+      var loader = new createjs.LoadQueue(false);
+      loader.addEventListener("fileload", function (evt) {
+        handleFileLoad(evt, comp);
+      });
+      loader.addEventListener("complete", function (evt) {
+        handleComplete(evt, comp);
+      });
+      loader.loadManifest(lib.properties.manifest);
+    }
+    function handleFileLoad(evt, comp) {
+      var images = comp.getImages();
+      if (evt && evt.item.type === "image") {
+        images[evt.item.id] = evt.result;
+      }
+    }
+    function handleComplete(evt, comp) {
+      var lib = comp.getLibrary();
+      var ss = comp.getSpriteSheet();
+      var queue = evt.target;
+      for (var i = 0; i < lib.ssMetadata.length; i++) {
+        ss[lib.ssMetadata[i].name] = new createjs.SpriteSheet({
+          images: [queue.getResult(lib.ssMetadata[i].name)],
+          frames: lib.ssMetadata[i].frames,
+        });
+      }
+      exportRoot = new lib.index();
+      stage = new lib.Stage(canvas);
+      fnStartAnimation = function () {
+        stage.addChild(exportRoot);
+        createjs.Ticker.framerate = lib.properties.fps;
+        createjs.Ticker.addEventListener("tick", stage);
+      };
+      // RESPONSIVE AKTIF (seperti file 1)
+      AdobeAn.makeResponsive(true, "both", true, 1, [
+        canvas,
+        anim_container,
+        dom_overlay_container,
+      ]);
+      AdobeAn.compositionLoaded(lib.properties.id);
+      fnStartAnimation();
+      window.addEventListener("resize", () => {
+        updateInputPosition();
+        updateFormSiswaPosition();
+      });
+      setTimeout(() => {
+        updateInputPosition();
+        updateFormSiswaPosition();
+      }, 50);
+    }
+    function updateInputPosition() {
+      if (!canvas || !domInput) return;
+      // ukuran canvas setelah diskalakan
+      const scaleX = canvas.clientWidth / 1280;
+      const scaleY = canvas.clientHeight / 720;
+      domInput.style.left = inputRect.x * scaleX + "px";
+      domInput.style.top = inputRect.y * scaleY + "px";
+      domInput.style.width = inputRect.w * scaleX + "px";
+      domInput.style.height = inputRect.h * scaleY + "px";
+      domInput.style.fontSize = 45 * scaleY + "px";
+    }
+    // Form siswa dengan posisi tengah dan agak ke atas 150px
+    function updateFormSiswaPosition() {
+      if (!canvas || !domFormSiswa) return;
+      const scaleX = canvas.clientWidth / 1280;
+      const scaleY = canvas.clientHeight / 720;
+      // Ukuran form sesuai desain, lebar tetap 700 px (scaled)
+      const formWidth = 700 * scaleX;
+      // Hitung total tinggi form, tinggi input 60 px sudah termasuk margin
+      const totalFormHeight = 60 * 3 + 15 * 2; // 3 input, margin bawah antar input
+      // Scale tinggi form
+      const scaledFormHeight = totalFormHeight * scaleY;
+      // Ukuran container vertikal (waktu kecil) yang harus diikuti (contoh 360px)
+      const containerHeight = 360 * scaleY;
+      // Posisi kiri tetap di tengah canvas (sesuai skala)
+      const leftPos = ((1280 - 700) / 2) * scaleX;
+      // Posisi atas: normalnya di tengah canvas dikurangi offset 150px (atau sesuaikan)
+      let topPos = ((720 - totalFormHeight) / 2 - 150) * scaleY;
+      // Jika form tinggi melebihi container height, paksa posisi top supaya pas di container
+      if (scaledFormHeight > containerHeight) {
+        topPos = (containerHeight - scaledFormHeight) / 2;
+      }
+      // Jika posisi top kurang dari 0, koreksi agar tidak keluar layar atas
+      if (topPos < 0) topPos = 0;
+      // Set style
+      domFormSiswa.style.width = formWidth + "px";
+      domFormSiswa.style.left = leftPos + "px";
+      domFormSiswa.style.top = topPos + "px";
+    }
+  </script>
+</head>
+<body onload="init()">
+  <div id="wrapper">
+    <div id="animation_container">
+      <canvas id="canvas" width="1280" height="720"></canvas>
+      <div id="dom_overlay_container"></div>
+      <!-- Form disini -->
+      <div id="formSiswa">
+        <div class="form-group">
+          <label for="inputNama">Nama Lengkap</label>
+          <input id="inputNama" type="text" placeholder="Ketik nama lengkap" maxlength="50" />
+        </div>
+        <div class="form-group">
+          <label for="inputKelas">Kelas</label>
+          <input id="inputKelas" type="text" placeholder="Ketik kelas" maxlength="10" />
+        </div>
+        <div class="form-group">
+          <label for="inputNip">NIP</label>
+          <input id="inputNip" type="text" placeholder="Ketik NIP atau NIM" maxlength="20" />
+        </div>
+      </div>
+      <!-- end form -->
+      <!-- INPUT ISIAN -->
+      <input id="isianInput" type="text" placeholder="...Ketik jawaban di sini" dir="rtl" lang="ar" maxlength="18"
+        style="
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-family:
+              &quot;Traditional Arabic&quot;, &quot;Scheherazade New&quot;,
+              &quot;Amiri&quot;, &quot;Arial&quot;, sans-serif;
+            font-size: 45px;
+            font-weight: bold;
+            padding: 8px;
+            background: transparent;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            color: #000;
+            text-align: right;
+            caret-color: #000;
+            display: none;
+            z-index: 1000;
+          " />
+    </div>
+  </div>
+  <!-- BACK BUTTON ANDROID -->
+  <script>
+    document.addEventListener("deviceready", function () {
+      let backPressedOnce = false;
+      document.addEventListener(
+        "backbutton",
+        function (e) {
+          e.preventDefault();
+          if (backPressedOnce) {
+            navigator.app.exitApp();
+          } else {
+            backPressedOnce = true;
+            if (window.plugins && window.plugins.toast) {
+              window.plugins.toast.showShortBottom(
+                "Tekan sekali lagi untuk keluar",
+              );
+            } else {
+              alert("Tekan sekali lagi untuk keluar");
+            }
+            setTimeout(() => (backPressedOnce = false), 2000);
+          }
+        },
+        false,
+      );
+    });
+  </script>
+  <script>
+    (function () {
+      const input = document.getElementById("isianInput");
+      if (!input) return;
+      const arabicRegex = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\s]/;
+      input.addEventListener("keypress", function (e) {
+        const char = String.fromCharCode(e.which);
+        if (!arabicRegex.test(char)) {
+          e.preventDefault();
+        }
+      });
+      input.addEventListener("input", function () {
+        let filtered = "";
+        for (let char of this.value) {
+          if (arabicRegex.test(char)) {
+            filtered += char;
+          }
+        }
+        if (this.value !== filtered) {
+          this.value = filtered;
+        }
+      });
+      input.setAttribute("inputmode", "text");
+    })();
+  </script>
+  <script type="module">
+    import { initializeApp }
+      from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
+    import {
+      getFirestore,
+      collection,
+      doc,
+      setDoc,
+      updateDoc,
+      getDocs,
+      getDoc,
+      deleteDoc,
+      serverTimestamp,
+      query,
+      orderBy
+    } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-firestore.js";
+    const firebaseConfig = {
+      apiKey: "AIzaSyA0FnGh296zb9BIBHRwZTQKUIjbM4f_tOg",
+      authDomain: "animate-talimularobiah.firebaseapp.com",
+      projectId: "animate-talimularobiah",
+      storageBucket: "animate-talimularobiah.firebasestorage.app",
+      messagingSenderId: "145925511349",
+      appId: "1:145925511349:web:14f7018f2e79ef076f86fc"
+    };
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    const colRef = collection(db, "leaderboard");
+    window.Leaderboard = {
+      /* =========================
+         CREATE / LOGIN
+      ========================= */
+      async login(nip, nama, kelas) {
+        const ref = doc(db, "leaderboard", nip);
+        const snap = await getDoc(ref);
+        if (!snap.exists()) {
+          await setDoc(ref, {
+            nama,
+            kelas,
+            nip,
+            quiz1: 0,
+            quiz2: 0,
+            quiz3: 0,
+            latihan1: 0,
+            latihan2: 0,
+            latihan3: 0,
+            total_quiz: 0,
+            total_latihan: 0,
+            total_keseluruhan: 0,
+            created_at: serverTimestamp(),
+            updated_at: serverTimestamp()
+          });
+          console.log("Siswa baru dibuat");
+        } else {
+          await updateDoc(ref, {
+            nama,
+            kelas,
+            updated_at: serverTimestamp()
+          });
+          console.log("Siswa login ulang");
+        }
+      },
+      /* =========================
+         READ ONE
+      ========================= */
+      async getOne(nip) {
+        const snap = await getDoc(doc(db, "leaderboard", nip));
+        if (snap.exists()) {
+          return { id: snap.id, ...snap.data() };
+        }
+        return null;
+      },
+      /* =========================
+         READ ALL
+      ========================= */
+      async getAll() {
+        const snapshot = await getDocs(colRef);
+        const result = [];
+        snapshot.forEach(d => {
+          result.push({ id: d.id, ...d.data() });
+        });
+        return result;
+      },
+      /* =========================
+         UPDATE DATA UMUM
+      ========================= */
+      async update(nip, data) {
+        const ref = doc(db, "leaderboard", nip);
+        await updateDoc(ref, {
+          ...data,
+          updated_at: serverTimestamp()
+        });
+        console.log("Data diperbarui");
+      },
+      /* =========================
+         UPDATE NILAI + AUTO TOTAL
+      ========================= */
+      async updateNilai(nip, dataBaru) {
+        const ref = doc(db, "leaderboard", nip);
+        const snap = await getDoc(ref);
+        if (!snap.exists()) return;
+        const lama = snap.data();
+        const gabungan = { ...lama, ...dataBaru };
+        const total_quiz =
+          (gabungan.quiz1 || 0) +
+          (gabungan.quiz2 || 0) +
+          (gabungan.quiz3 || 0);
+        const total_latihan =
+          (gabungan.latihan1 || 0) +
+          (gabungan.latihan2 || 0) +
+          (gabungan.latihan3 || 0);
+        const total_keseluruhan = total_quiz + total_latihan;
+        await updateDoc(ref, {
+          ...dataBaru,
+          total_quiz,
+          total_latihan,
+          total_keseluruhan,
+          updated_at: serverTimestamp()
+        });
+        console.log("Nilai diperbarui");
+      },
+      /* =========================
+         DELETE
+      ========================= */
+      async delete(nip) {
+        await deleteDoc(doc(db, "leaderboard", nip));
+        console.log("Siswa dihapus");
+      },
+      /* =========================
+         RANKING
+      ========================= */
+      async getRanking() {
+        const q = query(colRef, orderBy("total_keseluruhan", "desc"));
+        const snapshot = await getDocs(q);
+        const result = [];
+        snapshot.forEach(d => {
+          result.push({ id: d.id, ...d.data() });
+        });
+        return result;
+      }
+    };
+    console.log("🔥 CRUD Leaderboard siap digunakan");
+  </script>
+</body>
+</html>
