@@ -2109,5 +2109,72 @@
         }
       ]
     }
+  },
+  "latihan": {
+    "1": [
+      {
+        "audio": "latihan-4-1",
+        "correct": "rumah"
+      },
+      {
+        "audio": "latihan-4-2",
+        "correct": "perpus"
+      },
+      {
+        "audio": "latihan-4-3",
+        "correct": "masjid"
+      },
+      {
+        "audio": "latihan-4-4",
+        "correct": "rumah"
+      }
+    ],
+    "2": [
+      {
+        "audio": "latihan-5-1",
+        "correct": "dapur"
+      },
+      {
+        "audio": "latihan-5-2",
+        "correct": "ruang tamu"
+      },
+      {
+        "audio": "latihan-5-3",
+        "correct": "taman"
+      },
+      {
+        "audio": "latihan-5-4",
+        "correct": "kamar mandi"
+      }
+    ],
+    "3": [
+      {
+        "audio": "latihan-6-1",
+        "correct": [
+          "bangun",
+          "mandi",
+          "berpakaian"
+        ]
+      },
+      {
+        "audio": "latihan-6-2",
+        "correct": [
+          "makan",
+          "menulis"
+        ]
+      },
+      {
+        "audio": "latihan-6-3",
+        "correct": [
+          "menonton"
+        ]
+      },
+      {
+        "audio": "latihan-6-4",
+        "correct": [
+          "tidur"
+        ]
+      }
+    ]
   }
 }

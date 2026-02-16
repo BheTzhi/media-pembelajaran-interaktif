@@ -21,10 +21,11 @@ lib.ssMetadata = [
 		{name:"index_atlas_16", frames: [[0,0,1280,720],[0,722,1280,720]]},
 		{name:"index_atlas_17", frames: [[0,0,1280,720],[0,722,1280,720]]},
 		{name:"index_atlas_18", frames: [[0,0,1280,720],[0,722,1280,720]]},
-		{name:"index_atlas_19", frames: [[0,1046,1248,322],[1317,1004,299,835],[1618,1004,299,835],[1112,0,500,500],[0,0,1110,692],[0,694,1294,350],[0,1370,1315,224],[1317,502,500,500]]},
-		{name:"index_atlas_20", frames: [[301,0,283,881],[0,837,283,881],[586,0,283,881],[871,0,283,881],[1156,0,283,881],[1441,0,283,881],[1726,0,283,881],[285,883,283,881],[570,883,283,881],[855,883,283,881],[1140,883,283,881],[1425,883,283,881],[1710,883,283,881],[0,0,299,835]]},
-		{name:"index_atlas_21", frames: [[1703,0,258,844],[1436,0,265,838],[0,0,283,881],[285,0,283,881],[570,0,283,881],[855,0,283,881],[762,1035,379,365],[0,1035,379,366],[1143,1339,379,365],[0,1403,180,635],[182,1403,180,635],[762,1402,180,636],[364,1403,180,635],[1436,846,328,491],[546,1403,180,635],[944,1402,180,636],[1140,0,294,847],[381,1035,379,366],[0,883,1166,150],[1524,1339,379,365]]},
-		{name:"index_atlas_22", frames: [[728,0,180,561],[1092,0,180,560],[1274,0,180,560],[1456,0,180,560],[910,0,180,561],[0,1242,516,96],[518,1242,516,96],[223,1340,216,208],[0,637,694,138],[918,1438,329,101],[1915,1264,110,110],[676,859,221,213],[546,0,180,608],[1036,1242,193,193],[1638,0,180,560],[1820,0,180,560],[1092,562,180,560],[1274,562,180,560],[899,859,167,161],[0,0,180,635],[182,0,180,635],[364,0,180,635],[1964,744,82,82],[1249,1438,167,160],[1456,1008,221,213],[1246,1223,221,213],[1702,744,260,206],[728,563,294,294],[1469,1223,221,213],[1456,562,558,180],[1418,1438,222,56],[0,777,167,310],[169,777,167,310],[338,777,167,310],[507,777,167,310],[1702,952,167,310],[1871,952,167,310],[983,1022,81,81],[1692,1264,221,213],[1246,1124,81,81],[0,1340,221,213],[1456,744,244,262],[441,1340,193,193],[636,1340,280,123],[0,1124,1244,57],[0,1183,1244,57],[1964,828,82,82],[899,1022,82,82]]}
+		{name:"index_atlas_19", frames: [[0,0,1280,720],[0,722,1280,720]]},
+		{name:"index_atlas_20", frames: [[0,1046,1248,322],[1317,498,500,500],[1296,0,673,496],[0,0,1110,692],[0,694,1294,350],[0,1370,1315,224],[1317,1000,500,500]]},
+		{name:"index_atlas_21", frames: [[903,0,283,881],[0,837,283,881],[285,837,283,881],[570,837,283,881],[855,883,283,881],[1140,883,283,881],[1188,0,283,881],[1425,883,283,881],[1473,0,283,881],[1710,883,283,881],[1758,0,283,881],[0,0,299,835],[301,0,299,835],[602,0,299,835]]},
+		{name:"index_atlas_22", frames: [[1151,0,258,844],[855,849,265,838],[0,0,283,881],[0,883,283,881],[285,0,283,881],[285,883,283,881],[570,0,283,881],[570,883,283,881],[1122,1229,379,365],[1411,493,379,366],[1503,861,379,365],[1792,0,180,636],[1411,0,328,491],[855,0,294,847],[1122,861,379,366],[0,1766,1166,150],[1503,1228,379,365]]},
+		{name:"index_atlas_23", frames: [[1638,0,180,561],[1638,563,180,560],[1820,563,180,560],[1456,610,180,560],[1820,0,180,561],[0,1472,516,96],[518,1472,516,96],[1584,1652,216,208],[0,1199,694,138],[0,1785,329,101],[1325,845,110,110],[910,901,221,213],[182,0,180,635],[1456,0,180,608],[364,0,180,635],[546,0,180,635],[1802,1652,193,193],[182,637,180,560],[364,637,180,560],[546,637,180,560],[728,637,180,560],[1327,1666,167,161],[728,0,180,635],[910,0,180,635],[0,0,180,636],[1092,0,180,635],[1274,0,180,635],[1325,957,82,82],[951,1673,167,160],[1584,1437,221,213],[1807,1437,221,213],[1156,637,260,206],[0,1117,74,75],[787,1798,144,137],[696,1199,150,150],[0,1570,221,213],[910,1172,558,180],[1327,1829,222,56],[0,638,167,310],[1156,845,167,310],[1638,1125,167,310],[1807,1125,167,310],[1246,1354,167,310],[1415,1354,167,310],[1120,1472,81,81],[0,950,165,165],[331,1785,150,150],[223,1570,221,213],[1470,1172,165,165],[1132,1555,81,81],[446,1570,221,213],[910,637,244,262],[1132,1666,193,193],[483,1785,150,150],[635,1798,150,150],[669,1673,280,123],[0,1354,1244,57],[0,1413,1244,57],[669,1570,461,101],[1325,1041,82,82],[1036,1472,82,82]]}
 ];
 
 
@@ -49,134 +50,134 @@ lib.ssMetadata = [
 
 
 (lib._0ahmad1 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0ahmad2 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0ahmad3 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0ahmad = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0laila1 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0laila2 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0laila3 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0laila = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad1 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad2 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad3 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad4 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1laila1 = function() {
-	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._1laila2 = function() {
-	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._1laila3 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._1laila4 = function() {
-	this.initialize(ss["index_atlas_21"]);
+(lib._1laila2 = function() {
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._1laila5 = function() {
-	this.initialize(ss["index_atlas_21"]);
+(lib._1laila3 = function() {
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._1laila = function() {
-	this.initialize(ss["index_atlas_21"]);
+(lib._1laila4 = function() {
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._1laila5 = function() {
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._1laila = function() {
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -203,56 +204,56 @@ lib.ssMetadata = [
 
 
 (lib.ahmad1 = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ahmad2 = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ahmad3 = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ahmad4 = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ahmad5 = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.answerborder1 = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.answerborder2 = function() {
-	this.initialize(ss["index_atlas_19"]);
+	this.initialize(ss["index_atlas_20"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.answeredborder1 = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
@@ -280,7 +281,7 @@ lib.ssMetadata = [
 
 
 (lib.board = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
@@ -294,28 +295,28 @@ lib.ssMetadata = [
 
 
 (lib.border_txt = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.btn = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.cerita = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.close = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
@@ -440,9 +441,16 @@ lib.ssMetadata = [
 
 
 
+(lib.denah2 = function() {
+	this.initialize(ss["index_atlas_15"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.dialog = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(7);
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -455,8 +463,8 @@ lib.ssMetadata = [
 
 
 (lib.diskusi = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(8);
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -469,183 +477,190 @@ lib.ssMetadata = [
 
 
 (lib.ending = function() {
-	this.initialize(ss["index_atlas_15"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["index_atlas_16"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.evaluasi = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fatimah1 = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.fatimah2 = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.fatimah2 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.fatimah3 = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(10);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fatimah4 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fatimah5 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.finishBtn = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.foto = function() {
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hamzah1 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hamzah2 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hamzah3 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hamzah4 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.help = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hindun1 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hindun2 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hindun3 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(24);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hindun4 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hindun5 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.home = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ibu1 = function() {
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ibu2 = function() {
 	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.finishBtn = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.foto = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hamzah1 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hamzah2 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hamzah3 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hamzah4 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.help = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hindun1 = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hindun2 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hindun3 = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hindun4 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hindun5 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.home = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ibu1 = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ibu2 = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.ibu3 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ibu = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ig = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["index_atlas_20"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.info = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(23);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(28);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.jalan = function() {
+	this.initialize(ss["index_atlas_20"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -659,7 +674,7 @@ lib.ssMetadata = [
 
 (lib.kamarTidur = function() {
 	this.initialize(ss["index_atlas_16"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -672,196 +687,238 @@ lib.ssMetadata = [
 
 
 (lib.kikd = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(24);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.kosakata = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.kuis = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(25);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.lanjutBtn = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.leaderboardtitle = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.leaderboard = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(27);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materi = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(28);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materi_border = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.namebc = function() {
+(lib.kosakata = function() {
 	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.kuis = function() {
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.narasi = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.narator1 = function() {
-	this.initialize(ss["index_atlas_22"]);
+(lib.lanjutBtn = function() {
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.narator2 = function() {
-	this.initialize(ss["index_atlas_22"]);
+(lib.latihanBtn = function() {
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.narator3 = function() {
+(lib.leaderboardtitle = function() {
 	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.leaderboard = function() {
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.narator4 = function() {
-	this.initialize(ss["index_atlas_22"]);
+(lib.masjid2 = function() {
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.narator5 = function() {
-	this.initialize(ss["index_atlas_22"]);
+(lib.materi = function() {
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.narator6 = function() {
-	this.initialize(ss["index_atlas_22"]);
+(lib.materi_border = function() {
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.next_btn = function() {
-	this.initialize(ss["index_atlas_22"]);
+(lib.namebc = function() {
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.openingFamilyPage = function() {
-	this.initialize(ss["index_atlas_16"]);
-	this.gotoAndStop(1);
+(lib.narasi = function() {
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.openingFamilyPage2 = function() {
+(lib.narator1 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(38);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.narator2 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(39);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.narator3 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(40);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.narator4 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.narator5 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(42);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.narator6 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(43);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.next_btn = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(44);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.openingFamilyPage = function() {
 	this.initialize(ss["index_atlas_17"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.petunjuk = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(38);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.prev_btn = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(39);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.profileborder = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.profile = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(40);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.questionborder = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.questionmark = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(41);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.resetBtn = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(42);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ruangTamu = function() {
+(lib.openingFamilyPage2 = function() {
 	this.initialize(ss["index_atlas_17"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.ruangTamuFamily = function() {
+(lib.pause = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(45);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.perpustakaan2 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(46);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.peta = function() {
 	this.initialize(ss["index_atlas_18"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.petunjuk = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(47);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.play = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(48);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.prev_btn = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(49);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.profileborder = function() {
+	this.initialize(ss["index_atlas_20"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.profile = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(50);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.questionborder = function() {
+	this.initialize(ss["index_atlas_20"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.questionmark = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(51);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.resetBtn = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(52);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ruangTamu = function() {
+	this.initialize(ss["index_atlas_18"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ruangTamuFamily = function() {
+	this.initialize(ss["index_atlas_19"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -874,58 +931,79 @@ lib.ssMetadata = [
 
 
 
+(lib.rumah = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(53);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.salmaHome = function() {
-	this.initialize(ss["index_atlas_18"]);
+	this.initialize(ss["index_atlas_19"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.sekolah2 = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(54);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.soundbtn = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(43);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tbody = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(44);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.textbc = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["index_atlas_20"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.thead = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(45);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(57);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.title = function() {
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(58);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tt = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(7);
+	this.initialize(ss["index_atlas_20"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.volume_off = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(46);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(59);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.volume_on = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(47);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(60);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -1280,6 +1358,50 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcSoundBtn, new cjs.Rectangle(-140,-62,280,123), null);
 
 
+(lib.mcSekolahBtn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.sekolah2();
+	this.instance.setTransform(-75,-75);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcSekolahBtn, new cjs.Rectangle(-75,-75,150,150), null);
+
+
+(lib.mcRumahBtn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.rumah();
+	this.instance.setTransform(-75,-75);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcRumahBtn, new cjs.Rectangle(-75,-75,150,150), null);
+
+
 (lib.mcReset = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1468,11 +1590,26 @@ if (reversed == null) { reversed = false; }
 		var root = this.stage.getChildAt(0);
 		var blocker = this;
 		
-		// awalnya NONAKTIF
+		// =============================
+		// DEFAULT
+		// =============================
+		blocker.keyValue = 0; // index dari data (0-based)
+		
 		blocker.cek.mouseEnabled = false;
 		blocker.cek.alpha = 0.5;
 		
-		// fungsi cek kelengkapan
+		
+		// =============================
+		// TERIMA INDEX DARI LUAR
+		// =============================
+		blocker.keyValues = function (value) {
+		    blocker.keyValue = value;
+		};
+		
+		
+		// =============================
+		// VALIDASI FORM
+		// =============================
 		function validateForm() {
 		
 		    const nama  = inputNama.value.trim();
@@ -1488,12 +1625,14 @@ if (reversed == null) { reversed = false; }
 		    }
 		}
 		
-		// pantau perubahan input
 		inputNama.addEventListener("input", validateForm);
 		inputKelas.addEventListener("input", validateForm);
 		inputNip.addEventListener("input", validateForm);
 		
-		// klik tombol
+		
+		// =============================
+		// KLIK TOMBOL
+		// =============================
 		blocker.cek.on("mousedown", function (e) {
 		
 		    root.playGlobalClick(e.currentTarget, async function () {
@@ -1502,15 +1641,39 @@ if (reversed == null) { reversed = false; }
 		        const kelas = inputKelas.value.trim();
 		        const nip   = inputNip.value.trim();
 		
+		        // LOGIN
 		        await window.Leaderboard.login(nip, nama, kelas);
 		
+		        // SIMPAN USER
 		        root.currentUser = {
 		            nama: nama,
 		            kelas: kelas,
 		            nip: nip
 		        };
 		
-		        root.quiz_page.quizMateri.setBlock(false);
+		        // =============================
+		        // BUKA LATIHAN BERDASARKAN INDEX DATA
+		        // =============================
+		
+		        var nomorLatihan = blocker.keyValue; // ubah ke 1-based
+		
+		        var targetLatihan = root.latihan_page
+		            .latihanMateri["latihan" + nomorLatihan];
+		
+		        console.log("Index data :", blocker.keyValue);
+		        console.log("Target buka :", "latihan" + nomorLatihan);
+		        console.log("Object :", targetLatihan);
+		
+		        if (targetLatihan && targetLatihan.setBlock) {
+		
+		            targetLatihan.setBlock(false);
+		
+		        } else {
+		
+		            console.warn("Latihan tidak ditemukan atau setBlock tidak ada");
+		
+		        }
+		
 		    });
 		
 		});
@@ -1651,6 +1814,65 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.mcPrev, new cjs.Rectangle(-40.5,-40.5,81,81), null);
+
+
+(lib.mcPlay = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {play:0,pause:1};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+	}
+	this.frame_1 = function() {
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
+
+	// tombol
+	this.instance = new lib.play();
+	this.instance.setTransform(-83,-83);
+
+	this.instance_1 = new lib.pause();
+	this.instance_1.setTransform(-83,-83);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-83,-83,165,165);
+
+
+(lib.mcPerpusBtn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.perpustakaan2();
+	this.instance.setTransform(-75,-75);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcPerpusBtn, new cjs.Rectangle(-75,-75,150,150), null);
 
 
 (lib.mcNextTxt = function(mode,startPosition,loop,reversed) {
@@ -1991,6 +2213,28 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcMateri, new cjs.Rectangle(-110.5,-106.5,221.5,213), null);
 
 
+(lib.mcMasjidBtn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.masjid2();
+	this.instance.setTransform(-75,-75);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcMasjidBtn, new cjs.Rectangle(-75,-75,150,150), null);
+
+
 (lib.mcLeaderBtn = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2004,13 +2248,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.leaderboard();
-	this.instance.setTransform(-147,-147);
+	this.instance.setTransform(-72,-69);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.mcLeaderBtn, new cjs.Rectangle(-147,-147,294,294), null);
+}).prototype = getMCSymbolPrototype(lib.mcLeaderBtn, new cjs.Rectangle(-72,-69,144,137), null);
 
 
 (lib.mcLatihanBtn3 = function(mode,startPosition,loop,reversed) {
@@ -3929,6 +4173,166 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-90,-281,180,561);
 
 
+(lib.latihan2Btn5 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// txt
+	this.text = new cjs.Text("5", "bold 35px 'Traditional Arabic'", "#527C59");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 56;
+	this.text.lineWidth = 46;
+	this.text.parent = this;
+	this.text.setTransform(0,-16.85);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// image
+	this.instance = new lib.latihanBtn();
+	this.instance.setTransform(-37,-37.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.latihan2Btn5, new cjs.Rectangle(-37,-37.5,74,78.7), null);
+
+
+(lib.latihan2Btn4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// txt
+	this.text = new cjs.Text("4", "bold 35px 'Traditional Arabic'", "#527C59");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 56;
+	this.text.lineWidth = 46;
+	this.text.parent = this;
+	this.text.setTransform(0,-16.85);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// image
+	this.instance = new lib.latihanBtn();
+	this.instance.setTransform(-37,-37.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.latihan2Btn4, new cjs.Rectangle(-37,-37.5,74,78.7), null);
+
+
+(lib.latihan2Btn3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// txt
+	this.text = new cjs.Text("3", "bold 35px 'Traditional Arabic'", "#527C59");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 56;
+	this.text.lineWidth = 46;
+	this.text.parent = this;
+	this.text.setTransform(0,-16.85);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// image
+	this.instance = new lib.latihanBtn();
+	this.instance.setTransform(-37,-37.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.latihan2Btn3, new cjs.Rectangle(-37,-37.5,74,78.7), null);
+
+
+(lib.latihan2Btn2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// txt
+	this.text = new cjs.Text("2", "bold 35px 'Traditional Arabic'", "#527C59");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 56;
+	this.text.lineWidth = 46;
+	this.text.parent = this;
+	this.text.setTransform(0,-16.85);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// image
+	this.instance = new lib.latihanBtn();
+	this.instance.setTransform(-37,-37.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.latihan2Btn2, new cjs.Rectangle(-37,-37.5,74,78.7), null);
+
+
+(lib.latihan2Btn1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// txt
+	this.text = new cjs.Text("1", "bold 35px 'Traditional Arabic'", "#527C59");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 56;
+	this.text.lineWidth = 46;
+	this.text.parent = this;
+	this.text.setTransform(0,-16.85);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// image
+	this.instance = new lib.latihanBtn();
+	this.instance.setTransform(-37,-37.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.latihan2Btn1, new cjs.Rectangle(-37,-37.5,74,78.7), null);
+
+
 (lib.diamond_pattern_1 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -4275,7 +4679,7 @@ if (reversed == null) { reversed = false; }
 	// leader_board
 	this.leaderBtn = new lib.mcLeaderBtn();
 	this.leaderBtn.name = "leaderBtn";
-	this.leaderBtn.setTransform(529.95,-245.9,0.6803,0.6803);
+	this.leaderBtn.setTransform(530,-260,0.9996,1);
 
 	this.timeline.addTween(cjs.Tween.get(this.leaderBtn).wait(1));
 
@@ -4291,7 +4695,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.menu_page, new cjs.Rectangle(-640,-345.9,1280,675.7), null);
+}).prototype = getMCSymbolPrototype(lib.menu_page, new cjs.Rectangle(-640,-329,1280,658.8), null);
 
 
 (lib.mcVolumeTxt = function(mode,startPosition,loop,reversed) {
@@ -5517,23 +5921,21 @@ if (reversed == null) { reversed = false; }
 			this.isSingleFrame = true;
 		}
 		var root = this.stage.getChildAt(0);
-		var quizPage = root.quiz_page;
+		var latihanPage = root.latihan_page;
 		
 		for (var i = 1; i <= 3; i++) {
 		    let id = i;
 		    this["latihanBtn" + i].on("mousedown", function (e) {
 		        root.playGlobalClick(e.currentTarget, function () {
 		            // KIRIM DATA lewat parent
-		            //quizPage.openQuiz(id);
-					//root.backsound.volume = 0;
-					
-		            console.log(`Latihan : ${id}`);
+		            latihanPage.openLatihan(id);	
+					root.backsound.volume = 0;			
 		        });
 		    });
 		}
 		var root = this.stage.getChildAt(0);
 		
-		root.showQuizInfoToast = function (text) {
+		root.showLatihanInfoToast = function (text) {
 		    showToast(text);
 		};
 		
@@ -5558,7 +5960,7 @@ if (reversed == null) { reversed = false; }
 		}
 		this.infoBtn.on("mousedown", function (e) {
 		    root.playGlobalClick(e.currentTarget, function () {
-		        root.showQuizInfoToast("Silakan pilih quiz 1, 2, atau 3 untuk memulainya.");
+		        root.showLatihanInfoToast("Silakan pilih latihan 1, 2, atau 3 untuk memulainya.");
 		    });
 		});
 	}
@@ -5614,6 +6016,627 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.mcLatihanMainPage, new cjs.Rectangle(-640,-328.1,1280,654.9000000000001), null);
+
+
+(lib.mcLatihan2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop();
+		
+		var root = this.stage.getChildAt(0);
+		var self = this;
+		
+		/* ================= DATA JAWABAN BUTTON ================= */
+		
+		self.jawaban = {
+			1: "ruang tamu",
+			2: "kamar tidur",
+			3: "dapur",
+			4: "taman",
+			5: "kamar mandi"
+		};
+		
+		for (var i = 1; i <= 5; i++) {
+		
+			let id = i;
+			let btn = self["latihan2Btn" + i];
+		
+			if (!btn) continue;
+		
+			btn.on("mousedown", function (e) {
+		
+				root.playGlobalClick(e.currentTarget, function () {
+		
+					if (!self.dataLatihan) return;
+		
+					var soal = self.dataLatihan[self.indexSoal];
+					var jawabanUser = self.jawaban[id];
+					var benar = jawabanUser === soal.correct;
+		
+					self.hasilJawaban.push({
+						soal: self.indexSoal,
+						jawaban: jawabanUser,
+						benar: benar
+					});
+		
+					console.log("Jawaban user:", jawabanUser);
+					console.log("Kunci:", soal.correct);
+					console.log("Benar:", benar);
+		
+					self.indexSoal++;
+					self.tampilSoal();
+				});
+			});
+		}
+		this.getLatihanById = function (latihanId) {
+			if (!root.data) return null;
+			return root.data.latihan[latihanId] || null;
+		};
+		
+		/* ================= MULAI LATIHAN ================= */
+		this.mulaiLatihan = function (id) {
+		
+			self.layer_block.keyValues(id);
+		
+			self.dataLatihan = self.getLatihanById(id);
+			self.indexSoal = 0;
+			self.hasilJawaban = [];
+		
+			if (!self.dataLatihan || self.dataLatihan.length === 0) {
+				console.log("Data latihan tidak ditemukan");
+				return;
+			}
+		
+			root.latihan_page.latihanMateri.hideCloseButton();
+		
+			self.tampilSoal();
+		};
+		
+		/* ================= TAMPIL SOAL ================= */
+		
+		this.tampilSoal = function () {
+		
+			if (self.indexSoal >= self.dataLatihan.length) {
+		
+				var jumlahBenar = self.hasilJawaban.filter(function (item) {
+					return item.benar;
+				}).length;
+		
+				var totalSoal = self.dataLatihan.length;
+		
+				self.nilai = totalSoal > 0
+					? Math.round((jumlahBenar / totalSoal) * 100)
+					: 0;
+		
+				console.log("Nilai akhir:", self.nilai);
+		
+				simpanNilai(2, self.nilai);
+		
+				if (self.hasil) {
+					self.hasil.text = "Nilai: " + self.nilai;
+				}
+		
+				root.nilaiLatihan = self.nilai;
+		
+				// stop audio
+				self.currentAudioId = null;
+		
+				if (self.currentAudio) {
+					self.currentAudio.stop();
+					self.currentAudio = null;
+				}
+		
+				if (self.playBtn) {
+					self.playBtn.gotoAndStop("play");
+				}
+		
+				root.latihan_page.latihanMateri.showCloseButton();
+		
+				return;
+			}
+		
+			if (self.hasil) self.hasil.text = "";
+		
+			var soal = self.dataLatihan[self.indexSoal];
+		
+			self.currentAudioId = soal.audio;
+		
+			console.log("audio:", soal.audio);
+			console.log("jawaban:", soal.correct);
+		};
+		
+		/* ================= PLAY AUDIO ================= */
+		
+		if (self.playBtn) {
+		
+			self.playBtn.on("mousedown", function () {
+		
+				root.playGlobalClick(self.playBtn, function () {
+		
+					// PAUSE
+					if (self.currentAudio) {
+		
+						self.currentAudio.stop();
+						self.currentAudio = null;
+		
+						createjs.Sound.volume = 1;
+						self.playBtn.gotoAndStop("play");
+		
+						return;
+					}
+		
+					if (!self.currentAudioId) return;
+		
+					createjs.Sound.volume = 0.2;
+		
+					self.currentAudio = createjs.Sound.play(
+						self.currentAudioId,
+						{ volume: 1 }
+					);
+		
+					self.playBtn.gotoAndStop("pause");
+		
+					if (self.currentAudio) {
+		
+						self.currentAudio.on("complete", function () {
+		
+							createjs.Sound.volume = 1;
+		
+							self.playBtn.gotoAndStop("play");
+							self.currentAudio = null;
+		
+						});
+					}
+				});
+			});
+		}
+		
+		/* ================= SIMPAN NILAI ================= */
+		
+		async function simpanNilai(id, nilai) {
+		
+			try {
+		
+				var nip = root.currentUser && root.currentUser.nip;
+		
+				if (!nip) return;
+		
+				await window.Leaderboard.updateNilai(nip, {
+					["latihan" + id]: nilai
+				});
+		
+				console.log("Nilai tersimpan");
+		
+			} catch (err) {
+		
+				console.log("Gagal simpan nilai", err);
+		
+			}
+		}
+		this.setBlock = function (state) {
+		
+			// tampil / sembunyikan layer block
+			self.layer_block.visible = state;
+			self.layer_block.mouseEnabled = state;
+			self.layer_block.mouseChildren = state;
+		
+			// DOM cukup sekali
+			if (typeof domFormSiswa !== "undefined") {
+				domFormSiswa.style.display = state ? "block" : "none";
+			}
+		
+			// enable / disable layer lain
+			for (var i = 0; i < self.numChildren; i++) {
+		
+				var child = self.getChildAt(i);
+		
+				if (child === self.layer_block) continue;
+		
+				child.mouseEnabled = !state;
+				child.mouseChildren = !state;
+			}
+		};
+		this.playBtn.on("mousedown", function (e) {
+		
+		    root.playGlobalClick(e.currentTarget, function () {
+		        
+		    });
+		
+		});
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// layer_blocker
+	this.layer_block = new lib.mcQuizBlocker();
+	this.layer_block.name = "layer_block";
+	this.layer_block.setTransform(0,-20.05);
+
+	this.timeline.addTween(cjs.Tween.get(this.layer_block).wait(1));
+
+	// hasil
+	this.text = new cjs.Text("Yeey jawaban kamu benar. /\nOoopps, Jawaban Salah!", "bold 30px 'Arial'", "#527C59");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 36;
+	this.text.lineWidth = 466;
+	this.text.parent = this;
+	this.text.setTransform(395,187);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// play_btn
+	this.playBtn = new lib.mcPlay();
+	this.playBtn.name = "playBtn";
+	this.playBtn.setTransform(399.5,19.5,1,1,0,0,0,-0.5,-0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.playBtn).wait(1));
+
+	// perintah
+	this.text_1 = new cjs.Text("\"Dengarkan baik-baik, lalu klik tempat yang dimaksud\".", "italic 35px 'Arial'", "#527C59");
+	this.text_1.textAlign = "center";
+	this.text_1.lineHeight = 41;
+	this.text_1.lineWidth = 466;
+	this.text_1.parent = this;
+	this.text_1.setTransform(395,-188);
+
+	this.timeline.addTween(cjs.Tween.get(this.text_1).wait(1));
+
+	// title
+	this.instance = new lib.title();
+	this.instance.setTransform(160,-338);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// tombol
+	this.latihan2Btn5 = new lib.latihan2Btn5();
+	this.latihan2Btn5.name = "latihan2Btn5";
+	this.latihan2Btn5.setTransform(-502.2,94.4,1,1,0,0,0,0,1.8);
+
+	this.latihan2Btn4 = new lib.latihan2Btn4();
+	this.latihan2Btn4.name = "latihan2Btn4";
+	this.latihan2Btn4.setTransform(-131.8,242.25,1,1,0,0,0,0,1.8);
+
+	this.latihan2Btn3 = new lib.latihan2Btn3();
+	this.latihan2Btn3.name = "latihan2Btn3";
+	this.latihan2Btn3.setTransform(-3.55,-133.55,1,1,0,0,0,0,1.8);
+
+	this.latihan2Btn2 = new lib.latihan2Btn2();
+	this.latihan2Btn2.name = "latihan2Btn2";
+	this.latihan2Btn2.setTransform(-473.7,-133.55,1,1,0,0,0,0,1.8);
+
+	this.latihan2Btn1 = new lib.latihan2Btn1();
+	this.latihan2Btn1.name = "latihan2Btn1";
+	this.latihan2Btn1.setTransform(-230,-123);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.latihan2Btn1},{t:this.latihan2Btn2},{t:this.latihan2Btn3},{t:this.latihan2Btn4},{t:this.latihan2Btn5}]}).wait(1));
+
+	// bc
+	this.instance_1 = new lib.denah2();
+	this.instance_1.setTransform(-640,-360);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcLatihan2, new cjs.Rectangle(-640.5,-380.5,1281,800.5), null);
+
+
+(lib.mcLatihan1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop();
+		
+		var root = this.stage.getChildAt(0);
+		var self = this;
+		this.getLatihanById = function (latihanId) {
+			if (!root.data) return null;
+			return root.data.latihan[latihanId] || null;
+		};
+		
+		this.mulaiLatihan = function (id) {
+			this.layer_block.keyValues(id);
+			
+			this.dataLatihan = this.getLatihanById(id);
+			this.indexSoal = 0;
+			this.hasilJawaban = [];
+		
+			if (!this.dataLatihan) {
+				console.log("Data latihan tidak ditemukan");
+				return;
+			}
+		
+			root.latihan_page.latihanMateri.hideCloseButton();
+			this.tampilSoal();
+		};
+		
+		this.tampilSoal = function () {
+		
+			// ================= SELESAI =================
+			if (this.indexSoal >= this.dataLatihan.length) {
+		
+				var jumlahBenar = this.hasilJawaban.filter(function (item) {
+					return item.benar;
+				}).length;
+		
+				var totalSoal = this.dataLatihan.length;
+		
+				this.nilai = Math.round((jumlahBenar / totalSoal) * 100);
+				
+				console.log("Nilai akhir:", this.nilai);
+			
+				simpanNilai(1, this.nilai);
+		
+				// kalau mau ditampilkan
+				this.hasil.text = "Nilai: " + this.nilai;
+		
+				// kalau mau disimpan global
+				root.nilaiLatihan = this.nilai;
+		
+				// ⛔ MATIKAN AUDIO SOAL
+				this.currentAudioId = null;
+		
+				// ⛔ kalau masih ada audio yang lagi bunyi → stop
+				if (this.currentAudio) {
+					this.currentAudio.stop();
+					this.currentAudio = null;
+				}
+			
+				this.playBtn.gotoAndStop("play");
+				
+				root.latihan_page.latihanMateri.showCloseButton();
+				return;
+			}
+		
+			// ================= SOAL BERJALAN =================
+			this.hasil.text = "";
+		
+			var soal = this.dataLatihan[this.indexSoal];
+			this.currentAudioId = soal.audio;
+		
+			console.log("audio:", soal.audio);
+			console.log("jawaban:", soal.correct);
+		};
+		
+		// ================= TOMBOL JAWABAN =================
+		var buttons = ["rumah", "sekolah", "masjid", "perpus"];
+		
+		buttons.forEach(function (nama) {
+		
+			var btn = self[nama + "Btn"];
+			if (!btn) return;
+		
+			btn.cursor = "pointer";
+			btn.mouseChildren = false;
+		
+			btn.on("mousedown", function () {
+		
+				var soal = self.dataLatihan[self.indexSoal];
+				if (!soal) return;
+		
+				var benar = nama === soal.correct;
+		
+				btn._clickSound = benar ? "benar" : "salah";
+		
+				root.playGlobalClick(btn, function () {
+		
+					// FEEDBACK
+					self.hasil.text = benar
+						? "Yeey jawaban kamu benar."
+						: "Ooopps, Jawaban Salah!";
+		
+					// SIMPAN HASIL
+					self.hasilJawaban.push({
+						soal: self.indexSoal,
+						jawabanUser: nama,
+						jawabanBenar: soal.correct,
+						benar: benar
+					});
+		
+					console.log("hasil:", self.hasilJawaban);
+		
+					// NEXT SOAL
+					setTimeout(function () {
+						self.indexSoal++;
+						self.tampilSoal();
+					}, 800);
+				});
+			});
+		});
+		
+		// ================= PLAY BUTTON AUDIO =================
+		self.playBtn.on("mousedown", function () {
+		
+			root.playGlobalClick(self.playBtn, function () {
+		
+				// PAUSE
+				if (self.currentAudio) {
+		
+					self.currentAudio.stop();
+					self.currentAudio = null;
+		
+					createjs.Sound.volume = 1;
+					self.playBtn.gotoAndStop("play");
+					return;
+				}
+		
+				if (!self.currentAudioId) return;
+		
+				// MUTE SOUND LAIN
+				createjs.Sound.volume = 0.2;
+		
+				// PLAY AUDIO SOAL
+				self.currentAudio = createjs.Sound.play(
+					self.currentAudioId,
+					{ volume: 1 }
+				);
+		
+				self.playBtn.gotoAndStop("pause");
+		
+				if (self.currentAudio) {
+					self.currentAudio.on("complete", function () {
+		
+						createjs.Sound.volume = 1;
+		
+						self.playBtn.gotoAndStop("play");
+						self.currentAudio = null;
+					});
+				}
+			});
+		});
+		
+		async function simpanNilai(id, nilai) {
+			var nip = root.currentUser.nip;
+		
+		    await window.Leaderboard.updateNilai(nip, {
+		        ["latihan" + id]: nilai
+		    });
+		}
+		this.setBlock = function (state) {
+			this.layer_block.visible = state;
+			this.layer_block.mouseEnabled = state;
+			this.layer_block.mouseChildren = state;
+		
+			for (var i = 0; i < this.numChildren; i++) {
+				var child = this.getChildAt(i);
+		
+				if (child === this.layer_block) {
+					continue;
+				}
+		
+				if (!state) {
+					domFormSiswa.style.display = "none";
+				} else {
+					domFormSiswa.style.display = "block";
+				}
+		
+				child.mouseEnabled = !state; // kalau state true (blok), layer lain mati mouse-nya, kalau false hidup mouse-nya
+				child.mouseChildren = !state;
+			}
+		};
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// layer_blocker
+	this.layer_block = new lib.mcQuizBlocker();
+	this.layer_block.name = "layer_block";
+	this.layer_block.setTransform(0,-20.05);
+
+	this.timeline.addTween(cjs.Tween.get(this.layer_block).wait(1));
+
+	// hasil
+	this.hasil = new cjs.Text("Yeey jawaban kamu benar. /\nOoopps, Jawaban Salah!", "bold 30px 'Arial'", "#527C59");
+	this.hasil.name = "hasil";
+	this.hasil.textAlign = "center";
+	this.hasil.lineHeight = 36;
+	this.hasil.lineWidth = 466;
+	this.hasil.parent = this;
+	this.hasil.setTransform(395,187);
+
+	this.timeline.addTween(cjs.Tween.get(this.hasil).wait(1));
+
+	// tombol
+	this.playBtn = new lib.mcPlay();
+	this.playBtn.name = "playBtn";
+	this.playBtn.setTransform(399.5,19.5,1,1,0,0,0,-0.5,-0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.playBtn).wait(1));
+
+	// perintah
+	this.text = new cjs.Text("\"Dengarkan baik-baik, lalu pillih tempat yang dimaksud\".", "italic 35px 'Arial'", "#527C59");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 41;
+	this.text.lineWidth = 466;
+	this.text.parent = this;
+	this.text.setTransform(395,-188);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// title
+	this.instance = new lib.title();
+	this.instance.setTransform(165,-338);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// perpus
+	this.perpusBtn = new lib.mcPerpusBtn();
+	this.perpusBtn.name = "perpusBtn";
+	this.perpusBtn.setTransform(-395,-89);
+
+	this.timeline.addTween(cjs.Tween.get(this.perpusBtn).wait(1));
+
+	// sekolah
+	this.sekolahBtn = new lib.mcSekolahBtn();
+	this.sekolahBtn.name = "sekolahBtn";
+	this.sekolahBtn.setTransform(-503,96);
+
+	this.timeline.addTween(cjs.Tween.get(this.sekolahBtn).wait(1));
+
+	// masjid
+	this.masjidBtn = new lib.mcMasjidBtn();
+	this.masjidBtn.name = "masjidBtn";
+	this.masjidBtn.setTransform(-280,37);
+
+	this.timeline.addTween(cjs.Tween.get(this.masjidBtn).wait(1));
+
+	// rumah
+	this.rumahBtn = new lib.mcRumahBtn();
+	this.rumahBtn.name = "rumahBtn";
+	this.rumahBtn.setTransform(-287,185);
+
+	this.timeline.addTween(cjs.Tween.get(this.rumahBtn).wait(1));
+
+	// jalan
+	this.instance_1 = new lib.jalan();
+	this.instance_1.setTransform(-606,-248);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	// bc
+	this.instance_2 = new lib.peta();
+	this.instance_2.setTransform(-640,-360);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcLatihan1, new cjs.Rectangle(-640.5,-380.5,1281,800.5), null);
 
 
 (lib.mcKosaKataPage = function(mode,startPosition,loop,reversed) {
@@ -7929,28 +8952,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.leader_page, new cjs.Rectangle(-641,-361,1282,722), null);
 
 
-(lib.latihan_page = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// latihan_main
-	this.instance = new lib.mcLatihanMainPage();
-	this.instance.setTransform(0,-0.7,1,1,0,0,0,0,-0.7);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.latihan_page, new cjs.Rectangle(-640,-328.1,1280,654.9000000000001), null);
-
-
 (lib.landing_page = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -8679,7 +9680,7 @@ if (reversed == null) { reversed = false; }
 		
 		function showIsian() {
 			domInput.value = "";
-			domInput.style.display = "block";	
+			domInput.style.display = "block";
 			domInput.focus();
 			self.information.visible = true;
 		}
@@ -8800,6 +9801,95 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcQuizMateri, new cjs.Rectangle(-647,-380.5,1294,831.5), null);
 
 
+(lib.mcLatihanMateri = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop();
+		
+		var root = this.stage.getChildAt(0);
+		
+		this.latihan = {
+			latihan1: this.latihan1,
+			latihan2: this.latihan2
+		};
+		
+		this.setMateri = function(id) {
+		
+			if (!this.latihan) return;
+		
+			this.resetAll();
+		
+			var key = "latihan" + id;
+		
+			if (this.latihan[key]) {
+				this.latihan[key].setBlock(true);
+				
+				this.latihan[key].visible = true;		
+				this.latihan[key].mulaiLatihan(id);
+			}
+		
+		};
+		
+		this.resetAll = function () {
+			for (var key in this.latihan) {
+				if (this.latihan[key]) {
+					this.latihan[key].visible = false;			
+				}
+			}
+		};
+		
+		this.hideCloseButton = function() {
+		    if (root.closeBtn) {
+		        root.closeBtn.visible = false;
+		    }
+		}
+		
+		this.showCloseButton = function() {
+		    if (root.closeBtn) {
+		        root.closeBtn.visible = true;			
+		    }
+		}
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// latihan_2
+	this.latihan2 = new lib.mcLatihan2();
+	this.latihan2.name = "latihan2";
+	this.latihan2.setTransform(0,33);
+
+	this.timeline.addTween(cjs.Tween.get(this.latihan2).wait(1));
+
+	// latihan_1
+	this.latihan1 = new lib.mcLatihan1();
+	this.latihan1.name = "latihan1";
+	this.latihan1.setTransform(0,33);
+
+	this.timeline.addTween(cjs.Tween.get(this.latihan1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcLatihanMateri, new cjs.Rectangle(-640.5,-347.5,1281,800.5), null);
+
+
 (lib.mcHiwar = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -8891,6 +9981,92 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcHiwar, new cjs.Rectangle(-659,-360.5,1315,1006.5), null);
 
 
+(lib.latihan_page = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop();
+		
+		var root = this.stage.getChildAt(0);
+		
+		var quizSound = null;
+		
+		this.openLatihan = function (id) {
+			this.latihanMateri.setMateri(id);
+			this.showLatihan();
+		}
+		
+		this.showMain = function () {
+		
+			if (quizSound) {
+				quizSound.stop();
+				quizSound = null;
+			}	
+		
+			if (this.latihanMateri) {
+				this.latihanMateri.resetAll();
+			}
+		
+			this.latihanMainPage.visible = true;
+			this.latihanMateri.visible = false;
+		
+			root.backsound.volume = 1;
+			this.stage.getChildAt(0).updateHomeButton();
+		};
+		
+		this.showLatihan = function () {
+			this.latihanMainPage.visible = false;
+			this.latihanMateri.visible = true;
+		
+			if (quizSound) quizSound.stop();
+		
+			quizSound = createjs.Sound.play("quiz-sound", {
+				loop: -1
+			});
+		
+			this.stage.getChildAt(0).updateHomeButton();
+		};
+		this.latihanMateri.visible = false;
+		this.latihanMainPage.visible = true;
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// latihan_materi
+	this.latihanMateri = new lib.mcLatihanMateri();
+	this.latihanMateri.name = "latihanMateri";
+
+	this.timeline.addTween(cjs.Tween.get(this.latihanMateri).wait(1));
+
+	// latihan_main
+	this.latihanMainPage = new lib.mcLatihanMainPage();
+	this.latihanMainPage.name = "latihanMainPage";
+	this.latihanMainPage.setTransform(0,-0.7,1,1,0,0,0,0,-0.7);
+
+	this.timeline.addTween(cjs.Tween.get(this.latihanMainPage).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.latihan_page, new cjs.Rectangle(-640.5,-347.5,1281,800.5), null);
+
+
 (lib.mcQuizPage = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -8929,6 +10105,8 @@ if (reversed == null) { reversed = false; }
 		    this.quizMateri.visible = false;
 			root.backsound.volume = 1;
 		    this.stage.getChildAt(0).updateHomeButton();
+			
+			domFormSiswa.style.display = "none";
 		};
 		
 		this.openQuiz = function (id) {
@@ -9357,6 +10535,8 @@ if (reversed == null) { reversed = false; }
 			{ id: "flip", src: "sounds/flip.mp3" },
 			{ id: "pintu", src: "sounds/pintu.mp3" },
 			{ id: "woosh", src: "sounds/woosh.mp3" },
+			{ id: "benar", src: "sounds/benar.mp3" },
+			{ id: "salah", src: "sounds/salah.mp3" },
 		
 			// Bab 4
 		    { id: "al_baytu", src: "assets/audio/al_baytu.mp3" },
@@ -9545,6 +10725,14 @@ if (reversed == null) { reversed = false; }
 			{ id: "bab6-18", src: "assets/audio/quiz/6/bab6-18.mp3" },
 			{ id: "bab6-19", src: "assets/audio/quiz/6/bab6-19.mp3" },
 			{ id: "bab6-20", src: "assets/audio/quiz/6/bab6-20.mp3" },
+		
+		
+			// Latihan
+			// Bab 4
+			{ id: "latihan-4-1", src: "assets/audio/latihan/4/latihan-4-1.mp3" },
+			{ id: "latihan-4-2", src: "assets/audio/latihan/4/latihan-4-2.mp3" },
+			{ id: "latihan-4-3", src: "assets/audio/latihan/4/latihan-4-3.mp3" },
+			{ id: "latihan-4-4", src: "assets/audio/latihan/4/latihan-4-4.mp3" },
 		]);
 		
 		
@@ -9731,6 +10919,22 @@ if (reversed == null) { reversed = false; }
 					this.materi_page.showMain();
 					return;
 				}
+			
+				// BACK dari latihan1, latihan2, latihan3
+				if (
+					this.latihan_page.visible &&
+					this.latihan_page.latihanMateri.visible &&
+				(
+					this.latihan_page.latihanMateri.latihan1?.visible ||
+					this.latihan_page.latihanMateri.latihan2?.visible ||
+					this.latihan_page.latihanMateri.latihan3?.visible
+				)
+				) {
+					//kembali ke halaman utama latihan
+					this.latihan_page.showMain();
+					return;
+				}
+		
 		
 				// 4️⃣ BACK antar page utama
 				if (this.pageHistory.length > 0) {
@@ -9890,7 +11094,8 @@ lib.properties = {
 		{src:"images/index_atlas_19.png", id:"index_atlas_19"},
 		{src:"images/index_atlas_20.png", id:"index_atlas_20"},
 		{src:"images/index_atlas_21.png", id:"index_atlas_21"},
-		{src:"images/index_atlas_22.png", id:"index_atlas_22"}
+		{src:"images/index_atlas_22.png", id:"index_atlas_22"},
+		{src:"images/index_atlas_23.png", id:"index_atlas_23"}
 	],
 	preloads: []
 };
