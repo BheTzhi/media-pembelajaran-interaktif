@@ -22,10 +22,11 @@ lib.ssMetadata = [
 		{name:"index_atlas_17", frames: [[0,0,1280,720],[0,722,1280,720]]},
 		{name:"index_atlas_18", frames: [[0,0,1280,720],[0,722,1280,720]]},
 		{name:"index_atlas_19", frames: [[0,0,1280,720],[0,722,1280,720]]},
-		{name:"index_atlas_20", frames: [[0,1046,1248,322],[1317,498,500,500],[1296,0,673,496],[0,0,1110,692],[0,694,1294,350],[0,1370,1315,224],[1317,1000,500,500]]},
-		{name:"index_atlas_21", frames: [[903,0,283,881],[0,837,283,881],[285,837,283,881],[570,837,283,881],[855,883,283,881],[1140,883,283,881],[1188,0,283,881],[1425,883,283,881],[1473,0,283,881],[1710,883,283,881],[1758,0,283,881],[0,0,299,835],[301,0,299,835],[602,0,299,835]]},
-		{name:"index_atlas_22", frames: [[1151,0,258,844],[855,849,265,838],[0,0,283,881],[0,883,283,881],[285,0,283,881],[285,883,283,881],[570,0,283,881],[570,883,283,881],[1122,1229,379,365],[1411,493,379,366],[1503,861,379,365],[1792,0,180,636],[1411,0,328,491],[855,0,294,847],[1122,861,379,366],[0,1766,1166,150],[1503,1228,379,365]]},
-		{name:"index_atlas_23", frames: [[1638,0,180,561],[1638,563,180,560],[1820,563,180,560],[1456,610,180,560],[1820,0,180,561],[0,1472,516,96],[518,1472,516,96],[1584,1652,216,208],[0,1199,694,138],[0,1785,329,101],[1325,845,110,110],[910,901,221,213],[182,0,180,635],[1456,0,180,608],[364,0,180,635],[546,0,180,635],[1802,1652,193,193],[182,637,180,560],[364,637,180,560],[546,637,180,560],[728,637,180,560],[1327,1666,167,161],[728,0,180,635],[910,0,180,635],[0,0,180,636],[1092,0,180,635],[1274,0,180,635],[1325,957,82,82],[951,1673,167,160],[1584,1437,221,213],[1807,1437,221,213],[1156,637,260,206],[0,1117,74,75],[787,1798,144,137],[696,1199,150,150],[0,1570,221,213],[910,1172,558,180],[1327,1829,222,56],[0,638,167,310],[1156,845,167,310],[1638,1125,167,310],[1807,1125,167,310],[1246,1354,167,310],[1415,1354,167,310],[1120,1472,81,81],[0,950,165,165],[331,1785,150,150],[223,1570,221,213],[1470,1172,165,165],[1132,1555,81,81],[446,1570,221,213],[910,637,244,262],[1132,1666,193,193],[483,1785,150,150],[635,1798,150,150],[669,1673,280,123],[0,1354,1244,57],[0,1413,1244,57],[669,1570,461,101],[1325,1041,82,82],[1036,1472,82,82]]}
+		{name:"index_atlas_20", frames: [[0,722,1110,692],[0,1416,1294,350],[0,0,1280,720]]},
+		{name:"index_atlas_21", frames: [[0,0,1248,322],[1317,498,650,412],[0,912,500,500],[1004,724,299,835],[1305,912,299,835],[1606,912,299,835],[0,1414,500,500],[1250,0,673,496],[502,724,500,500],[0,498,1315,224],[502,1226,500,500]]},
+		{name:"index_atlas_22", frames: [[0,0,283,881],[0,883,283,881],[285,0,283,881],[285,883,283,881],[570,0,283,881],[570,883,283,881],[855,0,283,881],[855,883,283,881],[1140,0,283,881],[1140,883,283,881],[1425,0,283,881],[1710,0,283,881],[1425,883,283,881],[1710,883,283,881]]},
+		{name:"index_atlas_23", frames: [[1418,0,258,844],[1151,0,265,838],[0,0,283,881],[285,0,283,881],[570,0,283,881],[1820,1368,180,561],[762,1001,379,365],[0,883,379,366],[1143,1001,379,365],[364,1251,180,635],[1638,1368,180,608],[546,1251,180,635],[0,1251,180,636],[728,1368,180,635],[1678,0,328,491],[910,1368,180,635],[1092,1368,180,635],[182,1251,180,636],[1274,1368,180,635],[1456,1368,180,635],[855,0,294,847],[381,883,379,366],[855,849,1166,150],[1524,1001,379,365]]},
+		{name:"index_atlas_24", frames: [[182,0,180,560],[364,0,180,560],[546,0,180,560],[0,0,180,561],[0,820,516,96],[518,820,516,96],[1110,1284,100,99],[709,1285,100,93],[892,1089,216,208],[182,562,694,138],[1500,1117,329,101],[1415,758,110,110],[1036,874,221,213],[1110,1089,193,193],[728,0,180,560],[910,0,180,560],[1092,0,180,560],[1274,0,180,560],[167,1133,167,161],[1964,182,82,82],[336,1133,167,160],[1259,874,221,213],[0,918,221,213],[1702,182,260,206],[1625,446,74,75],[0,563,144,137],[892,918,100,110],[505,1285,100,95],[505,1133,150,150],[223,918,221,213],[1456,0,558,180],[1945,1014,100,100],[1804,1284,222,56],[1702,390,167,310],[1871,390,167,310],[1456,446,167,310],[1246,562,167,310],[1625,702,167,310],[1794,702,167,310],[1963,702,81,81],[1831,1117,165,165],[657,1133,150,150],[446,918,221,213],[0,1133,165,165],[1527,758,81,81],[669,918,221,213],[1456,182,244,262],[1305,1117,193,193],[1500,1220,150,150],[1652,1220,150,150],[878,562,280,123],[0,702,1244,57],[0,761,1244,57],[336,1295,100,84],[1482,1014,461,101],[167,1296,100,73],[607,1285,100,94],[1964,266,82,82],[1160,562,82,82],[1482,870,100,115]]}
 ];
 
 
@@ -50,91 +51,91 @@ lib.ssMetadata = [
 
 
 (lib._0ahmad1 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0ahmad2 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0ahmad3 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0ahmad = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0laila1 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0laila2 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0laila3 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._0laila = function() {
-	this.initialize(ss["index_atlas_22"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad1 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad2 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad3 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad4 = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1ahmad = function() {
-	this.initialize(ss["index_atlas_21"]);
+	this.initialize(ss["index_atlas_22"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
@@ -142,42 +143,42 @@ lib.ssMetadata = [
 
 (lib._1laila1 = function() {
 	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1laila2 = function() {
 	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1laila3 = function() {
 	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1laila4 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1laila5 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._1laila = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(7);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -205,55 +206,62 @@ lib.ssMetadata = [
 
 (lib.ahmad1 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ahmad2 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ahmad3 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ahmad4 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.ahmad5 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.answerborder1 = function() {
-	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.ahmad2 = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ahmad3 = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ahmad4 = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.ahmad5 = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.answerborder1 = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.answerborder2 = function() {
-	this.initialize(ss["index_atlas_20"]);
+	this.initialize(ss["index_atlas_21"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.answeredborder1 = function() {
-	this.initialize(ss["index_atlas_23"]);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.baju = function() {
+	this.initialize(ss["index_atlas_24"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
@@ -273,6 +281,13 @@ lib.ssMetadata = [
 
 
 
+(lib.belajar = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.bersihBersih = function() {
 	this.initialize(ss["index_atlas_14"]);
 	this.gotoAndStop(0);
@@ -280,9 +295,23 @@ lib.ssMetadata = [
 
 
 
+(lib.bl3 = function() {
+	this.initialize(ss["index_atlas_14"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.board = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(7);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.boardl3 = function() {
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -295,29 +324,29 @@ lib.ssMetadata = [
 
 
 (lib.border_txt = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.btn = function() {
-	this.initialize(ss["index_atlas_23"]);
+	this.initialize(ss["index_atlas_24"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.btn = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.cerita = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(8);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.close = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(10);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -421,8 +450,8 @@ lib.ssMetadata = [
 
 
 (lib.dapur = function() {
-	this.initialize(ss["index_atlas_14"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["index_atlas_15"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -436,21 +465,21 @@ lib.ssMetadata = [
 
 (lib.dapur3 = function() {
 	this.initialize(ss["index_atlas_15"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.denah2 = function() {
-	this.initialize(ss["index_atlas_15"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.denah2 = function() {
+	this.initialize(ss["index_atlas_16"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.dialog = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(9);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -463,8 +492,8 @@ lib.ssMetadata = [
 
 
 (lib.diskusi = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(10);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -478,189 +507,196 @@ lib.ssMetadata = [
 
 (lib.ending = function() {
 	this.initialize(ss["index_atlas_16"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.evaluasi = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(11);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fatimah1 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fatimah2 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fatimah3 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(14);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fatimah4 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(11);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fatimah5 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(15);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.fb = function() {
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.finishBtn = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.foto = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(12);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hamzah1 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(17);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hamzah2 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(18);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hamzah3 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(19);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hamzah4 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(20);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.help = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(21);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hindun1 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(22);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hindun2 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(23);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hindun3 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(24);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hindun4 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(25);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hindun5 = function() {
 	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(26);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.home = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(27);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ibu1 = function() {
 	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ibu2 = function() {
 	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ibu3 = function() {
 	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ibu = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(13);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ig = function() {
-	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.info = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(28);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jalan = function() {
-	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -673,8 +709,8 @@ lib.ssMetadata = [
 
 
 (lib.kamarTidur = function() {
-	this.initialize(ss["index_atlas_16"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["index_atlas_17"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -687,239 +723,267 @@ lib.ssMetadata = [
 
 
 (lib.kikd = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(29);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.kosakata = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(14);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.kuis = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(30);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.lanjutBtn = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(31);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.latihanBtn = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(32);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.leaderboardtitle = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(15);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.leaderboard = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(33);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.mail = function() {
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.makan = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.mandi = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.masjid2 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(34);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.materi = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(35);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.materi_border = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(36);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(30);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.menyapu = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.namebc = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(37);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.narasi = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["index_atlas_23"]);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.narator1 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(38);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.narator2 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(39);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.narator3 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(40);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.narator4 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(41);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.narator5 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(42);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.narator6 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(43);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.next_btn = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(44);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.openingFamilyPage = function() {
 	this.initialize(ss["index_atlas_17"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.openingFamilyPage2 = function() {
-	this.initialize(ss["index_atlas_17"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.openingFamilyPage2 = function() {
+	this.initialize(ss["index_atlas_18"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.pause = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(45);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.perpustakaan2 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(46);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.peta = function() {
 	this.initialize(ss["index_atlas_18"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.petunjuk = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(47);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.play = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(48);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.prev_btn = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(49);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.profileborder = function() {
 	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.profile = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(50);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.questionborder = function() {
 	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.questionmark = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(51);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.resetBtn = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(52);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ruangTamu = function() {
-	this.initialize(ss["index_atlas_18"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["index_atlas_19"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ruangTamuFamily = function() {
 	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -932,78 +996,106 @@ lib.ssMetadata = [
 
 
 (lib.rumah = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(53);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.salmaHome = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["index_atlas_20"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.sekolah2 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(54);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soundbtn = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(55);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tbody = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(56);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.textbc = function() {
-	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.thead = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(57);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(52);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.tidur = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.title = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(58);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(54);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.toga = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tt = function() {
-	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.tv = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.volume_off = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(59);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.volume_on = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(60);
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(58);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.wakeup = function() {
+	this.initialize(ss["index_atlas_24"]);
+	this.gotoAndStop(59);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -1593,7 +1685,7 @@ if (reversed == null) { reversed = false; }
 		// =============================
 		// DEFAULT
 		// =============================
-		blocker.keyValue = 0; // index dari data (0-based)
+		blocker.keyValue = 1; // index dari data (0-based)
 		
 		blocker.cek.mouseEnabled = false;
 		blocker.cek.alpha = 0.5;
@@ -1612,9 +1704,9 @@ if (reversed == null) { reversed = false; }
 		// =============================
 		function validateForm() {
 		
-		    const nama  = inputNama.value.trim();
+		    const nama = inputNama.value.trim();
 		    const kelas = inputKelas.value.trim();
-		    const nip   = inputNip.value.trim();
+		    const nip = inputNip.value.trim();
 		
 		    if (nama && kelas && nip) {
 		        blocker.cek.mouseEnabled = true;
@@ -1637,9 +1729,9 @@ if (reversed == null) { reversed = false; }
 		
 		    root.playGlobalClick(e.currentTarget, async function () {
 		
-		        const nama  = inputNama.value.trim();
+		        const nama = inputNama.value.trim();
 		        const kelas = inputKelas.value.trim();
-		        const nip   = inputNip.value.trim();
+		        const nip = inputNip.value.trim();
 		
 		        // LOGIN
 		        await window.Leaderboard.login(nip, nama, kelas);
@@ -1657,16 +1749,16 @@ if (reversed == null) { reversed = false; }
 		
 		        var nomorLatihan = blocker.keyValue; // ubah ke 1-based
 		
-		        var targetLatihan = root.latihan_page
-		            .latihanMateri["latihan" + nomorLatihan];
+		        var targetQuiz = root.quiz_page
+		            .quizMateri;
 		
 		        console.log("Index data :", blocker.keyValue);
 		        console.log("Target buka :", "latihan" + nomorLatihan);
-		        console.log("Object :", targetLatihan);
+		        console.log("Object :", targetQuiz);
 		
-		        if (targetLatihan && targetLatihan.setBlock) {
+		        if (targetQuiz && targetQuiz.setBlock) {
 		
-		            targetLatihan.setBlock(false);
+		            targetQuiz.setBlock(false);
 		
 		        } else {
 		
@@ -2235,6 +2327,28 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcMasjidBtn, new cjs.Rectangle(-75,-75,150,150), null);
 
 
+(lib.mcMailIcon = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.mail();
+	this.instance.setTransform(-38,-38,0.15,0.15);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcMailIcon, new cjs.Rectangle(-38,-38,75,75), null);
+
+
 (lib.mcLeaderBtn = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2398,6 +2512,170 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcLatihanBtn1, new cjs.Rectangle(-279,-90,558,180), null);
 
 
+(lib.mcLatihanBlocker = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop();
+		
+		var root = this.stage.getChildAt(0);
+		var blocker = this;
+		
+		// =============================
+		// DEFAULT
+		// =============================
+		blocker.keyValue = 0; // index dari data (0-based)
+		
+		blocker.cek.mouseEnabled = false;
+		blocker.cek.alpha = 0.5;
+		
+		
+		// =============================
+		// TERIMA INDEX DARI LUAR
+		// =============================
+		blocker.keyValues = function (value) {
+		    blocker.keyValue = value;
+		};
+		
+		
+		// =============================
+		// VALIDASI FORM
+		// =============================
+		function validateForm() {
+		
+		    const nama  = inputNama.value.trim();
+		    const kelas = inputKelas.value.trim();
+		    const nip   = inputNip.value.trim();
+		
+		    if (nama && kelas && nip) {
+		        blocker.cek.mouseEnabled = true;
+		        blocker.cek.alpha = 1;
+		    } else {
+		        blocker.cek.mouseEnabled = false;
+		        blocker.cek.alpha = 0.5;
+		    }
+		}
+		
+		inputNama.addEventListener("input", validateForm);
+		inputKelas.addEventListener("input", validateForm);
+		inputNip.addEventListener("input", validateForm);
+		
+		
+		// =============================
+		// KLIK TOMBOL
+		// =============================
+		blocker.cek.on("mousedown", function (e) {
+		
+		    root.playGlobalClick(e.currentTarget, async function () {
+		
+		        const nama  = inputNama.value.trim();
+		        const kelas = inputKelas.value.trim();
+		        const nip   = inputNip.value.trim();
+		
+		        // LOGIN
+		        await window.Leaderboard.login(nip, nama, kelas);
+		
+		        // SIMPAN USER
+		        root.currentUser = {
+		            nama: nama,
+		            kelas: kelas,
+		            nip: nip
+		        };
+		
+		        // =============================
+		        // BUKA LATIHAN BERDASARKAN INDEX DATA
+		        // =============================
+		
+		        var nomorLatihan = blocker.keyValue; // ubah ke 1-based
+		
+		        var targetLatihan = root.latihan_page
+		            .latihanMateri["latihan" + nomorLatihan];
+		
+		        console.log("Index data :", blocker.keyValue);
+		        console.log("Target buka :", "latihan" + nomorLatihan);
+		        console.log("Object :", targetLatihan);
+		
+		        if (targetLatihan && targetLatihan.setBlock) {
+		
+		            targetLatihan.setBlock(false);
+		
+		        } else {
+		
+		            console.warn("Latihan tidak ditemukan atau setBlock tidak ada");
+		
+		        }
+		
+		    });
+		
+		});
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// cek
+	this.cek = new cjs.Text("CEK", "75px 'Traditional Arabic'");
+	this.cek.name = "cek";
+	this.cek.textAlign = "center";
+	this.cek.lineHeight = 114;
+	this.cek.lineWidth = 396;
+	this.cek.parent = this;
+	this.cek.setTransform(0,227.25);
+
+	this.timeline.addTween(cjs.Tween.get(this.cek).wait(1));
+
+	// input_user
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Eg6lAfnMAAAg7FIAAgZQAAjPCcgcIAwgEQAAAAABAAQABAAABAAMButAAAQABAAABAAQABAAAAAAIAwAEQCcAcAADPIAAAZMAAAA7F");
+	this.shape.setTransform(0,2.3);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("rgba(255,255,255,0.498)").s().p("Eg3WAnEQjPAAAAkYIAAqiMAAAg7FQAFjlCXgeIAwgFIACAAIABAAMButAAAIABAAIACAAIAwAFQCXAeAFDlMAAAA7FIAAKiQAAEYjPAAg");
+	this.shape_1.setTransform(0,50);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	// title
+	this.text = new cjs.Text("MASUKAN NAMA DAN KELAS", "75px 'Traditional Arabic'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 114;
+	this.text.lineWidth = 1276;
+	this.text.parent = this;
+	this.text.setTransform(0,-305.75);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// background
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Ehj/A4QMAAAhwfMDH/AAAMAAABwf");
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("rgba(0,0,0,0.498)").s().p("Ehj/A+gIAAsgMAAAhwfMDH/AAAMAAABwfIAAMgg");
+	this.shape_3.setTransform(0,40);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcLatihanBlocker, new cjs.Rectangle(-641,-361,1282,801), null);
+
+
 (lib.mcLanjutBtn = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2441,9 +2719,12 @@ if (reversed == null) { reversed = false; }
 	this.frame_89 = function() {
 		this.stop();
 	}
+	this.frame_152 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(72).call(this.frame_72).wait(17).call(this.frame_89).wait(71));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(72).call(this.frame_72).wait(17).call(this.frame_89).wait(63).call(this.frame_152).wait(8));
 
 	// laila
 	this.instance = new lib._0laila();
@@ -2723,6 +3004,28 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcKikd, new cjs.Rectangle(-110.5,-106.5,221.5,213), null);
 
 
+(lib.mcJLB = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.boardl3();
+	this.instance.setTransform(-325,-206);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcJLB, new cjs.Rectangle(-325,-206,650,412), null);
+
+
 (lib.mcInfoTxt = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2821,6 +3124,73 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.mcIgIcon, new cjs.Rectangle(-37.5,-37.5,75,75), null);
+
+
+(lib.mcIdentity = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// text
+	this.text = new cjs.Text(": Dusun Krajan, RT/RW \n   003//001, Kaliwining,\n   Rambipuji, Jember.", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text.lineHeight = 48;
+	this.text.lineWidth = 406;
+	this.text.parent = this;
+	this.text.setTransform(-84.25,42.65);
+
+	this.text_1 = new cjs.Text("Alamat", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_1.lineHeight = 48;
+	this.text_1.lineWidth = 166;
+	this.text_1.parent = this;
+	this.text_1.setTransform(-319.7,42.65);
+
+	this.text_2 = new cjs.Text(": Jember, 20 Maret 2000", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_2.lineHeight = 48;
+	this.text_2.lineWidth = 406;
+	this.text_2.parent = this;
+	this.text_2.setTransform(-86.3,-35.15);
+
+	this.text_3 = new cjs.Text("TTL", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_3.lineHeight = 48;
+	this.text_3.lineWidth = 166;
+	this.text_3.parent = this;
+	this.text_3.setTransform(-321.75,-35.15);
+
+	this.text_4 = new cjs.Text(": 243206020003", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_4.lineHeight = 48;
+	this.text_4.lineWidth = 406;
+	this.text_4.parent = this;
+	this.text_4.setTransform(-86.3,-108.85);
+
+	this.text_5 = new cjs.Text("Nim", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_5.lineHeight = 48;
+	this.text_5.lineWidth = 166;
+	this.text_5.parent = this;
+	this.text_5.setTransform(-321.75,-108.85);
+
+	this.text_6 = new cjs.Text(": Izzah Nur Aida", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_6.lineHeight = 48;
+	this.text_6.lineWidth = 406;
+	this.text_6.parent = this;
+	this.text_6.setTransform(-86.3,-184.6);
+
+	this.text_7 = new cjs.Text("Nama", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_7.lineHeight = 48;
+	this.text_7.lineWidth = 166;
+	this.text_7.parent = this;
+	this.text_7.setTransform(-321.75,-184.6);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_7},{t:this.text_6},{t:this.text_5},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcIdentity, new cjs.Rectangle(-323.7,-186.6,647.5,373.29999999999995), null);
 
 
 (lib.mcIbuFamily = function(mode,startPosition,loop,reversed) {
@@ -3119,6 +3489,28 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcFinish, new cjs.Rectangle(-96.5,-96.5,193,193), null);
 
 
+(lib.mcFbIcon = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.fb();
+	this.instance.setTransform(-38,-38,0.15,0.15);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcFbIcon, new cjs.Rectangle(-38,-38,75,75), null);
+
+
 (lib.mcFatimah = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -3359,6 +3751,61 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.mcEvaluasi, new cjs.Rectangle(-110.5,-106.5,221.5,216.3), null);
+
+
+(lib.mcEducationHistory = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// text
+	this.text = new cjs.Text("Universitas Islam Negeri Kiai Haji Achmad Siddiq Jember (2024-2026)", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text.lineHeight = 48;
+	this.text.lineWidth = 646;
+	this.text.parent = this;
+	this.text.setTransform(-323,128.2);
+
+	this.text_1 = new cjs.Text("Universitas Ibrahimy Salafiyah Syafi’iyah Sukorejo Situbondo (2019-2023)", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_1.lineHeight = 46;
+	this.text_1.lineWidth = 646;
+	this.text_1.parent = this;
+	this.text_1.setTransform(-323,17.15);
+
+	this.text_2 = new cjs.Text("SMA Plus Bustanul Ulum Mlokorejo (2016-2019)", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_2.lineHeight = 48;
+	this.text_2.lineWidth = 646;
+	this.text_2.parent = this;
+	this.text_2.setTransform(-323,-42.85);
+
+	this.text_3 = new cjs.Text("SMP Plus Bustanul Ulum Mlokorejo (2013-2016)", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_3.lineHeight = 48;
+	this.text_3.lineWidth = 646;
+	this.text_3.parent = this;
+	this.text_3.setTransform(-323,-102.85);
+
+	this.text_4 = new cjs.Text("SDN Rambipuji 02 (2007-2013)", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_4.lineHeight = 48;
+	this.text_4.lineWidth = 496;
+	this.text_4.parent = this;
+	this.text_4.setTransform(-323,-162.85);
+
+	this.text_5 = new cjs.Text("Riwayat Pendidikan:", "bold 30px 'Traditional Arabic'", "#527C59");
+	this.text_5.lineHeight = 48;
+	this.text_5.lineWidth = 286;
+	this.text_5.parent = this;
+	this.text_5.setTransform(-323,-222.2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text_5},{t:this.text_4},{t:this.text_3},{t:this.text_2},{t:this.text_1},{t:this.text}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcEducationHistory, new cjs.Rectangle(-325,-224.2,650,448.4), null);
 
 
 (lib.mcDialog = function(mode,startPosition,loop,reversed) {
@@ -3712,7 +4159,7 @@ if (reversed == null) { reversed = false; }
 	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Ehj/g4PMDH/AAAMAAABwfMjH/AAAg");
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#000000").s().p("Ehj/A4QMAAAhwfMDH/AAAMAAABwfg");
+	this.shape_1.graphics.f("rgba(0,0,0,0.6)").s().p("Ehj/A4QMAAAhwfMDH/AAAMAAABwfg");
 
 	this.instance = new lib.openingFamilyPage();
 	this.instance.setTransform(-640,-360);
@@ -4069,6 +4516,204 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-258,-48,516,110);
 
 
+(lib.mcAnswer68 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.tidur();
+	this.instance.setTransform(-50,-42);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcAnswer68, new cjs.Rectangle(-50,-42,100,84), null);
+
+
+(lib.mcAnswer9 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.toga();
+	this.instance.setTransform(-50,-36.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcAnswer9, new cjs.Rectangle(-50,-36.5,100,73), null);
+
+
+(lib.mcAnswer7 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.baju();
+	this.instance.setTransform(-50,-49.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcAnswer7, new cjs.Rectangle(-50,-49.5,100,99), null);
+
+
+(lib.mcAnswer6 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.menyapu();
+	this.instance.setTransform(-50,-50);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcAnswer6, new cjs.Rectangle(-50,-50,100,100), null);
+
+
+(lib.mcAnswer5 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.makan();
+	this.instance.setTransform(-50,-55);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcAnswer5, new cjs.Rectangle(-50,-55,100,110), null);
+
+
+(lib.mcAnswer4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.belajar();
+	this.instance.setTransform(-50,-46.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcAnswer4, new cjs.Rectangle(-50,-46.5,100,93), null);
+
+
+(lib.mcAnswer3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.mandi();
+	this.instance.setTransform(-50,-47.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcAnswer3, new cjs.Rectangle(-50,-47.5,100,95), null);
+
+
+(lib.mcAnswer2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.tv();
+	this.instance.setTransform(-50,-47);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcAnswer2, new cjs.Rectangle(-50,-47,100,94), null);
+
+
+(lib.mcAnswer1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.wakeup();
+	this.instance.setTransform(-50,-57.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcAnswer1, new cjs.Rectangle(-50,-57.5,100,115), null);
+
+
 (lib.mcAhmadFamily = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -4090,9 +4735,12 @@ if (reversed == null) { reversed = false; }
 	this.frame_89 = function() {
 		this.stop();
 	}
+	this.frame_152 = function() {
+		this.stop();
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(78).call(this.frame_78).wait(11).call(this.frame_89).wait(71));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(78).call(this.frame_78).wait(11).call(this.frame_89).wait(63).call(this.frame_152).wait(8));
 
 	// ahmad
 	this.instance = new lib._0ahmad();
@@ -5333,19 +5981,19 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.layer_block).wait(1));
 
 	// text
-	this.terjemah = new cjs.Text("", "25px 'Traditional Arabic'");
+	this.terjemah = new cjs.Text("", "35px 'Traditional Arabic'");
 	this.terjemah.name = "terjemah";
 	this.terjemah.textAlign = "center";
-	this.terjemah.lineHeight = 39;
-	this.terjemah.lineWidth = 996;
+	this.terjemah.lineHeight = 54;
+	this.terjemah.lineWidth = 1246;
 	this.terjemah.parent = this;
-	this.terjemah.setTransform(0,302);
+	this.terjemah.setTransform(0,222);
 
 	this.subtitle = new cjs.Text("", "bold 40px 'Traditional Arabic'");
 	this.subtitle.name = "subtitle";
 	this.subtitle.textAlign = "center";
 	this.subtitle.lineHeight = 63;
-	this.subtitle.lineWidth = 996;
+	this.subtitle.lineWidth = 1246;
 	this.subtitle.parent = this;
 	this.subtitle.setTransform(0,173);
 
@@ -5381,7 +6029,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcTeksPage, new cjs.Rectangle(-730,-417,1460,873.1), null);
 
 
-(lib.mcProfilePage = function(mode,startPosition,loop,reversed) {
+(lib.mcProfilBoard = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -5392,108 +6040,22 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.isSingleFrame = false;
-	// timeline functions:
-	this.frame_0 = function() {
-		if(this.isSingleFrame) {
-			return;
-		}
-		if(this.totalFrames == 1) {
-			this.isSingleFrame = true;
-		}
-		var root = this.stage.getChildAt(0);
-		var self = this;
-		
-		self.igBtn.cursor = "pointer";
-		self.ttBtn.cursor = "pointer";
-		
-		self.igBtn.addEventListener("click", function (e) {
-		    root.playGlobalClick(e.currentTarget, function () {
-		        window.open("https://www.instagram.com/nuralam.syah/", "_blank");
-		    });
-		});
-		
-		self.ttBtn.addEventListener("click", function (e) {
-		    root.playGlobalClick(e.currentTarget, function () {
-		        window.open("https://www.tiktok.com/@mr.alamss", "_blank");
-		    });
-		});
-	}
+	// mcEducationHistory
+	this.educationHistory = new lib.mcEducationHistory();
+	this.educationHistory.name = "educationHistory";
+	this.educationHistory.setTransform(1,29.4);
 
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.educationHistory).wait(1));
 
-	// sosmed_icon
-	this.ttBtn = new lib.mcTtIcon();
-	this.ttBtn.name = "ttBtn";
-	this.ttBtn.setTransform(415.75,127.5);
+	// mcIdentity
+	this.personalIdentity = new lib.mcIdentity();
+	this.personalIdentity.name = "personalIdentity";
 
-	this.igBtn = new lib.mcIgIcon();
-	this.igBtn.name = "igBtn";
-	this.igBtn.setTransform(319.75,127.5);
-
-	this.text = new cjs.Text("Support Me :", "bold 45px 'Traditional Arabic'", "#527C59");
-	this.text.lineHeight = 71;
-	this.text.lineWidth = 296;
-	this.text.parent = this;
-	this.text.setTransform(-52.8,92);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.igBtn},{t:this.ttBtn}]}).wait(1));
-
-	// text
-	this.text_1 = new cjs.Text("Nama", "bold 45px 'Traditional Arabic'", "#527C59");
-	this.text_1.lineHeight = 71;
-	this.text_1.lineWidth = 166;
-	this.text_1.parent = this;
-	this.text_1.setTransform(-115,-285);
-
-	this.timeline.addTween(cjs.Tween.get(this.text_1).wait(1));
-
-	// foto
-	this.instance = new lib.foto();
-	this.instance.setTransform(-509,-307);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	// background
-	this.text_2 = new cjs.Text("Kamu", "bold 45px 'Traditional Arabic'", "#527C59");
-	this.text_2.lineHeight = 71;
-	this.text_2.lineWidth = 166;
-	this.text_2.parent = this;
-	this.text_2.setTransform(-115,-51);
-
-	this.text_3 = new cjs.Text(": Yang menentukan", "bold 45px 'Traditional Arabic'", "#527C59");
-	this.text_3.lineHeight = 71;
-	this.text_3.lineWidth = 421;
-	this.text_3.parent = this;
-	this.text_3.setTransform(87.5,-51);
-
-	this.text_4 = new cjs.Text("Mau", "bold 45px 'Traditional Arabic'", "#527C59");
-	this.text_4.lineHeight = 71;
-	this.text_4.lineWidth = 166;
-	this.text_4.parent = this;
-	this.text_4.setTransform(-115,-168);
-
-	this.text_5 = new cjs.Text(": Di isi Apa", "bold 45px 'Traditional Arabic'", "#527C59");
-	this.text_5.lineHeight = 71;
-	this.text_5.lineWidth = 421;
-	this.text_5.parent = this;
-	this.text_5.setTransform(87.5,-168);
-
-	this.text_6 = new cjs.Text(": Siapa Nama Mu", "bold 45px 'Traditional Arabic'", "#527C59");
-	this.text_6.lineHeight = 71;
-	this.text_6.lineWidth = 421;
-	this.text_6.parent = this;
-	this.text_6.setTransform(87.5,-285);
-
-	this.instance_1 = new lib.profileborder();
-	this.instance_1.setTransform(-555,-346);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.text_6},{t:this.text_5},{t:this.text_4},{t:this.text_3},{t:this.text_2}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.personalIdentity).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.mcProfilePage, new cjs.Rectangle(-555,-346,1110,692), null);
+}).prototype = getMCSymbolPrototype(lib.mcProfilBoard, new cjs.Rectangle(-324,-194.8,650,448.4), null);
 
 
 (lib.mcPetunjuk = function(mode,startPosition,loop,reversed) {
@@ -6018,6 +6580,445 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcLatihanMainPage, new cjs.Rectangle(-640,-328.1,1280,654.9000000000001), null);
 
 
+(lib.mcLatihan3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop();
+		
+		var root = this.stage.getChildAt(0);
+		var self = this;
+		
+		/* ================= KONFIGURASI ================= */
+		
+		self.maxSlot = 6;
+		self.jawabanMasuk = [];
+		
+		self.dataJawaban = {
+			answerBtn1: "bangun",
+			answerBtn2: "menonton",
+			answerBtn3: "mandi",
+			answerBtn4: "membaca",
+			answerBtn5: "sarapan",
+			answerBtn6: "menyapu",
+			answerBtn7: "berpakaian",
+			answerBtn8: "tidur",
+			answerBtn9: "sekolah"
+		};
+		
+		/* ================= AUTO SLOT GRID ================= */
+		
+		function buatSlotDariBoard() {
+		
+			let b = self.ansBoard.getTransformedBounds();
+		
+			self.slotPosisi = [];
+		
+			let kolom = 3;
+			let baris = 2;
+		
+			let jarakX = b.width / kolom;
+			let jarakY = b.height / baris;
+		
+			for (let r = 0; r < baris; r++) {
+				for (let c = 0; c < kolom; c++) {
+		
+					self.slotPosisi.push({
+						x: b.x + jarakX * (c + 0.5),
+						y: b.y + jarakY * (r + 0.5)
+					});
+		
+				}
+			}
+		}
+		
+		/* ================= SETUP DRAG ================= */
+		
+		for (let i = 1; i <= 9; i++) {
+		
+			let btn = self["answerBtn" + i];
+			if (!btn) continue;
+		
+			btn.startX = btn.x;
+			btn.startY = btn.y;
+			btn.startScaleX = btn.scaleX;
+			btn.startScaleY = btn.scaleY;
+		
+			btn.jawaban = self.dataJawaban[btn.name];
+		
+			btn.cursor = "pointer";
+		
+			btn.on("mousedown", function (evt) {
+		
+				this.offset = {
+					x: this.x - evt.stageX,
+					y: this.y - evt.stageY
+				};
+		
+				this.parent.addChild(this);
+			});
+		
+			btn.on("pressmove", function (evt) {
+		
+				this.x = evt.stageX + this.offset.x;
+				this.y = evt.stageY + this.offset.y;
+			});
+		
+			btn.on("pressup", function () {
+		
+				if (isInsideAnsBoard(this)) {
+		
+					if (!self.jawabanMasuk.includes(this)) {
+		
+						if (self.jawabanMasuk.length < self.maxSlot) {
+							self.jawabanMasuk.push(this);
+						} else {
+							kembaliKeAwal(this);
+						}
+					}
+		
+				} else {
+		
+					keluarkanDariBoard(this);
+					kembaliKeAwal(this);
+				}
+		
+				susunUlangJawaban();
+			});
+		}
+		
+		/* ================= FUNGSI ================= */
+		
+		function isInsideAnsBoard(target) {
+		
+			let a = target.getTransformedBounds();
+			let b = self.ansBoard.getTransformedBounds();
+		
+			if (!a || !b) return false;
+		
+			return a.intersects(b);
+		}
+		
+		function susunUlangJawaban() {
+		
+			for (let i = 0; i < self.jawabanMasuk.length; i++) {
+		
+				let item = self.jawabanMasuk[i];
+				let slot = self.slotPosisi[i];
+		
+				createjs.Tween.get(item).to({
+					x: slot.x,
+					y: slot.y,
+					scaleX: 0.8,
+					scaleY: 0.8
+				}, 200);
+			}
+		}
+		
+		function keluarkanDariBoard(btn) {
+		
+			let index = self.jawabanMasuk.indexOf(btn);
+		
+			if (index > -1) self.jawabanMasuk.splice(index, 1);
+		}
+		
+		function kembaliKeAwal(btn) {
+		
+			createjs.Tween.get(btn).to({
+				x: btn.startX,
+				y: btn.startY,
+				scaleX: btn.startScaleX,
+				scaleY: btn.startScaleY
+			}, 200);
+		}
+		
+		function resetJawaban() {
+		
+			self.jawabanMasuk = [];
+		
+			for (let i = 1; i <= 9; i++) {
+		
+				let btn = self["answerBtn" + i];
+				if (!btn) continue;
+		
+				kembaliKeAwal(btn);
+			}
+		}
+		
+		/* ================= CEK JAWABAN ================= */
+		
+		function cekJawaban() {
+		
+			let soal = self.dataLatihan[self.indexSoal];
+		
+			let jawabanUser = self.jawabanMasuk.map(btn => btn.jawaban);
+			let kunci = soal.correct;
+		
+			let benar =
+				jawabanUser.length === kunci.length &&
+				jawabanUser.every(j => kunci.includes(j));
+		
+			self.hasilJawaban.push({ benar: benar });
+		
+			console.log("User:", jawabanUser);
+			console.log("Kunci:", kunci);
+			console.log("Benar:", benar);
+		}
+		
+		/* ================= INIT ================= */
+		
+		buatSlotDariBoard();
+		this.getLatihanById = function (latihanId) {
+			if (!root.data) return null;
+			return root.data.latihan[latihanId] || null;
+		};
+		
+		/* ================= MULAI LATIHAN ================= */
+		
+		this.mulaiLatihan = function (id) {
+		
+			self.layer_block.keyValues(id);
+		
+			self.dataLatihan = self.getLatihanById(id);
+			self.indexSoal = 0;
+			self.hasilJawaban = [];
+		
+			root.latihan_page.latihanMateri.hideCloseButton();
+		
+			self.tampilSoal();
+		};
+		
+		/* ================= TAMPIL SOAL ================= */
+		
+		this.tampilSoal = function () {
+		
+			resetJawaban();
+		
+			if (self.indexSoal >= self.dataLatihan.length) {
+		
+				var jumlahBenar = self.hasilJawaban.filter(x => x.benar).length;
+				var totalSoal = self.dataLatihan.length;
+		
+				self.nilai = Math.round((jumlahBenar / totalSoal) * 100);
+		
+				console.log("Nilai akhir:", self.nilai);
+		
+				simpanNilai(3, self.nilai);
+		
+				if (self.hasil) self.hasil.text = "Nilai: " + self.nilai;
+		
+				root.nilaiLatihan = self.nilai;
+		
+				root.latihan_page.latihanMateri.showCloseButton();
+		
+				return;
+			}
+		
+		
+			var soal = self.dataLatihan[self.indexSoal];
+		
+			self.currentAudioId = soal.audio;
+		
+			console.log("audio:", soal.audio);
+			console.log("jawaban:", soal.correct);
+		};
+		
+		/* ================= TOMBOL NEXT ================= */
+		
+		self.nextBtn.on("click", function () {
+		
+			cekJawaban();
+		
+			self.indexSoal++;
+			self.tampilSoal();
+		});
+		
+		async function simpanNilai(id, nilai) {
+		
+			try {
+		
+				var nip = root.currentUser && root.currentUser.nip;
+		
+				if (!nip) return;
+		
+				await window.Leaderboard.updateNilai(nip, {
+					["latihan" + id]: nilai
+				});
+		
+				console.log("Nilai tersimpan");
+		
+			} catch (err) {
+		
+				console.log("Gagal simpan nilai", err);
+		
+			}
+		}
+		this.setBlock = function (state) {
+		
+			// tampil / sembunyikan layer block
+			self.layer_block.visible = state;
+			self.layer_block.mouseEnabled = state;
+			self.layer_block.mouseChildren = state;
+		
+			// DOM cukup sekali
+			if (typeof domFormSiswa !== "undefined") {
+				domFormSiswa.style.display = state ? "block" : "none";
+			}
+		
+			// enable / disable layer lain
+			for (var i = 0; i < self.numChildren; i++) {
+		
+				var child = self.getChildAt(i);
+		
+				if (child === self.layer_block) continue;
+		
+				child.mouseEnabled = !state;
+				child.mouseChildren = !state;
+			}
+		};
+		this.playBtn.on("mousedown", function (e) {
+		
+		    root.playGlobalClick(e.currentTarget, function () {
+		        
+		    });
+		
+		});
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// layer_blocker
+	this.layer_block = new lib.mcLatihanBlocker();
+	this.layer_block.name = "layer_block";
+	this.layer_block.setTransform(0,-20.05);
+
+	this.timeline.addTween(cjs.Tween.get(this.layer_block).wait(1));
+
+	// hasil
+	this.text = new cjs.Text("Yeey jawaban kamu benar. /\nOoopps, Jawaban Salah!", "bold 30px 'Arial'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 36;
+	this.text.lineWidth = 466;
+	this.text.parent = this;
+	this.text.setTransform(395,40.4);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// play_btn
+	this.playBtn = new lib.mcPlay();
+	this.playBtn.name = "playBtn";
+	this.playBtn.setTransform(399.5,-49.4,1,1,0,0,0,-0.5,-0.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.playBtn).wait(1));
+
+	// perintah
+	this.text_1 = new cjs.Text("\"Dengarkan baik-baik, lalu klik tempat yang dimaksud\".", "italic 35px 'Arial'", "#FFFFFF");
+	this.text_1.textAlign = "center";
+	this.text_1.lineHeight = 41;
+	this.text_1.lineWidth = 466;
+	this.text_1.parent = this;
+	this.text_1.setTransform(395,-223.55);
+
+	this.timeline.addTween(cjs.Tween.get(this.text_1).wait(1));
+
+	// title
+	this.text_2 = new cjs.Text("Masukan Jawaban di Sini", "55px 'Traditional Arabic'", "#FFFFFF");
+	this.text_2.textAlign = "center";
+	this.text_2.lineHeight = 84;
+	this.text_2.lineWidth = 565;
+	this.text_2.parent = this;
+	this.text_2.setTransform(-245.75,-318);
+
+	this.instance = new lib.title();
+	this.instance.setTransform(160,-338);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text_2}]}).wait(1));
+
+	// jawaban_btn
+	this.answerBtn9 = new lib.mcAnswer9();
+	this.answerBtn9.name = "answerBtn9";
+	this.answerBtn9.setTransform(540,256.5);
+
+	this.answerBtn8 = new lib.mcAnswer68();
+	this.answerBtn8.name = "answerBtn8";
+	this.answerBtn8.setTransform(405,256);
+
+	this.answerBtn7 = new lib.mcAnswer7();
+	this.answerBtn7.name = "answerBtn7";
+	this.answerBtn7.setTransform(270,256.5);
+
+	this.answerBtn6 = new lib.mcAnswer6();
+	this.answerBtn6.name = "answerBtn6";
+	this.answerBtn6.setTransform(135,255);
+
+	this.answerBtn5 = new lib.mcAnswer5();
+	this.answerBtn5.name = "answerBtn5";
+	this.answerBtn5.setTransform(0,251);
+
+	this.answerBtn4 = new lib.mcAnswer4();
+	this.answerBtn4.name = "answerBtn4";
+	this.answerBtn4.setTransform(-135,260.5);
+
+	this.answerBtn3 = new lib.mcAnswer3();
+	this.answerBtn3.name = "answerBtn3";
+	this.answerBtn3.setTransform(-270,256.5);
+
+	this.answerBtn2 = new lib.mcAnswer2();
+	this.answerBtn2.name = "answerBtn2";
+	this.answerBtn2.setTransform(-405,257);
+
+	this.answerBtn1 = new lib.mcAnswer1();
+	this.answerBtn1.name = "answerBtn1";
+	this.answerBtn1.setTransform(-540,253.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.answerBtn1},{t:this.answerBtn2},{t:this.answerBtn3},{t:this.answerBtn4},{t:this.answerBtn5},{t:this.answerBtn6},{t:this.answerBtn7},{t:this.answerBtn8},{t:this.answerBtn9}]}).wait(1));
+
+	// next_btn
+	this.nextBtn = new cjs.Text("NEXT", "75px 'Traditional Arabic'", "#00FF00");
+	this.nextBtn.name = "nextBtn";
+	this.nextBtn.textAlign = "center";
+	this.nextBtn.lineHeight = 114;
+	this.nextBtn.lineWidth = 246;
+	this.nextBtn.parent = this;
+	this.nextBtn.setTransform(-52.45,74.3);
+
+	this.timeline.addTween(cjs.Tween.get(this.nextBtn).wait(1));
+
+	// jawaban_board
+	this.ansBoard = new lib.mcJLB();
+	this.ansBoard.name = "ansBoard";
+	this.ansBoard.setTransform(-246,-38);
+
+	this.timeline.addTween(cjs.Tween.get(this.ansBoard).wait(1));
+
+	// bc
+	this.instance_1 = new lib.bl3();
+	this.instance_1.setTransform(-640,-360);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcLatihan3, new cjs.Rectangle(-640.5,-380.5,1281,800.5), null);
+
+
 (lib.mcLatihan2 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -6266,7 +7267,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// layer_blocker
-	this.layer_block = new lib.mcQuizBlocker();
+	this.layer_block = new lib.mcLatihanBlocker();
 	this.layer_block.name = "layer_block";
 	this.layer_block.setTransform(0,-20.05);
 
@@ -6554,7 +7555,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// layer_blocker
-	this.layer_block = new lib.mcQuizBlocker();
+	this.layer_block = new lib.mcLatihanBlocker();
 	this.layer_block.name = "layer_block";
 	this.layer_block.setTransform(0,-20.05);
 
@@ -7099,7 +8100,7 @@ if (reversed == null) { reversed = false; }
 		        && root.materi_page.materi_material.hiwar_page
 		        && root.materi_page.materi_material.hiwar_page.hiwar_2;
 		
-			var name1 = new createjs.Text(user1.name, "60px Traditional Arabic", "#527C59");
+			var name1 = new createjs.Text(user1.name, "55px Traditional Arabic", "#527C59");
 			name1.x = -515;
 			name1.y = 150;
 		
@@ -7107,7 +8108,7 @@ if (reversed == null) { reversed = false; }
 			hiwar.addChild(name1);
 		
 		
-			var name2 = new createjs.Text(user2.name, "60px Traditional Arabic", "#527C59");
+			var name2 = new createjs.Text(user2.name, "55px Traditional Arabic", "#527C59");
 			name2.x = 440;
 			name2.y = 150;
 		
@@ -7128,14 +8129,24 @@ if (reversed == null) { reversed = false; }
 		
 		    // text percakapan (buat sekali saja)
 		    if (!hiwar.txtDialog) {
-		        var txt = new createjs.Text("", "65px Traditional Arabic", "#527C59");
-		        txt.lineWidth = 900;
+		        var txt = new createjs.Text("", "40px Traditional Arabic", "#527C59");
+		        txt.lineWidth = 1250;
 		        txt.textAlign = "center";
 		        txt.x = 0;
-		        txt.y = 250;
+		        txt.y = 200;
 		        hiwar.txtDialog = txt;
 		        hiwar.addChild(txt);
 		    }
+		
+			if (!hiwar.txtTerjemah) {
+				var txtT = new createjs.Text("", "28px Poppins", "#333");
+				txtT.lineWidth = 1250;
+				txtT.textAlign = "center";
+				txtT.x = 0;
+				txtT.y = 260;
+				hiwar.txtTerjemah = txtT;
+				hiwar.addChild(txtT);
+			}
 		
 		    var index = 0;
 		    var max = Math.max(user1.script.length, user2.script.length);
@@ -7151,6 +8162,7 @@ if (reversed == null) { reversed = false; }
 		        if (user1.script[index]) {
 		            var a = user1.script[index];
 		            hiwar.txtDialog.text = a.text;
+					hiwar.txtTerjemah.text = a.terjemah || "";
 		
 		            setTalk(self.fatimah, true);
 		            setTalk(self.hindun, false);
@@ -7163,7 +8175,8 @@ if (reversed == null) { reversed = false; }
 		                if (user2.script[index]) {
 		                    var h = user2.script[index];
 		                    hiwar.txtDialog.text = h.text;
-		
+							hiwar.txtTerjemah.text = h.terjemah || "";
+							
 		                    setTalk(self.hindun, true);
 		
 		                    var snd2 = createjs.Sound.play(h.audio);
@@ -7207,7 +8220,8 @@ if (reversed == null) { reversed = false; }
 			root.backsound.volume = 0;
 			
 		    self.startBtn.visible = false;
-			self.info.visible = false;
+			self.info.alpha = 1;
+			self.info.visible = true;
 		    self.setBlock(false);
 		
 		    var materi = getMateriById(self.materiId, self.idx);
@@ -7235,7 +8249,15 @@ if (reversed == null) { reversed = false; }
 		        .wait(300)
 		        .to({ alpha: 1 }, 400);
 			
-			playHiwar(materi);
+			// playHiwar(materi);
+			
+			var title = createjs.Sound.play("title-2");
+			
+			title.on("complete", function () {
+				self.info.alpha = 0;
+				self.info.visible = false;
+				playHiwar(materi);
+			});
 		});
 		
 		function hideCloseButton() {
@@ -7276,7 +8298,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// start_btn
-	this.info = new cjs.Text("موضوع: طَلَبُ العُنْوَانِ \nMenanyakan Alamat", "bold 40px 'Traditional Arabic'", "#FFFFFF");
+	this.info = new cjs.Text("موضوع: طَلَبُ العُنْوَانِ \nMenanyakan Alamat", "bold 40px 'Traditional Arabic'");
 	this.info.name = "info";
 	this.info.textAlign = "center";
 	this.info.lineHeight = 63;
@@ -7402,7 +8424,7 @@ if (reversed == null) { reversed = false; }
 		        && root.materi_page.materi_material.hiwar_page
 		        && root.materi_page.materi_material.hiwar_page.hiwar_1;
 		
-			var name1 = new createjs.Text(user1.name, "60px Traditional Arabic", "#527C59");
+			var name1 = new createjs.Text(user1.name, "55px Traditional Arabic", "#527C59");
 			name1.x = -515;
 			name1.y = 155;
 		
@@ -7410,7 +8432,7 @@ if (reversed == null) { reversed = false; }
 			hiwar.addChild(name1);
 		
 		
-			var name2 = new createjs.Text(user2.name, "60px Traditional Arabic", "#527C59");
+			var name2 = new createjs.Text(user2.name, "55px Traditional Arabic", "#527C59");
 			name2.x = 440;
 			name2.y = 145;
 		
@@ -7431,14 +8453,24 @@ if (reversed == null) { reversed = false; }
 		
 		    // text percakapan (buat sekali saja)
 		    if (!hiwar.txtDialog) {
-		        var txt = new createjs.Text("", "65px Traditional Arabic", "#527C59");
-		        txt.lineWidth = 900;
+		        var txt = new createjs.Text("", "40px Traditional Arabic", "#527C59");
+		        txt.lineWidth = 1250;
 		        txt.textAlign = "center";
 		        txt.x = 0;
-		        txt.y = 250;
+		        txt.y = 200;
 		        hiwar.txtDialog = txt;
 		        hiwar.addChild(txt);
 		    }
+		
+			if (!hiwar.txtTerjemah) {
+				var txtT = new createjs.Text("", "28px Poppins", "#333");
+				txtT.lineWidth = 1250;
+				txtT.textAlign = "center";
+				txtT.x = 0;
+				txtT.y = 260;
+				hiwar.txtTerjemah = txtT;
+				hiwar.addChild(txtT);
+			}
 		
 		    var index = 0;
 		    var max = Math.max(user1.script.length, user2.script.length);
@@ -7454,6 +8486,7 @@ if (reversed == null) { reversed = false; }
 		        if (user1.script[index]) {
 		            var a = user1.script[index];
 		            hiwar.txtDialog.text = a.text;
+					hiwar.txtTerjemah.text = a.terjemah || "";
 		
 		            setTalk(self.ahmad, true);
 		            setTalk(self.hamzah, false);
@@ -7466,6 +8499,7 @@ if (reversed == null) { reversed = false; }
 		                if (user2.script[index]) {
 		                    var h = user2.script[index];
 		                    hiwar.txtDialog.text = h.text;
+							hiwar.txtTerjemah.text = h.terjemah || "";
 		
 		                    setTalk(self.hamzah, true);
 		
@@ -7592,7 +8626,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// start_btn
-	this.info = new cjs.Text("حِوَارُ الاَوَّلُ : المَسْكَنُ\nTempat Tinggal", "bold 40px 'Traditional Arabic'", "#FFFFFF");
+	this.info = new cjs.Text("حِوَارُ الاَوَّلُ : المَسْكَنُ\nTempat Tinggal", "bold 40px 'Traditional Arabic'");
 	this.info.name = "info";
 	this.info.textAlign = "center";
 	this.info.lineHeight = 63;
@@ -7748,7 +8782,7 @@ if (reversed == null) { reversed = false; }
 				self.textBox = new createjs.Text("", "55px Traditional Arabic", "#000");
 				self.textBox.x = 640;
 				self.textBox.y = 570;
-				self.textBox.lineWidth = 1000;
+				self.textBox.lineWidth = 1200;
 				self.textBox.textAlign = "center";
 				self.textBox.alpha = 0;
 				stage.addChild(self.textBox);
@@ -7757,10 +8791,10 @@ if (reversed == null) { reversed = false; }
 		
 			// Buat textBox Terjemah sekali
 			if (!self.textTerjemah) {
-				self.textTerjemah = new createjs.Text("testing", "35px Arial", "#333");
+				self.textTerjemah = new createjs.Text("", "40px Traditional Arabic", "#333");
 				self.textTerjemah.x = 640;
-				self.textTerjemah.y = 630; // 360 + 300
-				self.textTerjemah.lineWidth = 1000;
+				self.textTerjemah.y = 630;
+				self.textTerjemah.lineWidth = 1200;
 				self.textTerjemah.textAlign = "center";
 				self.textTerjemah.alpha = 0;
 				stage.addChild(self.textTerjemah);
@@ -7886,17 +8920,26 @@ if (reversed == null) { reversed = false; }
 		}
 		this.isStarted = false; // awalnya belum mulai
 		
+		self.info.alpha = 0;
+		self.info.visible = false;
+		
 		self.startBtn.addEventListener("click", () => {
 			root.backsound.volume = 0;
-			hideCloseButton();	
-			
+			hideCloseButton();
+		
 			if (!self.isStarted) {
 				self.isStarted = true;
 				self.startBtn.visible = false;
-				self.info.visible = false;
-				self.setBlock(false);
-				
-				self.startStory();
+				self.info.alpha = 1;
+				self.info.visible = true;
+				self.setBlock(false);	
+				var title = createjs.Sound.play("title-6-3");
+				title.on("complete", function () {
+					self.info.alpha = 0;
+					self.info.visible = false;
+					self.startStory();
+				});
+		
 			}
 		});
 		this.setBlock = function (state) {
@@ -7934,10 +8977,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.familyToast).wait(1));
 
 	// start_btn
-	this.info = new cjs.Text("", "40px 'Times New Roman'", "#FFFFFF");
+	this.info = new cjs.Text("نَصٌّ قِصَصِيٌّ قَصِيرٌ عَنْ يَوْمِيَّاتِ الأُسْرَةِ", "40px 'Traditional Arabic'", "#FFFFFF");
 	this.info.name = "info";
 	this.info.textAlign = "center";
-	this.info.lineHeight = 46;
+	this.info.lineHeight = 62;
 	this.info.lineWidth = 546;
 	this.info.parent = this;
 	this.info.setTransform(0,86);
@@ -8053,11 +9096,11 @@ if (reversed == null) { reversed = false; }
 		    self.pages = pages;
 		
 		    // ===== NAMA =====
-		    var name1 = new createjs.Text(materi.ummu.name,  "60px Traditional Arabic", "#000");
+		    var name1 = new createjs.Text(materi.ummu.name,  "55px Traditional Arabic", "#000");
 			name1.name = "name1";
-			var name2 = new createjs.Text(materi.ahmad.name, "60px Traditional Arabic", "#000");
+			var name2 = new createjs.Text(materi.ahmad.name, "55px Traditional Arabic", "#000");
 			name2.name = "name2";
-			var name3 = new createjs.Text(materi.laila.name, "60px Traditional Arabic", "#000");
+			var name3 = new createjs.Text(materi.laila.name, "55px Traditional Arabic", "#000");
 			name3.name = "name3";
 		
 			// Hapus nama lama
@@ -8072,7 +9115,7 @@ if (reversed == null) { reversed = false; }
 				name3.set({ x: -402, y: 160, alpha: 0 });
 			} else if (idx === 2) {
 				name1.set({ x: -500,  y: 160, alpha: 0 });
-				name2.set({ x: 260, y: 160, alpha: 0 });
+				name2.set({ x: 270, y: 160, alpha: 0 });
 				name3.set({ x: 495, y: 160, alpha: 0 });
 			}
 			
@@ -8115,6 +9158,7 @@ if (reversed == null) { reversed = false; }
 		            character: charKey,
 		            audio: line.audio,
 		            text: line.text,
+					terjemah: line.terjemah || "",
 					codeIdx: idx
 		        });
 		    });
@@ -8128,15 +9172,24 @@ if (reversed == null) { reversed = false; }
 		function playDialogLine(line, onComplete) {
 		    setActiveCharacter(line.character, line.codeIdx);
 		
-		    var tulisan = new createjs.Text(line.text, "65px Traditional Arabic", "#527C59");
-		    tulisan.lineWidth = 700;
+		    var tulisan = new createjs.Text(line.text, "40px Traditional Arabic", "#527C59");
+		    tulisan.lineWidth = 1250;
 		    tulisan.textAlign = "center";
 		    tulisan.x = 80;
-		    tulisan.y = 240;
+		    tulisan.y = 200;
 		    tulisan.alpha = 0;
+			
+			var arti = new createjs.Text(line.terjemah, "28px Poppins", "#333");
+			arti.lineWidth = 1250;
+			arti.textAlign = "center";
+			arti.x = 80;
+			arti.y = 260;
+			arti.alpha = 0;
 		
-		    self.pages.addChild(tulisan);
-		    createjs.Tween.get(tulisan).to({ alpha: 1 }, 300);
+		    self.pages.addChild(tulisan, arti);
+		
+			createjs.Tween.get(tulisan).to({ alpha: 1 }, 300);
+			createjs.Tween.get(arti).to({ alpha: 1 }, 300);
 		
 			// load roti susu telur
 		    if (line.audio === "ummu-4") {
@@ -8144,14 +9197,14 @@ if (reversed == null) { reversed = false; }
 		        var telur = new createjs.Bitmap("assets/image/3/telur.png");
 		        var susu = new createjs.Bitmap("assets/image/3/susu.png");
 		
-		        roti.x = -100; 
-				roti.y = 80; 
+		        roti.x = -100;
+				roti.y = 20;
 				roti.scaleX = roti.scaleY = 0.5;
 		        telur.x = -50; 
-				telur.y = 80; 
+				telur.y = 20; 
 				telur.scaleX = telur.scaleY = 0.5;
 		        susu.x = 100; 
-				susu.y = 80; 
+				susu.y = 20; 
 				susu.scaleX = susu.scaleY = 0.5;
 		
 		        self.pages.addChild(roti, telur, susu);
@@ -8176,11 +9229,12 @@ if (reversed == null) { reversed = false; }
 					
 		            // Hapus tulisan setelah gambar hilang
 		            createjs.Tween.get(tulisan)
-		                .to({ alpha: 0 }, 300)
-		                .call(() => {
-		                    self.pages.removeChild(tulisan);
-		                    if (onComplete) onComplete();
-		                });
+						.to({ alpha: 0 }, 300)
+						.call(function () {
+							self.pages.removeChild(tulisan);
+							self.pages.removeChild(arti);
+							if (onComplete) onComplete();
+						});
 		        });
 		
 		        return;
@@ -8194,6 +9248,7 @@ if (reversed == null) { reversed = false; }
 		            .to({ alpha: 0 }, 300)
 		            .call(function () {
 		                self.pages.removeChild(tulisan);
+						self.pages.removeChild(arti);
 		                if (onComplete) onComplete();
 		            });
 		    });
@@ -8306,121 +9361,145 @@ if (reversed == null) { reversed = false; }
 		var isStarted = false;
 		
 		this.startBtn.on("click", function () {
+		
 			root.backsound.volume = 0;
 		
 			if (isStarted) return;
-			isStarted = true;	
+			isStarted = true;
 		
 			hideCloseButton();
 		
 			var materi1 = getMateriById(self.materiId, 1);
-			if (!materi1) {
-				return;
-			}
+			if (!materi1) return;
 		
 			self.startBtn.visible = false;
-			self.info.visible = false;
+			self.info.alpha = 1;
+			self.info.visible = true;
 			self.setBlock(false);
 		
 			self.bcFamily1.gotoAndStop("opening-1");
 			self.bcFamily1.alpha = 0;
 		
-			// mainkan suara burung
+			// ===============================
+			// BURUNG LANGSUNG BUNYI
+			// ===============================
 			var burungSound = createjs.Sound.play("burung", {
 				loop: -1,
 				volume: 1
 			});
 		
-			// fade in dari gelap (1 detik)
+			// ===============================
+			// FADE IN OPENING
+			// ===============================
 			createjs.Tween.get(self.bcFamily1)
-				.to({
-					alpha: 1
-				}, 1000, createjs.Ease.quadOut)
-				.call(function () {
+			.to({ alpha: 1 }, 1000, createjs.Ease.quadOut)
+			.call(function () {
 		
-					// setelah fade in selesai, tunggu 2 detik → opening-2
-					setTimeout(function () {
-						self.bcFamily1.gotoAndPlay("opening-2");
+				// lanjut animasi opening
+				self.bcFamily1.gotoAndPlay("opening-2");
 		
-						// opening-2 tampil 3 detik
+			});
+		
+			// ===============================
+			// 1 DETIK → TITLE MULAI
+			// ===============================
+			setTimeout(function () {
+		
+				var title = createjs.Sound.play("title-6-1");
+		
+				title.on("complete", function () {
+		
+					// sembunyikan info setelah narasi selesai
+					self.info.alpha = 0;
+					self.info.visible = false;
+		
+					// ===============================
+					// BARU MASUK FAMILY-1
+					// ===============================
+					self.bcFamily1.gotoAndPlay("family-1");
+		
+					loadNama(materi1, 1);
+		
+					var dialogQueue = buildDialogQueue(materi1, 1);
+		
+					playDialogSequence(dialogQueue, function () {
+		
+						clearScene();
+		
+						// ===============================
+						// LANDING
+						// ===============================
+						self.bcFamily1.gotoAndStop("landing");
+		
+						var timer = new createjs.Text("بَعْدَ الفُطُورِ", "60px Traditional Arabic", "#fff");
+						timer.set({ x: 0, y: 0, alpha: 1 });
+						self.pages.addChild(timer);
+		
+						var clockSound = createjs.Sound.play("clock", {
+							loop: -1,
+							volume: 1
+						});
+		
+						if (clockSound) burungSound.paused = true;
+		
+						createjs.Sound.play("title-6-2");
+		
 						setTimeout(function () {
 		
-							// ===============================
-							// START (PANGGIL)
-							// ===============================
-							self.bcFamily1.gotoAndPlay("family-1");
-							loadNama(materi1, 1);
+							if (clockSound) clockSound.stop();
+							if (burungSound) burungSound.paused = false;
 		
-							var dialogQueue = buildDialogQueue(materi1, 1);
-							playDialogSequence(dialogQueue, function () {						
+							self.pages.removeChild(timer);
+		
+							var materi2 = getMateriById(self.materiId, 2);
+							if (!materi2) return;
+		
+							self.bcFamily1.gotoAndStop("family-2");
+		
+							loadNama(materi2, 2);
+		
+							var queue2 = buildDialogQueue(materi2, 2);
+		
+							playDialogSequence(queue2, function () {
+		
 								clearScene();
+								resetStart();
 		
-								// === TRANSISI KE LANDING ===
-								self.bcFamily1.gotoAndStop("landing");
-		
-								var timer = new createjs.Text("Setelah makan", "60px Traditional Arabic", "#FFF");
-								timer.set({
-									x: 0,
-									y: 0,
-									alpha: 1
-								});
-								self.pages.addChild(timer);
-		
-								var clockSound = createjs.Sound.play("clock", {
-									loop: -1,
-									volume: 1
-								});
-		
-								if (clockSound) {
-									burungSound.paused = true;
+								if (burungSound) {
+									burungSound.stop();
+									burungSound = null;
 								}
 		
-								setTimeout(function () {
-									if (clockSound) {
-										clockSound.stop();
-									}
+								showCloseButton();
 		
-									if (burungSound) {
-										burungSound.paused = false;
-									}
-		
-									self.pages.removeChild(timer)
-		
-									var materi2 = getMateriById(self.materiId, 2);							
-									if (!materi2) return;
-		
-									self.bcFamily1.gotoAndStop("family-2");
-									loadNama(materi2, 2);
-		
-									var queue2 = buildDialogQueue(materi2, 2);
-									playDialogSequence(queue2, function () {
-										clearScene();
-										resetStart();								
-										if (burungSound) {
-											burungSound.stop(); // <<< MATI TOTAL
-											burungSound = null; // optional tapi disarankan
-										}
-										showCloseButton();
-									});
-		
-								}, 4000);
 							});
 		
+						}, 4000);
 		
-						}, 2000);
-		
-					}, 3000);
+					});
 		
 				});
 		
+			}, 1000);
+		
 		});
 		
+		// ===============================
+		// RESET
+		// ===============================
 		function resetStart() {
+		
 			isStarted = false;
+		
 			self.bcFamily1.gotoAndStop("landing");
+		
 			self.setBlock(false);
+		
 			self.startBtn.visible = true;
-			self.info.visible = true;
+		
+			self.info.alpha = 0;
+			self.info.visible = false;
+		
 		}
 		// script di dalam hiwar1
 		this.setBlock = function (state) {
@@ -8451,13 +9530,13 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// start_btn
-	this.info = new cjs.Text("الحوار مِنْ يَوْمِيَّاتِ الأُسْرَةِِ \nDialog: Dari Keseharian Keluarga", "bold 40px 'Traditional Arabic'", "#FFFFFF");
+	this.info = new cjs.Text("الحوار مِنْ يَوْمِيَّاتِ الأُسْرَةِ\nDialog: Dari Keseharian Keluarga\nالمَشْهَدُ: فِي غُرْفَةِ الجُلُوسِ بَعْدَ الفَجْرِ", "bold 40px 'Traditional Arabic'");
 	this.info.name = "info";
 	this.info.textAlign = "center";
 	this.info.lineHeight = 63;
-	this.info.lineWidth = 496;
+	this.info.lineWidth = 796;
 	this.info.parent = this;
-	this.info.setTransform(0,86);
+	this.info.setTransform(0,-0.65);
 
 	this.startBtn = new cjs.Text("Mulai", "bold 40px 'Traditional Arabic'", "#FFFFFF");
 	this.startBtn.name = "startBtn";
@@ -8465,7 +9544,7 @@ if (reversed == null) { reversed = false; }
 	this.startBtn.lineHeight = 63;
 	this.startBtn.lineWidth = 146;
 	this.startBtn.parent = this;
-	this.startBtn.setTransform(0,-31);
+	this.startBtn.setTransform(0,-117.65);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.startBtn},{t:this.info}]}).wait(1));
 
@@ -9787,7 +10866,7 @@ if (reversed == null) { reversed = false; }
 
 	// background
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("EBkAA+gMjH/AAAEhj/g+fMDH/AAA");
+	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Ehj/g+fMDH/AAAEBkAA+gMjH/AAA");
 	this.shape.setTransform(0,50);
 
 	this.shape_1 = new cjs.Shape();
@@ -9799,6 +10878,195 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.mcQuizMateri, new cjs.Rectangle(-647,-380.5,1294,831.5), null);
+
+
+(lib.mcProfilePage = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		var root = this.stage.getChildAt(0);
+		var self = this;
+		
+		self.igBtn.cursor = "pointer";
+		self.ttBtn.cursor = "pointer";
+		self.fbBtn.cursor = "pointer";
+		self.mailBtn.cursor = "pointer";
+		
+		self.igBtn.addEventListener("click", function (e) {
+		    root.playGlobalClick(e.currentTarget, function () {
+		        window.open("https://www.instagram.com/ayyyyda_20/", "_blank");
+		    });
+		});
+		
+		self.ttBtn.addEventListener("click", function (e) {
+		    root.playGlobalClick(e.currentTarget, function () {
+		        window.open("https://www.tiktok.com/@izzahnuraida", "_blank");
+		    });
+		});
+		
+		self.fbBtn.addEventListener("click", function (e) {
+		    root.playGlobalClick(e.currentTarget, function () {
+		        window.open("https://www.facebook.com/izzahnur.aida", "_blank");
+		    });
+		});
+		
+		self.mailBtn.addEventListener("click", function (e) {
+		    root.playGlobalClick(e.currentTarget, function () {
+		
+		        var email = "mailto:izzanuraida137@gmail.com" +
+		            "?subject=Halo" +
+		            "&body=Halo,%0A%0ASaya%20tertarik%20dengan%20anda.%0ABoleh%20minta%20nomor%20WA%20nya?";
+		
+		        window.open(email, "_blank");
+		
+		    });
+		});
+		
+		
+		
+		/* ================= PROFILE BOARD NAVIGATION ================= */
+		
+		self.nextBtn.cursor = "pointer";
+		self.prevBtn.cursor = "pointer";
+		
+		/* === DAFTAR HALAMAN === */
+		var pages = [
+			self.profileBoard.personalIdentity,
+			self.profileBoard.educationHistory
+		];
+		
+		var currentPage = 0;
+		
+		
+		/* === FUNCTION TAMPILKAN HALAMAN === */
+		function showPage(index){
+		
+			// sembunyikan semua
+			for(var i = 0; i < pages.length; i++){
+				pages[i].visible = false;
+			}
+		
+			// tampilkan halaman aktif
+			pages[index].visible = true;
+		
+			// atur tombol
+			self.prevBtn.visible = index > 0;
+			self.nextBtn.visible = index < pages.length - 1;
+		}
+		
+		
+		/* === DEFAULT LANDING === */
+		showPage(currentPage);
+		
+		
+		/* ================= NEXT BUTTON ================= */
+		
+		self.nextBtn.addEventListener("click", function(e){
+		
+			root.playGlobalClick(e.currentTarget, function () {
+		
+				if(currentPage < pages.length - 1){
+					currentPage++;
+					showPage(currentPage);
+				}
+		
+			});
+		
+		});
+		
+		/* ================= PREV BUTTON ================= */
+		
+		self.prevBtn.addEventListener("click", function(e){
+		
+			root.playGlobalClick(e.currentTarget, function () {
+		
+				if(currentPage > 0){
+					currentPage--;
+					showPage(currentPage);
+				}
+		
+			});
+		
+		});
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// sosmed_icon
+	this.mailBtn = new lib.mcMailIcon();
+	this.mailBtn.name = "mailBtn";
+	this.mailBtn.setTransform(475.45,178.1,1,1,0,0,0,-0.5,-0.5);
+
+	this.fbBtn = new lib.mcFbIcon();
+	this.fbBtn.name = "fbBtn";
+	this.fbBtn.setTransform(388.85,178.6);
+
+	this.ttBtn = new lib.mcTtIcon();
+	this.ttBtn.name = "ttBtn";
+	this.ttBtn.setTransform(300.25,178.6);
+
+	this.igBtn = new lib.mcIgIcon();
+	this.igBtn.name = "igBtn";
+	this.igBtn.setTransform(204.25,178.6);
+
+	this.text = new cjs.Text("Find Me on Social\nMedia", "bold 26px 'Traditional Arabic'", "#527C59");
+	this.text.lineHeight = 40;
+	this.text.lineWidth = 296;
+	this.text.parent = this;
+	this.text.setTransform(-115,147.55);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.igBtn},{t:this.ttBtn},{t:this.fbBtn},{t:this.mailBtn}]}).wait(1));
+
+	// btn
+	this.prevBtn = new lib.mcPrev();
+	this.prevBtn.name = "prevBtn";
+	this.prevBtn.setTransform(-576,30);
+
+	this.nextBtn = new lib.mcNext();
+	this.nextBtn.name = "nextBtn";
+	this.nextBtn.setTransform(576,30);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.nextBtn},{t:this.prevBtn}]}).wait(1));
+
+	// mcPages
+	this.profileBoard = new lib.mcProfilBoard();
+	this.profileBoard.name = "profileBoard";
+	this.profileBoard.setTransform(206.75,-123.4);
+
+	this.timeline.addTween(cjs.Tween.get(this.profileBoard).wait(1));
+
+	// foto
+	this.instance = new lib.foto();
+	this.instance.setTransform(-509,-307);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	// background
+	this.instance_1 = new lib.profileborder();
+	this.instance_1.setTransform(-555,-346);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcProfilePage, new cjs.Rectangle(-616.5,-346,1233,692), null);
 
 
 (lib.mcLatihanMateri = function(mode,startPosition,loop,reversed) {
@@ -9827,7 +11095,8 @@ if (reversed == null) { reversed = false; }
 		
 		this.latihan = {
 			latihan1: this.latihan1,
-			latihan2: this.latihan2
+			latihan2: this.latihan2,
+			latihan3: this.latihan3
 		};
 		
 		this.setMateri = function(id) {
@@ -9870,6 +11139,13 @@ if (reversed == null) { reversed = false; }
 
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// latihan_3
+	this.latihan3 = new lib.mcLatihan3();
+	this.latihan3.name = "latihan3";
+	this.latihan3.setTransform(0,52.7,1,1,0,0,0,0,19.7);
+
+	this.timeline.addTween(cjs.Tween.get(this.latihan3).wait(1));
 
 	// latihan_2
 	this.latihan2 = new lib.mcLatihan2();
@@ -10557,6 +11833,7 @@ if (reversed == null) { reversed = false; }
 		
 			// Dialog Bab 4
 			{ id: "title-1", src: "assets/audio/dialog/4/title.mp3" },
+			{ id: "title-2", src: "assets/audio/dialog/4/title-2.mp3" },
 		    { id: "ahmad-1", src: "assets/audio/dialog/4/ahmad-1.mp3" },
 			{ id: "ahmad-2", src: "assets/audio/dialog/4/ahmad-2.mp3" },
 			{ id: "ahmad-3", src: "assets/audio/dialog/4/ahmad-3.mp3" },
@@ -10633,6 +11910,8 @@ if (reversed == null) { reversed = false; }
 			{ id: "yunaddzifu", src: "assets/audio/yunaddzifu.mp3" },
 		
 			// Dialog Bab 6 & lainnya
+			{ id: "title-6-1", src: "assets/audio/dialog/6/title-1.mp3" },
+			{ id: "title-6-2", src: "assets/audio/dialog/6/title-2.mp3" },
 			{ id: "burung", src: "assets/audio/dialog/6/burung.mp3" },
 			{ id: "clock", src: "assets/audio/dialog/6/clock.mp3" },
 		
@@ -10657,6 +11936,7 @@ if (reversed == null) { reversed = false; }
 			{ id: "laila-5", src: "assets/audio/dialog/6/laila-5.mp3" },
 		
 			// Family Story
+			{ id: "title-6-3", src: "assets/audio/dialog/6/title-3.mp3" },
 			{ id: "audio-1", src: "assets/audio/dialog/6/audio-1.mp3" },
 		    { id: "audio-2", src: "assets/audio/dialog/6/audio-2.mp3" },
 		    { id: "audio-3", src: "assets/audio/dialog/6/audio-3.mp3" },
@@ -11095,7 +12375,8 @@ lib.properties = {
 		{src:"images/index_atlas_20.png", id:"index_atlas_20"},
 		{src:"images/index_atlas_21.png", id:"index_atlas_21"},
 		{src:"images/index_atlas_22.png", id:"index_atlas_22"},
-		{src:"images/index_atlas_23.png", id:"index_atlas_23"}
+		{src:"images/index_atlas_23.png", id:"index_atlas_23"},
+		{src:"images/index_atlas_24.png", id:"index_atlas_24"}
 	],
 	preloads: []
 };

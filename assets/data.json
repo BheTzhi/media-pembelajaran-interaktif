@@ -85,23 +85,28 @@
             "script": [
               {
                 "audio": "ahmad-1",
-                "text": "أَيْنَ تَسْكُنُ يَا هَمْزَةَ؟"
+                "text": "أَيْنَ تَسْكُنُ يَا هَمْزَةَ؟",
+                "terjemah": "Di mana kamu tinggal, wahai Hamzah?"
               },
               {
                 "audio": "ahmad-2",
-                "text": "وَهَلْ بَيْتُكَ قَرِيبٌ مِنَ المَدْرَسَةِ؟"
+                "text": "وَهَلْ بَيْتُكَ قَرِيبٌ مِنَ المَدْرَسَةِ؟",
+                "terjemah": "Apakah rumahmu dekat dari sekolah?"
               },
               {
                 "audio": "ahmad-3",
-                "text": "مَا رَقْمُ بَيْتِكَ يَا هَمْزَةَ؟"
+                "text": "مَا رَقْمُ بَيْتِكَ يَا هَمْزَةَ؟",
+                "terjemah": "Berapa nomor rumahmu, wahai Hamzah?"
               },
               {
                 "audio": "ahmad-4",
-                "text": "هَلْ بَيْتُكَ لَوْنُهُ أَزْرَقُ؟"
+                "text": "هَلْ بَيْتُكَ لَوْنُهُ أَزْرَقُ؟",
+                "terjemah": "Apakah rumahmu berwarna biru?"
               },
               {
                 "audio": "ahmad-5",
-                "text": "اِيْوَهْ، شُكْرًا هَمْزَةَ، إِلَى اللِّقَاءِ."
+                "text": "اِيْوَهْ، شُكْرًا هَمْزَةَ، إِلَى اللِّقَاءِ.",
+                "terjemah": "Iya, terima kasih Hamzah, sampai jumpa."
               }
             ]
           },
@@ -110,23 +115,28 @@
             "script": [
               {
                 "audio": "hamzah-1",
-                "text": "أَسْكُنُ فِي الحَيِّ الجَدِيدِ، فِي الشَّارِعِ الرَّابِعِ."
+                "text": "أَسْكُنُ فِي الحَيِّ الجَدِيدِ، فِي الشَّارِعِ الرَّابِعِ.",
+                "terjemah": "Saya tinggal di perumahan baru, di jalan keempat."
               },
               {
                 "audio": "hamzah-2",
-                "text": "نَعَمْ، بَيْتِي أَمَامَ المَدْرَسَةِ."
+                "text": "نَعَمْ، بَيْتِي أَمَامَ المَدْرَسَةِ.",
+                "terjemah": "Ya, rumah saya di depan sekolah."
               },
               {
                 "audio": "hamzah-3",
-                "text": "رَقْمُ بَيْتِي خَمْسَةٌ وَعِشْرُونَ."
+                "text": "رَقْمُ بَيْتِي خَمْسَةٌ وَعِشْرُونَ.",
+                "terjemah": "Nomor rumah saya dua puluh lima."
               },
               {
                 "audio": "hamzah-4",
-                "text": "نَعَمْ، بَيْتِي لَوْنُهُ أَزْرَقُ."
+                "text": "نَعَمْ، بَيْتِي لَوْنُهُ أَزْرَقُ.",
+                "terjemah": "Ya, rumah saya berwarna biru."
               },
               {
                 "audio": "hamzah-5",
-                "text": "عَفْوًا، مَعَ السَّلَامَةِ."
+                "text": "عَفْوًا، مَعَ السَّلَامَةِ.",
+                "terjemah": "Sama-sama, sampai jumpa / semoga selamat."
               }
             ]
           }
@@ -137,11 +147,13 @@
             "script": [
               {
                 "audio": "fatimah-1",
-                "text": "مِنْ فَضْلِكِ، أَيْنَ المَكْتَبَةُ؟"
+                "text": "مِنْ فَضْلِكِ، أَيْنَ المَكْتَبَةُ؟",
+                "terjemah": "Permisi, di mana perpustakaan?"
               },
               {
                 "audio": "fatimah-2",
-                "text": "وَالمَسْجِدُ؟"
+                "text": "وَالمَسْجِدُ؟",
+                "terjemah": "Dan masjid Dimana letaknya?"
               }
             ]
           },
@@ -150,11 +162,13 @@
             "script": [
               {
                 "audio": "hindun-1",
-                "text": "هِيَ قَرِيبَةٌ، خَلْفَ المَدْرَسَةِ."
+                "text": "هِيَ قَرِيبَةٌ، خَلْفَ المَدْرَسَةِ.",
+                "terjemah": "Letaknya dekat, di belakang sekolah."
               },
               {
                 "audio": "hindun-2",
-                "text": "المَسْجِدُ جَانِبَ المَكْتَبَةِ."
+                "text": "المَسْجِدُ جَانِبَ المَكْتَبَةِ.",
+                "terjemah": "Masjid berada di samping perpustakaan."
               }
             ]
           }
@@ -445,19 +459,23 @@
             "script": [
               {
                 "audio": "ummu-1",
-                "text": "السَّلَامُ عَلَيْكُمْ يَا أَوْلَادُ، هَيَّا اسْتَيْقِظُوا."
+                "text": "السَّلَامُ عَلَيْكُمْ يَا أَوْلَادُ، هَيَّا اسْتَيْقِظُوا.",
+                "terjemah": "Assalamu'alaikum anak-anakku, ayo bangun."
               },
               {
                 "audio": "ummu-2",
-                "text": "أَوَّلًا، اغْتَسِلُوا ثُمَّ الْبَسُوا مَلَابِسَكُمْ."
+                "text": "أَوَّلًا، اغْتَسِلُوا ثُمَّ الْبَسُوا مَلَابِسَكُمْ.",
+                "terjemah": "Pertama, mandilah lalu pakailah seragam sekolah kalian."
               },
               {
                 "audio": "ummu-3",
-                "text": "جَيِّدٌ. بَعْدَ ذَلِكَ تَعَالَوْا إِلَى المَطْبَخِ لِلفُطُورِ."
+                "text": "جَيِّدٌ. بَعْدَ ذَلِكَ تَعَالَوْا إِلَى المَطْبَخِ لِلفُطُورِ.",
+                "terjemah": "Bagus. Setelah itu datanglah ke dapur untuk sarapan."
               },
               {
                 "audio": "ummu-4",
-                "text": "خُبْزٌ، وَبَيْضٌ، وَحَلِيبٌ."
+                "text": "خُبْزٌ، وَبَيْضٌ، وَحَلِيبٌ.",
+                "terjemah": "Roti, telur, dan susu."
               }
             ]
           },
@@ -466,15 +484,18 @@
             "script": [
               {
                 "audio": "1-ahmad-1",
-                "text": "وَعَلَيْكُمُ السَّلَامُ يَا أُمِّي، أَنَا مُسْتَيْقِظٌ."
+                "text": "وَعَلَيْكُمُ السَّلَامُ يَا أُمِّي، أَنَا مُسْتَيْقِظٌ.",
+                "terjemah": "Wa'alaikumussalam Ibuku, saya sudah bangun."
               },
               {
                 "audio": "1-ahmad-2",
-                "text": "حَاضِرٌ يَا أُمِّي، سَأَسْتَحِمُّ الآنَ."
+                "text": "حَاضِرٌ يَا أُمِّي، سَأَسْتَحِمُّ الآنَ.",
+                "terjemah": "Baik, Ibu. Saya akan mandi sekarang."
               },
               {
                 "audio": "1-ahmad-3",
-                "text": "مَاذَا أَعْدَدْتِ لِلفُطُورِ؟"
+                "text": "مَاذَا أَعْدَدْتِ لِلفُطُورِ؟",
+                "terjemah": "Apa yang Ibu siapkan untuk sarapan?"
               }
             ]
           },
@@ -483,15 +504,18 @@
             "script": [
               {
                 "audio": "laila-1",
-                "text": "وَأَنَا أَيْضًا يَا أُمِّي، مَاذَا سَنَفْعَلُ الْيَوْمَ؟"
+                "text": "وَأَنَا أَيْضًا يَا أُمِّي، مَاذَا سَنَفْعَلُ الْيَوْمَ؟",
+                "terjemah": "Saya juga, wahai Ibu. Apa yang akan kita lakukan hari ini?"
               },
               {
                 "audio": "laila-2",
-                "text": "وَأَنَا سَأُرَتِّبُ سَرِيرِي أَوَّلًا ثُمَّ سَأَسْتَحِمُّ."
+                "text": "وَأَنَا سَأُرَتِّبُ سَرِيرِي أَوَّلًا ثُمَّ سَأَسْتَحِمُّ.",
+                "terjemah": "Dan saya akan merapikan tempat tidurku dulu, lalu saya akan mandi."
               },
               {
                 "audio": "laila-3",
-                "text": "رَائِعٌ! أَنَا أُحِبُّ الْبَيْضَ كَثِيرًا."
+                "text": "رَائِعٌ! أَنَا أُحِبُّ بَيْضَاء كَثِيرًا.",
+                "terjemah": "Asyik! Saya sangat suka telur."
               }
             ]
           },
@@ -544,15 +568,18 @@
             "script": [
               {
                 "audio": "ummu-5",
-                "text": "يَا أَحْمَدُ، هَلْ كَتَبْتَ وَاجِبَ المَدْرَسَةِ؟"
+                "text": "يَا أَحْمَدُ، هَلْ كَتَبْتَ وَاجِبَ المَدْرَسَةِ؟",
+                "terjemah": "Wahai Ahmad, apakah kamu sudah mengerjakan PR sekolah?"
               },
               {
                 "audio": "ummu-6",
-                "text": "حَسَنًا، وَبَعْدَ ذَلِكَ سَاعِدَانِي فِي تَنْظِيفِ البَيْتِ."
+                "text": "حَسَنًا، وَبَعْدَ ذَلِكَ سَاعِدَانِي فِي تَنْظِيفِ البَيْتِ.",
+                "terjemah": "Baiklah, setelah itu bantulah Ibu membersihkan rumah."
               },
               {
                 "audio": "ummu-7",
-                "text": "بَارَكَ اللهُ لَكُمَا."
+                "text": "بَارَكَ اللهُ لَكُمَا.",
+                "terjemah": "Semoga Allah memberkahi kalian berdua."
               }
             ]
           },
@@ -561,11 +588,13 @@
             "script": [
               {
                 "audio": "1-ahmad-4",
-                "text": "نَعَمْ، كَتَبْتُهُ مَسَاءَ أَمْسِ."
+                "text": "نَعَمْ، كَتَبْتُهُ مَسَاءَ أَمْسِ.",
+                "terjemah": "Ya, saya sudah mengerjakannya tadi malam."
               },
               {
                 "audio": "1-ahmad-5",
-                "text": "سَأَكْنُسُ غُرْفَةَ الجُلُوسِ."
+                "text": "سَأَكْنُسُ غُرْفَةَ الجُلُوسِ.",
+                "terjemah": "Saya akan menyapu ruang tamu."
               }
             ]
           },
@@ -574,11 +603,13 @@
             "script": [
               {
                 "audio": "laila-4",
-                "text": "وَأَنَا سَأَكْتُبُ وَاجِبِي بَعْدَ قَلِيلٍ."
+                "text": "وَأَنَا سَأَكْتُبُ وَاجِبِي بَعْدَ قَلِيلٍ.",
+                "terjemah": "Dan saya akan mengerjakan PR saya sebentar lagi."
               },
               {
                 "audio": "laila-5",
-                "text": "وَأَنَا سَأَمْسَحُ الْمَائِدَةَ فِي الْمَطْبَخِ."
+                "text": "وَأَنَا سَأَمْسَحُ الْمَائِدَةَ فِي الْمَطْبَخِ.",
+                "terjemah": "Dan saya akan mengelap meja di dapur."
               }
             ]
           },
@@ -2159,8 +2190,8 @@
       {
         "audio": "latihan-6-2",
         "correct": [
-          "makan",
-          "menulis"
+          "sarapan",
+          "sekolah"
         ]
       },
       {
@@ -2172,6 +2203,7 @@
       {
         "audio": "latihan-6-4",
         "correct": [
+          "membaca",
           "tidur"
         ]
       }
