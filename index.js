@@ -1397,15 +1397,14 @@ if (reversed == null) { reversed = false; }
 	this.txtKelas.lineHeight = 47;
 	this.txtKelas.lineWidth = 103;
 	this.txtKelas.parent = this;
-	this.txtKelas.setTransform(-199.6,-16);
+	this.txtKelas.setTransform(-199.6,-5);
 
 	this.txtNama = new cjs.Text("nama", "25px 'Traditional Arabic'", "#FFFFFF");
 	this.txtNama.name = "txtNama";
-	this.txtNama.textAlign = "center";
-	this.txtNama.lineHeight = 39;
-	this.txtNama.lineWidth = 241;
+	this.txtNama.lineHeight = 37;
+	this.txtNama.lineWidth = 226;
 	this.txtNama.parent = this;
-	this.txtNama.setTransform(-369,-18);
+	this.txtNama.setTransform(-485.1,-18);
 
 	this.txtNo = new cjs.Text("1", "40px 'Traditional Arabic'", "#FFFFFF");
 	this.txtNo.name = "txtNo";
@@ -1419,13 +1418,13 @@ if (reversed == null) { reversed = false; }
 
 	// bc
 	this.instance = new lib.tbody();
-	this.instance.setTransform(-622,-28.5);
+	this.instance.setTransform(-622,-29,1,1.3158);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.mcTBody, new cjs.Rectangle(-622,-28.5,1244,82.5), null);
+}).prototype = getMCSymbolPrototype(lib.mcTBody, new cjs.Rectangle(-622,-29,1244,86), null);
 
 
 (lib.mcSoundBtn = function(mode,startPosition,loop,reversed) {
@@ -6841,9 +6840,7 @@ if (reversed == null) { reversed = false; }
 		
 			self.hasilJawaban.push({ benar: benar });
 		
-			console.log("User:", jawabanUser);
-			console.log("Kunci:", kunci);
-			console.log("Benar:", benar);
+			return benar;
 		}
 		
 		function updateNextButtonState() {
@@ -6912,6 +6909,7 @@ if (reversed == null) { reversed = false; }
 				return;
 			}
 		
+			if (self.hasil) self.hasil.text = "";
 		
 			var soal = self.dataLatihan[self.indexSoal];
 		
@@ -6922,15 +6920,32 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		/* ================= TOMBOL NEXT ================= */
-		
 		self.nextBtn.on("click", function () {
 		
 			if (!self.nextBtn.mouseEnabled) return;
 		
-			cekJawaban();
+			let hasil = cekJawaban(); // kita ambil true / false
 		
-			self.indexSoal++;
-			self.tampilSoal();
+			self.nextBtn._clickSound = hasil ? "benar" : "salah";
+		
+			root.playGlobalClick(self.nextBtn, function () {
+		
+				// 🔤 TEXT FEEDBACK
+				self.hasil.text = hasil
+					? "Yeey jawaban kamu benar."
+					: "Ooopps, Jawaban Salah!";
+		
+				// 🔒 kunci tombol biar ga double klik
+				self.nextBtn.mouseEnabled = false;
+		
+				setTimeout(function () {
+		
+					self.indexSoal++;
+					self.tampilSoal();
+		
+				}, 1000);
+		
+			});
 		});
 		
 		async function simpanNilai(id, nilai) {
@@ -7029,14 +7044,15 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.layer_block).wait(1));
 
 	// hasil
-	this.text = new cjs.Text("Yeey jawaban kamu benar. /\nOoopps, Jawaban Salah!", "bold 30px 'Arial'", "#FFFFFF");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 36;
-	this.text.lineWidth = 466;
-	this.text.parent = this;
-	this.text.setTransform(395,40.4);
+	this.hasil = new cjs.Text("Yeey jawaban kamu benar. /\nOoopps, Jawaban Salah!", "bold 30px 'Arial'", "#FFFFFF");
+	this.hasil.name = "hasil";
+	this.hasil.textAlign = "center";
+	this.hasil.lineHeight = 36;
+	this.hasil.lineWidth = 466;
+	this.hasil.parent = this;
+	this.hasil.setTransform(395,40.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.hasil).wait(1));
 
 	// play_btn
 	this.playBtn = new lib.mcPlay();
@@ -7046,27 +7062,27 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.playBtn).wait(1));
 
 	// perintah
-	this.text_1 = new cjs.Text("\"Dengarkan baik-baik, lalu klik tempat yang dimaksud\".", "italic 35px 'Arial'", "#FFFFFF");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 41;
-	this.text_1.lineWidth = 466;
-	this.text_1.parent = this;
-	this.text_1.setTransform(395,-223.55);
+	this.text = new cjs.Text("\"Dengarkan baik-baik, lalu klik tempat yang dimaksud\".", "italic 35px 'Arial'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 41;
+	this.text.lineWidth = 466;
+	this.text.parent = this;
+	this.text.setTransform(395,-223.55);
 
-	this.timeline.addTween(cjs.Tween.get(this.text_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	// title
-	this.text_2 = new cjs.Text("Masukan Jawaban di Sini", "55px 'Traditional Arabic'", "#FFFFFF");
-	this.text_2.textAlign = "center";
-	this.text_2.lineHeight = 84;
-	this.text_2.lineWidth = 565;
-	this.text_2.parent = this;
-	this.text_2.setTransform(-245.75,-318);
+	this.text_1 = new cjs.Text("Masukan Jawaban di Sini", "55px 'Traditional Arabic'", "#FFFFFF");
+	this.text_1.textAlign = "center";
+	this.text_1.lineHeight = 84;
+	this.text_1.lineWidth = 565;
+	this.text_1.parent = this;
+	this.text_1.setTransform(-245.75,-318);
 
 	this.instance = new lib.title();
 	this.instance.setTransform(160,-338);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text_2}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text_1}]}).wait(1));
 
 	// jawaban_btn
 	this.answerBtn9 = new lib.mcAnswer9();
@@ -7176,13 +7192,19 @@ if (reversed == null) { reversed = false; }
 		
 			btn.on("mousedown", function (e) {
 		
+				if (!self.dataLatihan) return;
+		
+				var soal = self.dataLatihan[self.indexSoal];
+				var jawabanUser = self.jawaban[id];
+				var benar = jawabanUser === soal.correct;
+		
+				e.currentTarget._clickSound = benar ? "benar" : "salah";
+		
 				root.playGlobalClick(e.currentTarget, function () {
 		
-					if (!self.dataLatihan) return;
-		
-					var soal = self.dataLatihan[self.indexSoal];
-					var jawabanUser = self.jawaban[id];
-					var benar = jawabanUser === soal.correct;
+					self.hasil.text = benar
+						? "Yeey jawaban kamu benar."
+						: "Ooopps, Jawaban Salah!";
 		
 					self.hasilJawaban.push({
 						soal: self.indexSoal,
@@ -7190,14 +7212,14 @@ if (reversed == null) { reversed = false; }
 						benar: benar
 					});
 		
-					console.log("Jawaban user:", jawabanUser);
-					console.log("Kunci:", soal.correct);
-					console.log("Benar:", benar);
+					setTimeout(function () {
+						self.indexSoal++;
+						self.tampilSoal();
+					}, 800);
 		
-					self.indexSoal++;
-					self.tampilSoal();
 				});
 			});
+		
 		}
 		this.getLatihanById = function (latihanId) {
 			if (!root.data) return null;
@@ -7420,14 +7442,15 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.layer_block).wait(1));
 
 	// hasil
-	this.text = new cjs.Text("Yeey jawaban kamu benar. /\nOoopps, Jawaban Salah!", "bold 30px 'Arial'", "#527C59");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 36;
-	this.text.lineWidth = 466;
-	this.text.parent = this;
-	this.text.setTransform(395,187);
+	this.hasil = new cjs.Text("Yeey jawaban kamu benar. /\nOoopps, Jawaban Salah!", "bold 30px 'Arial'", "#527C59");
+	this.hasil.name = "hasil";
+	this.hasil.textAlign = "center";
+	this.hasil.lineHeight = 36;
+	this.hasil.lineWidth = 466;
+	this.hasil.parent = this;
+	this.hasil.setTransform(395,187);
 
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.hasil).wait(1));
 
 	// play_btn
 	this.playBtn = new lib.mcPlay();
@@ -7437,14 +7460,14 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.playBtn).wait(1));
 
 	// perintah
-	this.text_1 = new cjs.Text("\"Dengarkan baik-baik, lalu klik tempat yang dimaksud\".", "italic 35px 'Arial'", "#527C59");
-	this.text_1.textAlign = "center";
-	this.text_1.lineHeight = 41;
-	this.text_1.lineWidth = 466;
-	this.text_1.parent = this;
-	this.text_1.setTransform(395,-188);
+	this.text = new cjs.Text("\"Dengarkan baik-baik, lalu klik tempat yang dimaksud\".", "italic 35px 'Arial'", "#527C59");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 41;
+	this.text.lineWidth = 466;
+	this.text.parent = this;
+	this.text.setTransform(395,-188);
 
-	this.timeline.addTween(cjs.Tween.get(this.text_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	// title
 	this.instance = new lib.title();
@@ -10995,7 +11018,7 @@ if (reversed == null) { reversed = false; }
 
 	// background
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Ehj/g+fMDH/AAAEBkAA+gMjH/AAA");
+	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("EBkAA+gMjH/AAAEhj/g+fMDH/AAA");
 	this.shape.setTransform(0,50);
 
 	this.shape_1 = new cjs.Shape();
