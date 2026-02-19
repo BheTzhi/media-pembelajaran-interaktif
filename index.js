@@ -1657,170 +1657,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcQuizBtn1, new cjs.Rectangle(-279,-90,558,180), null);
 
 
-(lib.mcQuizBlocker = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	this.isSingleFrame = false;
-	// timeline functions:
-	this.frame_0 = function() {
-		if(this.isSingleFrame) {
-			return;
-		}
-		if(this.totalFrames == 1) {
-			this.isSingleFrame = true;
-		}
-		this.stop();
-		
-		var root = this.stage.getChildAt(0);
-		var blocker = this;
-		
-		// =============================
-		// DEFAULT
-		// =============================
-		blocker.keyValue = 1; // index dari data (0-based)
-		
-		blocker.cek.mouseEnabled = false;
-		blocker.cek.alpha = 0.5;
-		
-		
-		// =============================
-		// TERIMA INDEX DARI LUAR
-		// =============================
-		blocker.keyValues = function (value) {
-		    blocker.keyValue = value;
-		};
-		
-		
-		// =============================
-		// VALIDASI FORM
-		// =============================
-		function validateForm() {
-		
-		    const nama = inputNama.value.trim();
-		    const kelas = inputKelas.value.trim();
-		    const nip = inputNip.value.trim();
-		
-		    if (nama && kelas && nip) {
-		        blocker.cek.mouseEnabled = true;
-		        blocker.cek.alpha = 1;
-		    } else {
-		        blocker.cek.mouseEnabled = false;
-		        blocker.cek.alpha = 0.5;
-		    }
-		}
-		
-		inputNama.addEventListener("input", validateForm);
-		inputKelas.addEventListener("input", validateForm);
-		inputNip.addEventListener("input", validateForm);
-		
-		
-		// =============================
-		// KLIK TOMBOL
-		// =============================
-		blocker.cek.on("mousedown", function (e) {
-		
-		    root.playGlobalClick(e.currentTarget, async function () {
-		
-		        const nama = inputNama.value.trim();
-		        const kelas = inputKelas.value.trim();
-		        const nip = inputNip.value.trim();
-		
-		        // LOGIN
-		        await window.Leaderboard.login(nip, nama, kelas);
-		
-		        // SIMPAN USER
-		        root.currentUser = {
-		            nama: nama,
-		            kelas: kelas,
-		            nip: nip
-		        };
-		
-		        // =============================
-		        // BUKA LATIHAN BERDASARKAN INDEX DATA
-		        // =============================
-		
-		        var nomorLatihan = blocker.keyValue; // ubah ke 1-based
-		
-		        var targetQuiz = root.quiz_page
-		            .quizMateri;
-		
-		        console.log("Index data :", blocker.keyValue);
-		        console.log("Target buka :", "latihan" + nomorLatihan);
-		        console.log("Object :", targetQuiz);
-		
-		        if (targetQuiz && targetQuiz.setBlock) {
-		
-		            targetQuiz.setBlock(false);
-		
-		        } else {
-		
-		            console.warn("Latihan tidak ditemukan atau setBlock tidak ada");
-		
-		        }
-		
-		    });
-		
-		});
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
-
-	// cek
-	this.cek = new cjs.Text("CEK", "75px 'Traditional Arabic'");
-	this.cek.name = "cek";
-	this.cek.textAlign = "center";
-	this.cek.lineHeight = 114;
-	this.cek.lineWidth = 396;
-	this.cek.parent = this;
-	this.cek.setTransform(0,227.25);
-
-	this.timeline.addTween(cjs.Tween.get(this.cek).wait(1));
-
-	// input_user
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Eg6lAfnMAAAg7FIAAgZQAAjPCcgcIAwgEQAAAAABAAQABAAABAAMButAAAQABAAABAAQABAAAAAAIAwAEQCcAcAADPIAAAZMAAAA7F");
-	this.shape.setTransform(0,2.3);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(255,255,255,0.498)").s().p("Eg3WAnEQjPAAAAkYIAAqiMAAAg7FQAFjlCXgeIAwgFIACAAIABAAMButAAAIABAAIACAAIAwAFQCXAeAFDlMAAAA7FIAAKiQAAEYjPAAg");
-	this.shape_1.setTransform(0,50);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// title
-	this.text = new cjs.Text("MASUKAN NAMA DAN KELAS", "75px 'Traditional Arabic'", "#FFFFFF");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 114;
-	this.text.lineWidth = 1276;
-	this.text.parent = this;
-	this.text.setTransform(0,-305.75);
-
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
-
-	// background
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Ehj/A4QMAAAhwfMDH/AAAMAAABwf");
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("rgba(0,0,0,0.498)").s().p("Ehj/A+gIAAsgMAAAhwfMDH/AAAMAAABwfIAAMgg");
-	this.shape_3.setTransform(0,40);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2}]}).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.mcQuizBlocker, new cjs.Rectangle(-641,-361,1282,801), null);
-
-
 (lib.mcQuestion = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -2118,6 +1954,36 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.mcName1, new cjs.Rectangle(-111,-28,222,56), null);
+
+
+(lib.mcMulaiBtn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// img
+	this.startBtn = new cjs.Text("Mulai", "bold 40px 'Traditional Arabic'", "#FFFFFF");
+	this.startBtn.name = "startBtn";
+	this.startBtn.textAlign = "center";
+	this.startBtn.lineHeight = 63;
+	this.startBtn.lineWidth = 146;
+	this.startBtn.parent = this;
+	this.startBtn.setTransform(0.5,-4.1);
+
+	this.instance = new lib.btn();
+	this.instance.setTransform(-165,-51);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.startBtn}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcMulaiBtn, new cjs.Rectangle(-165,-51,329,110.9), null);
 
 
 (lib.mcMateriBtn3 = function(mode,startPosition,loop,reversed) {
@@ -2510,170 +2376,6 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.mcLatihanBtn1, new cjs.Rectangle(-279,-90,558,180), null);
-
-
-(lib.mcLatihanBlocker = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	this.isSingleFrame = false;
-	// timeline functions:
-	this.frame_0 = function() {
-		if(this.isSingleFrame) {
-			return;
-		}
-		if(this.totalFrames == 1) {
-			this.isSingleFrame = true;
-		}
-		this.stop();
-		
-		var root = this.stage.getChildAt(0);
-		var blocker = this;
-		
-		// =============================
-		// DEFAULT
-		// =============================
-		blocker.keyValue = 0; // index dari data (0-based)
-		
-		blocker.cek.mouseEnabled = false;
-		blocker.cek.alpha = 0.5;
-		
-		
-		// =============================
-		// TERIMA INDEX DARI LUAR
-		// =============================
-		blocker.keyValues = function (value) {
-		    blocker.keyValue = value;
-		};
-		
-		
-		// =============================
-		// VALIDASI FORM
-		// =============================
-		function validateForm() {
-		
-		    const nama  = inputNama.value.trim();
-		    const kelas = inputKelas.value.trim();
-		    const nip   = inputNip.value.trim();
-		
-		    if (nama && kelas && nip) {
-		        blocker.cek.mouseEnabled = true;
-		        blocker.cek.alpha = 1;
-		    } else {
-		        blocker.cek.mouseEnabled = false;
-		        blocker.cek.alpha = 0.5;
-		    }
-		}
-		
-		inputNama.addEventListener("input", validateForm);
-		inputKelas.addEventListener("input", validateForm);
-		inputNip.addEventListener("input", validateForm);
-		
-		
-		// =============================
-		// KLIK TOMBOL
-		// =============================
-		blocker.cek.on("mousedown", function (e) {
-		
-		    root.playGlobalClick(e.currentTarget, async function () {
-		
-		        const nama  = inputNama.value.trim();
-		        const kelas = inputKelas.value.trim();
-		        const nip   = inputNip.value.trim();
-		
-		        // LOGIN
-		        await window.Leaderboard.login(nip, nama, kelas);
-		
-		        // SIMPAN USER
-		        root.currentUser = {
-		            nama: nama,
-		            kelas: kelas,
-		            nip: nip
-		        };
-		
-		        // =============================
-		        // BUKA LATIHAN BERDASARKAN INDEX DATA
-		        // =============================
-		
-		        var nomorLatihan = blocker.keyValue; // ubah ke 1-based
-		
-		        var targetLatihan = root.latihan_page
-		            .latihanMateri["latihan" + nomorLatihan];
-		
-		        console.log("Index data :", blocker.keyValue);
-		        console.log("Target buka :", "latihan" + nomorLatihan);
-		        console.log("Object :", targetLatihan);
-		
-		        if (targetLatihan && targetLatihan.setBlock) {
-		
-		            targetLatihan.setBlock(false);
-		
-		        } else {
-		
-		            console.warn("Latihan tidak ditemukan atau setBlock tidak ada");
-		
-		        }
-		
-		    });
-		
-		});
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
-
-	// cek
-	this.cek = new cjs.Text("CEK", "75px 'Traditional Arabic'");
-	this.cek.name = "cek";
-	this.cek.textAlign = "center";
-	this.cek.lineHeight = 114;
-	this.cek.lineWidth = 396;
-	this.cek.parent = this;
-	this.cek.setTransform(0,227.25);
-
-	this.timeline.addTween(cjs.Tween.get(this.cek).wait(1));
-
-	// input_user
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Eg6lAfnMAAAg7FIAAgZQAAjPCcgcIAwgEQAAAAABAAQABAAABAAMButAAAQABAAABAAQABAAAAAAIAwAEQCcAcAADPIAAAZMAAAA7F");
-	this.shape.setTransform(0,2.3);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(255,255,255,0.498)").s().p("Eg3WAnEQjPAAAAkYIAAqiMAAAg7FQAFjlCXgeIAwgFIACAAIABAAMButAAAIABAAIACAAIAwAFQCXAeAFDlMAAAA7FIAAKiQAAEYjPAAg");
-	this.shape_1.setTransform(0,50);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// title
-	this.text = new cjs.Text("MASUKAN NAMA DAN KELAS", "75px 'Traditional Arabic'", "#FFFFFF");
-	this.text.textAlign = "center";
-	this.text.lineHeight = 114;
-	this.text.lineWidth = 1276;
-	this.text.parent = this;
-	this.text.setTransform(0,-305.75);
-
-	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
-
-	// background
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Ehj/A4QMAAAhwfMDH/AAAMAAABwf");
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("rgba(0,0,0,0.498)").s().p("Ehj/A+gIAAsgMAAAhwfMDH/AAAMAAABwfIAAMgg");
-	this.shape_3.setTransform(0,40);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2}]}).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.mcLatihanBlocker, new cjs.Rectangle(-641,-361,1282,801), null);
 
 
 (lib.mcLanjutBtn = function(mode,startPosition,loop,reversed) {
@@ -4003,6 +3705,38 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.mcClose, new cjs.Rectangle(-40.5,-40.5,81,81), null);
+
+
+(lib.mcCheckBtn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// text
+	this.text = new cjs.Text("CEK", "60px 'Traditional Arabic'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 92;
+	this.text.lineWidth = 396;
+	this.text.parent = this;
+	this.text.setTransform(1.15,-51.6);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// image
+	this.instance = new lib.questionborder();
+	this.instance.setTransform(-200,-82.65,0.3091,0.3092);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcCheckBtn, new cjs.Rectangle(-200,-82.6,401.2,122.69999999999999), null);
 
 
 (lib.mcCeritaPage = function(mode,startPosition,loop,reversed) {
@@ -5956,6 +5690,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.hiwarToast).wait(1));
 
 	// start_btn
+	this.startBtn = new lib.mcMulaiBtn();
+	this.startBtn.name = "startBtn";
+	this.startBtn.setTransform(-0.5,-0.5,1,1,0,0,0,-0.5,-0.5);
+
 	this.info = new cjs.Text("", "bold 40px 'Traditional Arabic'", "#FFFFFF");
 	this.info.name = "info";
 	this.info.textAlign = "center";
@@ -5964,15 +5702,7 @@ if (reversed == null) { reversed = false; }
 	this.info.parent = this;
 	this.info.setTransform(0,86);
 
-	this.startBtn = new cjs.Text("Mulai", "bold 40px 'Traditional Arabic'", "#FFFFFF");
-	this.startBtn.name = "startBtn";
-	this.startBtn.textAlign = "center";
-	this.startBtn.lineHeight = 63;
-	this.startBtn.lineWidth = 146;
-	this.startBtn.parent = this;
-	this.startBtn.setTransform(0,-31);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.startBtn},{t:this.info}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.info},{t:this.startBtn}]}).wait(1));
 
 	// layer_block
 	this.layer_block = new lib.mcBlocker();
@@ -6027,6 +5757,166 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.mcTeksPage, new cjs.Rectangle(-730,-417,1460,873.1), null);
+
+
+(lib.mcQuizBlocker = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop();
+		
+		var root = this.stage.getChildAt(0);
+		var blocker = this;
+		
+		// =============================
+		// DEFAULT
+		// =============================
+		blocker.keyValue = 1; // index dari data (0-based)
+		
+		blocker.cek.mouseEnabled = false;
+		blocker.cek.alpha = 0.5;
+		
+		
+		// =============================
+		// TERIMA INDEX DARI LUAR
+		// =============================
+		blocker.keyValues = function (value) {
+		    blocker.keyValue = value;
+		};
+		
+		
+		// =============================
+		// VALIDASI FORM
+		// =============================
+		function validateForm() {
+		
+		    const nama = inputNama.value.trim();
+		    const kelas = inputKelas.value.trim();
+		    const nip = inputNip.value.trim();
+		
+		    if (nama && kelas && nip) {
+		        blocker.cek.mouseEnabled = true;
+		        blocker.cek.alpha = 1;
+		    } else {
+		        blocker.cek.mouseEnabled = false;
+		        blocker.cek.alpha = 0.5;
+		    }
+		}
+		
+		inputNama.addEventListener("input", validateForm);
+		inputKelas.addEventListener("input", validateForm);
+		inputNip.addEventListener("input", validateForm);
+		
+		
+		// =============================
+		// KLIK TOMBOL
+		// =============================
+		blocker.cek.on("mousedown", function (e) {
+		
+		    root.playGlobalClick(e.currentTarget, async function () {
+		
+		        const nama = inputNama.value.trim();
+		        const kelas = inputKelas.value.trim();
+		        const nip = inputNip.value.trim();
+		
+		        // LOGIN
+		        await window.Leaderboard.login(nip, nama, kelas);
+		
+		        // SIMPAN USER
+		        root.currentUser = {
+		            nama: nama,
+		            kelas: kelas,
+		            nip: nip
+		        };
+		
+		        // =============================
+		        // BUKA LATIHAN BERDASARKAN INDEX DATA
+		        // =============================
+		
+		        var nomorLatihan = blocker.keyValue; // ubah ke 1-based
+		
+		        var targetQuiz = root.quiz_page
+		            .quizMateri;
+		
+		        console.log("Index data :", blocker.keyValue);
+		        console.log("Target buka :", "latihan" + nomorLatihan);
+		        console.log("Object :", targetQuiz);
+		
+		        if (targetQuiz && targetQuiz.setBlock) {
+		
+		            targetQuiz.setBlock(false);
+		
+		        } else {
+		
+		            console.warn("Latihan tidak ditemukan atau setBlock tidak ada");
+		
+		        }
+		
+		    });
+		
+		});
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// cek
+	this.cek = new lib.mcCheckBtn();
+	this.cek.name = "cek";
+	this.cek.setTransform(0,260);
+
+	this.timeline.addTween(cjs.Tween.get(this.cek).wait(1));
+
+	// input_user
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Eg6lAfnMAAAg7FIAAgZQAAjPCcgcIAwgEQAAAAABAAQABAAABAAMButAAAQABAAABAAQABAAAAAAIAwAEQCcAcAADPIAAAZMAAAA7F");
+	this.shape.setTransform(0,2.3);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("rgba(255,255,255,0.498)").s().p("Eg3WAnEQjPAAAAkYIAAqiMAAAg7FQAFjlCXgeIAwgFIACAAIABAAMButAAAIABAAIACAAIAwAFQCXAeAFDlMAAAA7FIAAKiQAAEYjPAAg");
+	this.shape_1.setTransform(0,50);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	// title
+	this.text = new cjs.Text("MASUKAN NAMA DAN KELAS", "75px 'Traditional Arabic'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 114;
+	this.text.lineWidth = 1276;
+	this.text.parent = this;
+	this.text.setTransform(0,-305.75);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// background
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Ehj/A4QMAAAhwfMDH/AAAMAAABwf");
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("rgba(0,0,0,0.498)").s().p("Ehj/A+gIAAsgMAAAhwfMDH/AAAMAAABwfIAAMgg");
+	this.shape_3.setTransform(0,40);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcQuizBlocker, new cjs.Rectangle(-641,-361,1282,801), null);
 
 
 (lib.mcProfilBoard = function(mode,startPosition,loop,reversed) {
@@ -6580,6 +6470,166 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.mcLatihanMainPage, new cjs.Rectangle(-640,-328.1,1280,654.9000000000001), null);
 
 
+(lib.mcLatihanBlocker = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	this.isSingleFrame = false;
+	// timeline functions:
+	this.frame_0 = function() {
+		if(this.isSingleFrame) {
+			return;
+		}
+		if(this.totalFrames == 1) {
+			this.isSingleFrame = true;
+		}
+		this.stop();
+		
+		var root = this.stage.getChildAt(0);
+		var blocker = this;
+		
+		// =============================
+		// DEFAULT
+		// =============================
+		blocker.keyValue = 0; // index dari data (0-based)
+		
+		blocker.cek.mouseEnabled = false;
+		blocker.cek.alpha = 0.5;
+		
+		
+		// =============================
+		// TERIMA INDEX DARI LUAR
+		// =============================
+		blocker.keyValues = function (value) {
+		    blocker.keyValue = value;
+		};
+		
+		
+		// =============================
+		// VALIDASI FORM
+		// =============================
+		function validateForm() {
+		
+		    const nama  = inputNama.value.trim();
+		    const kelas = inputKelas.value.trim();
+		    const nip   = inputNip.value.trim();
+		
+		    if (nama && kelas && nip) {
+		        blocker.cek.mouseEnabled = true;
+		        blocker.cek.alpha = 1;
+		    } else {
+		        blocker.cek.mouseEnabled = false;
+		        blocker.cek.alpha = 0.5;
+		    }
+		}
+		
+		inputNama.addEventListener("input", validateForm);
+		inputKelas.addEventListener("input", validateForm);
+		inputNip.addEventListener("input", validateForm);
+		
+		
+		// =============================
+		// KLIK TOMBOL
+		// =============================
+		blocker.cek.on("mousedown", function (e) {
+		
+		    root.playGlobalClick(e.currentTarget, async function () {
+		
+		        const nama  = inputNama.value.trim();
+		        const kelas = inputKelas.value.trim();
+		        const nip   = inputNip.value.trim();
+		
+		        // LOGIN
+		        await window.Leaderboard.login(nip, nama, kelas);
+		
+		        // SIMPAN USER
+		        root.currentUser = {
+		            nama: nama,
+		            kelas: kelas,
+		            nip: nip
+		        };
+		
+		        // =============================
+		        // BUKA LATIHAN BERDASARKAN INDEX DATA
+		        // =============================
+		
+		        var nomorLatihan = blocker.keyValue; // ubah ke 1-based
+		
+		        var targetLatihan = root.latihan_page
+		            .latihanMateri["latihan" + nomorLatihan];
+		
+		        console.log("Index data :", blocker.keyValue);
+		        console.log("Target buka :", "latihan" + nomorLatihan);
+		        console.log("Object :", targetLatihan);
+		
+		        if (targetLatihan && targetLatihan.setBlock) {
+		
+		            targetLatihan.setBlock(false);
+		
+		        } else {
+		
+		            console.warn("Latihan tidak ditemukan atau setBlock tidak ada");
+		
+		        }
+		
+		    });
+		
+		});
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+
+	// cek
+	this.cek = new lib.mcCheckBtn();
+	this.cek.name = "cek";
+	this.cek.setTransform(0.6,238.7,1,1,0,0,0,0.6,-21.3);
+
+	this.timeline.addTween(cjs.Tween.get(this.cek).wait(1));
+
+	// input_user
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Eg6lAfnMAAAg7FIAAgZQAAjPCcgcIAwgEQAAAAABAAQABAAABAAMButAAAQABAAABAAQABAAAAAAIAwAEQCcAcAADPIAAAZMAAAA7F");
+	this.shape.setTransform(0,2.3);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("rgba(255,255,255,0.498)").s().p("Eg3WAnEQjPAAAAkYIAAqiMAAAg7FQAFjlCXgeIAwgFIACAAIABAAMButAAAIABAAIACAAIAwAFQCXAeAFDlMAAAA7FIAAKiQAAEYjPAAg");
+	this.shape_1.setTransform(0,50);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	// title
+	this.text = new cjs.Text("MASUKAN NAMA DAN KELAS", "75px 'Traditional Arabic'", "#FFFFFF");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 114;
+	this.text.lineWidth = 1276;
+	this.text.parent = this;
+	this.text.setTransform(0,-305.75);
+
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
+
+	// background
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f().s("rgba(0,0,0,0)").ss(1,1,1).p("Ehj/A4QMAAAhwfMDH/AAAMAAABwf");
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("rgba(0,0,0,0.498)").s().p("Ehj/A+gIAAsgMAAAhwfMDH/AAAMAAABwfIAAMgg");
+	this.shape_3.setTransform(0,40);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.mcLatihanBlocker, new cjs.Rectangle(-641,-361,1282,801), null);
+
+
 (lib.mcLatihan3 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -6604,6 +6654,14 @@ if (reversed == null) { reversed = false; }
 		
 		var root = this.stage.getChildAt(0);
 		var self = this;
+		
+		if (!this.stage.__touchEnabled) {
+			createjs.Touch.enable(this.stage);
+			this.stage.mouseMoveOutside = true;
+			this.stage.__touchEnabled = true;
+		}
+		
+		createjs.Ticker.addEventListener("tick", initSlotOnce);
 		
 		/* ================= KONFIGURASI ================= */
 		
@@ -6646,6 +6704,9 @@ if (reversed == null) { reversed = false; }
 		
 				}
 			}
+		
+			self.slotPosisi.splice(3, 1);     // ⛔ slot 4 hilang
+			self.maxSlot = self.slotPosisi.length; // ✅ maxSlot = 5
 		}
 		
 		/* ================= SETUP DRAG ================= */
@@ -6729,6 +6790,8 @@ if (reversed == null) { reversed = false; }
 					scaleY: 0.8
 				}, 200);
 			}
+		
+			updateNextButtonState();
 		}
 		
 		function keluarkanDariBoard(btn) {
@@ -6759,6 +6822,8 @@ if (reversed == null) { reversed = false; }
 		
 				kembaliKeAwal(btn);
 			}
+		
+			updateNextButtonState(); // ← tambah ini
 		}
 		
 		/* ================= CEK JAWABAN ================= */
@@ -6781,9 +6846,24 @@ if (reversed == null) { reversed = false; }
 			console.log("Benar:", benar);
 		}
 		
+		function updateNextButtonState() {
+		
+			if (!self.dataLatihan) return;
+		
+			let jumlahJawaban = self.jawabanMasuk.length;
+		
+			let bolehNext = jumlahJawaban > 0;
+		
+			self.nextBtn.mouseEnabled = bolehNext;
+			self.nextBtn.alpha = bolehNext ? 1 : 0.5;
+		}
+		
 		/* ================= INIT ================= */
 		
-		buatSlotDariBoard();
+		function initSlotOnce() {
+		    createjs.Ticker.removeEventListener("tick", initSlotOnce);
+		    buatSlotDariBoard();
+		}
 		this.getLatihanById = function (latihanId) {
 			if (!root.data) return null;
 			return root.data.latihan[latihanId] || null;
@@ -6809,6 +6889,8 @@ if (reversed == null) { reversed = false; }
 		this.tampilSoal = function () {
 		
 			resetJawaban();
+			
+			updateNextButtonState();
 		
 			if (self.indexSoal >= self.dataLatihan.length) {
 		
@@ -6842,6 +6924,8 @@ if (reversed == null) { reversed = false; }
 		/* ================= TOMBOL NEXT ================= */
 		
 		self.nextBtn.on("click", function () {
+		
+			if (!self.nextBtn.mouseEnabled) return;
 		
 			cekJawaban();
 		
@@ -6892,12 +6976,45 @@ if (reversed == null) { reversed = false; }
 				child.mouseChildren = !state;
 			}
 		};
-		this.playBtn.on("mousedown", function (e) {
+		// ================= PLAY BUTTON AUDIO =================
+		self.playBtn.on("mousedown", function () {
 		
-		    root.playGlobalClick(e.currentTarget, function () {
-		        
-		    });
+			root.playGlobalClick(self.playBtn, function () {
 		
+				// PAUSE
+				if (self.currentAudio) {
+		
+					self.currentAudio.stop();
+					self.currentAudio = null;
+		
+					createjs.Sound.volume = 1;
+					self.playBtn.gotoAndStop("play");
+					return;
+				}
+		
+				if (!self.currentAudioId) return;
+		
+				// MUTE SOUND LAIN
+				createjs.Sound.volume = 0.2;
+		
+				// PLAY AUDIO SOAL
+				self.currentAudio = createjs.Sound.play(
+					self.currentAudioId,
+					{ volume: 1 }
+				);
+		
+				self.playBtn.gotoAndStop("pause");
+		
+				if (self.currentAudio) {
+					self.currentAudio.on("complete", function () {
+		
+						createjs.Sound.volume = 1;
+		
+						self.playBtn.gotoAndStop("play");
+						self.currentAudio = null;
+					});
+				}
+			});
 		});
 	}
 
@@ -6991,13 +7108,9 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.answerBtn1},{t:this.answerBtn2},{t:this.answerBtn3},{t:this.answerBtn4},{t:this.answerBtn5},{t:this.answerBtn6},{t:this.answerBtn7},{t:this.answerBtn8},{t:this.answerBtn9}]}).wait(1));
 
 	// next_btn
-	this.nextBtn = new cjs.Text("NEXT", "75px 'Traditional Arabic'", "#00FF00");
+	this.nextBtn = new lib.mcLanjutBtn();
 	this.nextBtn.name = "nextBtn";
-	this.nextBtn.textAlign = "center";
-	this.nextBtn.lineHeight = 114;
-	this.nextBtn.lineWidth = 246;
-	this.nextBtn.parent = this;
-	this.nextBtn.setTransform(-52.45,74.3);
+	this.nextBtn.setTransform(-444.3,80.05);
 
 	this.timeline.addTween(cjs.Tween.get(this.nextBtn).wait(1));
 
@@ -7254,12 +7367,45 @@ if (reversed == null) { reversed = false; }
 				child.mouseChildren = !state;
 			}
 		};
-		this.playBtn.on("mousedown", function (e) {
+		// ================= PLAY BUTTON AUDIO =================
+		self.playBtn.on("mousedown", function () {
 		
-		    root.playGlobalClick(e.currentTarget, function () {
-		        
-		    });
+			root.playGlobalClick(self.playBtn, function () {
 		
+				// PAUSE
+				if (self.currentAudio) {
+		
+					self.currentAudio.stop();
+					self.currentAudio = null;
+		
+					createjs.Sound.volume = 1;
+					self.playBtn.gotoAndStop("play");
+					return;
+				}
+		
+				if (!self.currentAudioId) return;
+		
+				// MUTE SOUND LAIN
+				createjs.Sound.volume = 0.2;
+		
+				// PLAY AUDIO SOAL
+				self.currentAudio = createjs.Sound.play(
+					self.currentAudioId,
+					{ volume: 1 }
+				);
+		
+				self.playBtn.gotoAndStop("pause");
+		
+				if (self.currentAudio) {
+					self.currentAudio.on("complete", function () {
+		
+						createjs.Sound.volume = 1;
+		
+						self.playBtn.gotoAndStop("play");
+						self.currentAudio = null;
+					});
+				}
+			});
 		});
 	}
 
@@ -8298,6 +8444,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// start_btn
+	this.startBtn = new lib.mcMulaiBtn();
+	this.startBtn.name = "startBtn";
+	this.startBtn.setTransform(-0.5,8.95,1,1,0,0,0,-0.5,-0.5);
+
 	this.info = new cjs.Text("موضوع: طَلَبُ العُنْوَانِ \nMenanyakan Alamat", "bold 40px 'Traditional Arabic'");
 	this.info.name = "info";
 	this.info.textAlign = "center";
@@ -8306,15 +8456,7 @@ if (reversed == null) { reversed = false; }
 	this.info.parent = this;
 	this.info.setTransform(0,86);
 
-	this.startBtn = new cjs.Text("Mulai", "bold 40px 'Traditional Arabic'", "#FFFFFF");
-	this.startBtn.name = "startBtn";
-	this.startBtn.textAlign = "center";
-	this.startBtn.lineHeight = 63;
-	this.startBtn.lineWidth = 146;
-	this.startBtn.parent = this;
-	this.startBtn.setTransform(0,-31);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.startBtn},{t:this.info}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.info},{t:this.startBtn}]}).wait(1));
 
 	// layer_block
 	this.layer_block = new lib.mcBlocker();
@@ -8626,6 +8768,9 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// start_btn
+	this.startBtn = new lib.mcMulaiBtn();
+	this.startBtn.name = "startBtn";
+
 	this.info = new cjs.Text("حِوَارُ الاَوَّلُ : المَسْكَنُ\nTempat Tinggal", "bold 40px 'Traditional Arabic'");
 	this.info.name = "info";
 	this.info.textAlign = "center";
@@ -8634,15 +8779,7 @@ if (reversed == null) { reversed = false; }
 	this.info.parent = this;
 	this.info.setTransform(0,86);
 
-	this.startBtn = new cjs.Text("Mulai", "bold 40px 'Traditional Arabic'", "#FFFFFF");
-	this.startBtn.name = "startBtn";
-	this.startBtn.textAlign = "center";
-	this.startBtn.lineHeight = 63;
-	this.startBtn.lineWidth = 146;
-	this.startBtn.parent = this;
-	this.startBtn.setTransform(0,-31);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.startBtn},{t:this.info}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.info},{t:this.startBtn}]}).wait(1));
 
 	// layer_block
 	this.layer_block = new lib.mcBlocker();
@@ -8977,6 +9114,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.familyToast).wait(1));
 
 	// start_btn
+	this.startBtn = new lib.mcMulaiBtn();
+	this.startBtn.name = "startBtn";
+	this.startBtn.setTransform(-0.5,-0.5,1,1,0,0,0,-0.5,-0.5);
+
 	this.info = new cjs.Text("نَصٌّ قِصَصِيٌّ قَصِيرٌ عَنْ يَوْمِيَّاتِ الأُسْرَةِ", "40px 'Traditional Arabic'", "#FFFFFF");
 	this.info.name = "info";
 	this.info.textAlign = "center";
@@ -8985,15 +9126,7 @@ if (reversed == null) { reversed = false; }
 	this.info.parent = this;
 	this.info.setTransform(0,86);
 
-	this.startBtn = new cjs.Text("Mulai", "40px 'Times New Roman'", "#FFFFFF");
-	this.startBtn.name = "startBtn";
-	this.startBtn.textAlign = "center";
-	this.startBtn.lineHeight = 46;
-	this.startBtn.lineWidth = 146;
-	this.startBtn.parent = this;
-	this.startBtn.setTransform(0,-31);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.startBtn},{t:this.info}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.info},{t:this.startBtn}]}).wait(1));
 
 	// layer_block
 	this.layer_block = new lib.mcBlocker();
@@ -9530,6 +9663,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// start_btn
+	this.startBtn = new lib.mcMulaiBtn();
+	this.startBtn.name = "startBtn";
+	this.startBtn.setTransform(-0.5,-119.5,1,1,0,0,0,-0.5,-0.5);
+
 	this.info = new cjs.Text("الحوار مِنْ يَوْمِيَّاتِ الأُسْرَةِ\nDialog: Dari Keseharian Keluarga\nالمَشْهَدُ: فِي غُرْفَةِ الجُلُوسِ بَعْدَ الفَجْرِ", "bold 40px 'Traditional Arabic'");
 	this.info.name = "info";
 	this.info.textAlign = "center";
@@ -9538,15 +9675,7 @@ if (reversed == null) { reversed = false; }
 	this.info.parent = this;
 	this.info.setTransform(0,-0.65);
 
-	this.startBtn = new cjs.Text("Mulai", "bold 40px 'Traditional Arabic'", "#FFFFFF");
-	this.startBtn.name = "startBtn";
-	this.startBtn.textAlign = "center";
-	this.startBtn.lineHeight = 63;
-	this.startBtn.lineWidth = 146;
-	this.startBtn.parent = this;
-	this.startBtn.setTransform(0,-117.65);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.startBtn},{t:this.info}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.info},{t:this.startBtn}]}).wait(1));
 
 	// layer_block
 	this.layer_block = new lib.mcBlocker();
@@ -12013,6 +12142,19 @@ if (reversed == null) { reversed = false; }
 			{ id: "latihan-4-2", src: "assets/audio/latihan/4/latihan-4-2.mp3" },
 			{ id: "latihan-4-3", src: "assets/audio/latihan/4/latihan-4-3.mp3" },
 			{ id: "latihan-4-4", src: "assets/audio/latihan/4/latihan-4-4.mp3" },
+		
+			// Bab 5
+			{ id: "latihan-5-1", src: "assets/audio/latihan/5/latihan-5-1.mp3" },
+			{ id: "latihan-5-2", src: "assets/audio/latihan/5/latihan-5-2.mp3" },
+			{ id: "latihan-5-3", src: "assets/audio/latihan/5/latihan-5-3.mp3" },
+			{ id: "latihan-5-4", src: "assets/audio/latihan/5/latihan-5-4.mp3" },
+			
+			// Bab 6
+			{ id: "latihan-6-1", src: "assets/audio/latihan/6/latihan-6-1.mp3" },
+			{ id: "latihan-6-2", src: "assets/audio/latihan/6/latihan-6-2.mp3" },
+			{ id: "latihan-6-3", src: "assets/audio/latihan/6/latihan-6-3.mp3" },
+			{ id: "latihan-6-4", src: "assets/audio/latihan/6/latihan-6-4.mp3" },
+		
 		]);
 		
 		

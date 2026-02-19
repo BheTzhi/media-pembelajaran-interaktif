@@ -23,15 +23,21 @@
       height: 100vh;
       background-color: black;
     }
+    #dom_overlay_container {
+      pointer-events: none;
+    }
     #animation_container {
       position: relative;
       width: 1280px;
       height: 720px;
       background-color: white;
+      touch-action: none;
     }
     canvas {
       display: block;
       background-color: white;
+      touch-action: none;
+      -ms-touch-action: none;
     }
     /* Styling form siswa */
     #formSiswa {
