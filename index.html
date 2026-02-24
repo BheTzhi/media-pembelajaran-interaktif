@@ -1,10 +1,11 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8" />
   <meta name="authoring-tool" content="Adobe_Animate_CC" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <title>تعليم_20العربية</title>
+  <title>Al Istima' App</title>
   <style>
     html,
     body {
@@ -15,6 +16,7 @@
       background-color: black;
       overflow: hidden;
     }
+
     #wrapper {
       display: flex;
       justify-content: center;
@@ -23,9 +25,11 @@
       height: 100vh;
       background-color: black;
     }
+
     #dom_overlay_container {
       pointer-events: none;
     }
+
     #animation_container {
       position: relative;
       width: 1280px;
@@ -33,12 +37,14 @@
       background-color: white;
       touch-action: none;
     }
+
     canvas {
       display: block;
       background-color: white;
       touch-action: none;
       -ms-touch-action: none;
     }
+
     /* Styling form siswa */
     #formSiswa {
       position: absolute;
@@ -51,15 +57,18 @@
       /* awalnya disembunyikan, nanti show/hide dari Animate */
       z-index: 1000;
     }
+
     #formSiswa .form-group {
       margin-bottom: 5px;
     }
+
     #formSiswa label {
       display: block;
       font-weight: bold;
       margin-bottom: 2px;
       font-size: 20px;
     }
+
     #formSiswa input[type="text"] {
       width: 100%;
       height: 34px;
@@ -70,6 +79,57 @@
       border-radius: 4px;
       box-sizing: border-box;
       color: #000;
+    }
+
+    #searchBox {
+      position: absolute;
+      display: none;
+      align-items: center;
+      width: 50px;
+      /* mode kecil */
+      height: 45px;
+      background: #fff;
+      border-radius: 25px;
+      border: 2px solid #ddd;
+      padding: 0 12px;
+      box-sizing: border-box;
+      overflow: hidden;
+      transition: width 0.3s ease;
+      z-index: 1000;
+      cursor: pointer;
+    }
+
+    /* saat aktif melebar */
+    #searchBox.active {
+      width: 320px;
+      cursor: auto;
+    }
+
+    /* icon */
+    #searchBox .searchIcon {
+      font-size: 18px;
+      color: #888;
+      min-width: 20px;
+    }
+
+    /* input */
+    #searchBox input {
+      border: none;
+      outline: none;
+      width: 100%;
+      margin-left: 8px;
+      font-size: 15px;
+      font-weight: bold;
+      background: transparent;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+      pointer-events: none;
+    }
+
+    /* input muncul saat aktif */
+    #searchBox.active input {
+      opacity: 1;
+      pointer-events: auto;
     }
   </style>
   <!-- pakai lokal kalau untuk APK -->
@@ -89,6 +149,12 @@
       w: 700,
       h: 45,
     };
+    var searchRect = {
+      x: 800,
+      y: 130,
+      w: 400,
+      h: 50
+    };
     function init() {
       canvas = document.getElementById("canvas");
       anim_container = document.getElementById("animation_container");
@@ -98,9 +164,9 @@
       // ⬇️ AMBIL INPUT DI SINI
       domInput = document.getElementById("isianInput");
       domFormSiswa = document.getElementById("formSiswa");
-      inputNama = document.getElementById("inputNama");
-      inputKelas = document.getElementById("inputKelas");
+      domSearchBox = document.getElementById("searchBox");
       inputNip = document.getElementById("inputNip");
+      inputCari = document.getElementById("inputCari");
       var comp = AdobeAn.getComposition("068A7D7ED7551241A48EAE0CCAF9F5AF");
       var lib = comp.getLibrary();
       var loader = new createjs.LoadQueue(false);
@@ -146,11 +212,24 @@
       window.addEventListener("resize", () => {
         updateInputPosition();
         updateFormSiswaPosition();
+        updateSearchPosition();
       });
       setTimeout(() => {
         updateInputPosition();
         updateFormSiswaPosition();
+        updateSearchPosition();
       }, 50);
+      domSearchBox.addEventListener("click", () => {
+        domSearchBox.classList.add("active");
+        updateSearchPosition();
+        setTimeout(() => inputCari.focus(), 200);
+      });
+      inputCari.addEventListener("blur", () => {
+        if (!inputCari.value) {
+          domSearchBox.classList.remove("active");
+          updateSearchPosition();
+        }
+      });
     }
     function updateInputPosition() {
       if (!canvas || !domInput) return;
@@ -179,7 +258,7 @@
       // Posisi kiri tetap di tengah canvas (sesuai skala)
       const leftPos = ((1280 - 700) / 2) * scaleX;
       // Posisi atas: normalnya di tengah canvas dikurangi offset 150px (atau sesuaikan)
-      let topPos = ((720 - totalFormHeight) / 2 - 150) * scaleY;
+      let topPos = ((720 - totalFormHeight) / 2 - 50) * scaleY;
       // Jika form tinggi melebihi container height, paksa posisi top supaya pas di container
       if (scaledFormHeight > containerHeight) {
         topPos = (containerHeight - scaledFormHeight) / 2;
@@ -191,8 +270,22 @@
       domFormSiswa.style.left = leftPos + "px";
       domFormSiswa.style.top = topPos + "px";
     }
+    function updateSearchPosition() {
+      if (!canvas || !domSearchBox) return;
+      const scaleX = canvas.clientWidth / 1280;
+      const scaleY = canvas.clientHeight / 720;
+      domSearchBox.style.left = searchRect.x * scaleX + "px";
+      domSearchBox.style.top = searchRect.y * scaleY + "px";
+      domSearchBox.style.height = searchRect.h * scaleY + "px";
+      // width mengikuti mode
+      const targetWidth = domSearchBox.classList.contains("active")
+        ? searchRect.w
+        : 50;
+      domSearchBox.style.width = targetWidth * scaleX + "px";
+    }    
   </script>
 </head>
+
 <body onload="init()">
   <div id="wrapper">
     <div id="animation_container">
@@ -201,16 +294,8 @@
       <!-- Form disini -->
       <div id="formSiswa">
         <div class="form-group">
-          <label for="inputNama">Nama Lengkap</label>
-          <input id="inputNama" type="text" placeholder="Ketik nama lengkap" maxlength="50" />
-        </div>
-        <div class="form-group">
-          <label for="inputKelas">Kelas</label>
-          <input id="inputKelas" type="text" placeholder="Ketik kelas" maxlength="10" />
-        </div>
-        <div class="form-group">
-          <label for="inputNip">NIP</label>
-          <input id="inputNip" type="text" placeholder="Ketik NIP atau NIM" maxlength="20" />
+          <label for="inputNip">NISN</label>
+          <input id="inputNip" type="text" placeholder="Ketik NISN" maxlength="10" />
         </div>
       </div>
       <!-- end form -->
@@ -236,6 +321,13 @@
             display: none;
             z-index: 1000;
           " />
+      <!-- END INPUT ISIAN -->
+      <!-- SEARCH BOX -->
+      <div id="searchBox">
+        <span class="searchIcon">🔍</span>
+        <input id="inputCari" type="text" placeholder="Cari NISN / Nama" maxlength="20" />
+      </div>
+      <!-- END SEARCH  -->
     </div>
   </div>
   <!-- BACK BUTTON ANDROID -->
@@ -301,10 +393,12 @@
       getDocs,
       getDoc,
       deleteDoc,
+      deleteField,
       serverTimestamp,
       query,
       orderBy
     } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-firestore.js";
+    /* ================= CONFIG ================= */
     const firebaseConfig = {
       apiKey: "AIzaSyA0FnGh296zb9BIBHRwZTQKUIjbM4f_tOg",
       authDomain: "animate-talimularobiah.firebaseapp.com",
@@ -316,120 +410,145 @@
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
     const colRef = collection(db, "leaderboard");
+    /* ================= DEFAULT QUIZ OBJECT ================= */
+    const defaultQuiz = {
+      nilai: 0,
+      benar: 0,
+      salah: 0
+    };
+    function ambilNilai(q) {
+      if (typeof q === "number") return q;
+      return q?.nilai || 0;
+    }
+    /* ================= MODULE ================= */
     window.Leaderboard = {
-      /* =========================
-         CREATE / LOGIN
-      ========================= */
-      async login(nip, nama, kelas) {
-        const ref = doc(db, "leaderboard", nip);
+      /* ================= MIGRASI ================= */
+      async migrateFromNipToNisn(nisn) {
+        const newRef = doc(db, "leaderboard", nisn);
+        const newSnap = await getDoc(newRef);
+        if (newSnap.exists()) return;
+        const snapshot = await getDocs(colRef);
+        for (const d of snapshot.docs) {
+          const data = d.data();
+          if (data.nip && data.nip === nisn) {
+            const total_quiz =
+              ambilNilai(data.quiz1) +
+              ambilNilai(data.quiz2) +
+              ambilNilai(data.quiz3);
+            await setDoc(newRef, {
+              nama: data.nama || "",
+              kelas: data.kelas || "",
+              nisn,
+              quiz1: data.quiz1 || defaultQuiz,
+              quiz2: data.quiz2 || defaultQuiz,
+              quiz3: data.quiz3 || defaultQuiz,
+              total_quiz,
+              total_keseluruhan: total_quiz,
+              created_at: data.created_at || serverTimestamp(),
+              updated_at: serverTimestamp()
+            });
+            await deleteDoc(doc(db, "leaderboard", d.id));
+            return;
+          }
+        }
+      },
+      /* ================= LOGIN ================= */
+      async login(nisn) {
+        await this.migrateFromNipToNisn(nisn);
+        const ref = doc(db, "leaderboard", nisn);
         const snap = await getDoc(ref);
         if (!snap.exists()) {
           await setDoc(ref, {
-            nama,
-            kelas,
-            nip,
-            quiz1: 0,
-            quiz2: 0,
-            quiz3: 0,
-            latihan1: 0,
-            latihan2: 0,
-            latihan3: 0,
+            nisn,
+            quiz1: defaultQuiz,
+            quiz2: defaultQuiz,
+            quiz3: defaultQuiz,
             total_quiz: 0,
-            total_latihan: 0,
             total_keseluruhan: 0,
             created_at: serverTimestamp(),
             updated_at: serverTimestamp()
           });
           console.log("Siswa baru dibuat");
         } else {
+          const d = snap.data();
+          const total_quiz =
+            ambilNilai(d.quiz1) +
+            ambilNilai(d.quiz2) +
+            ambilNilai(d.quiz3);
           await updateDoc(ref, {
-            nama,
-            kelas,
+            quiz1: d.quiz1 || defaultQuiz,
+            quiz2: d.quiz2 || defaultQuiz,
+            quiz3: d.quiz3 || defaultQuiz,
+            total_quiz,
+            total_keseluruhan: total_quiz,
+            latihan1: deleteField(),
+            latihan2: deleteField(),
+            latihan3: deleteField(),
+            total_latihan: deleteField(),
             updated_at: serverTimestamp()
           });
-          console.log("Siswa login ulang");
+          console.log("Login ulang → data dirapikan");
         }
       },
-      /* =========================
-         READ ONE
-      ========================= */
-      async getOne(nip) {
-        const snap = await getDoc(doc(db, "leaderboard", nip));
-        if (snap.exists()) {
-          return { id: snap.id, ...snap.data() };
-        }
-        return null;
-      },
-      /* =========================
-         READ ALL
-      ========================= */
-      async getAll() {
-        const snapshot = await getDocs(colRef);
-        const result = [];
-        snapshot.forEach(d => {
-          result.push({ id: d.id, ...d.data() });
-        });
-        return result;
-      },
-      /* =========================
-         UPDATE DATA UMUM
-      ========================= */
-      async update(nip, data) {
-        const ref = doc(db, "leaderboard", nip);
-        await updateDoc(ref, {
-          ...data,
-          updated_at: serverTimestamp()
-        });
-        console.log("Data diperbarui");
-      },
-      /* =========================
-         UPDATE NILAI + AUTO TOTAL
-      ========================= */
-      async updateNilai(nip, dataBaru) {
-        const ref = doc(db, "leaderboard", nip);
+      /* ================= UPDATE NILAI QUIZ ================= */
+      async updateNilai(nisn, dataBaru) {
+        const ref = doc(db, "leaderboard", nisn);
         const snap = await getDoc(ref);
         if (!snap.exists()) return;
         const lama = snap.data();
         const gabungan = { ...lama, ...dataBaru };
         const total_quiz =
-          (gabungan.quiz1 || 0) +
-          (gabungan.quiz2 || 0) +
-          (gabungan.quiz3 || 0);
-        const total_latihan =
-          (gabungan.latihan1 || 0) +
-          (gabungan.latihan2 || 0) +
-          (gabungan.latihan3 || 0);
-        const total_keseluruhan = total_quiz + total_latihan;
+          ambilNilai(gabungan.quiz1) +
+          ambilNilai(gabungan.quiz2) +
+          ambilNilai(gabungan.quiz3);
         await updateDoc(ref, {
           ...dataBaru,
           total_quiz,
-          total_latihan,
-          total_keseluruhan,
+          total_keseluruhan: total_quiz,
           updated_at: serverTimestamp()
         });
-        console.log("Nilai diperbarui");
+        console.log("Nilai quiz diperbarui");
       },
-      /* =========================
-         DELETE
-      ========================= */
-      async delete(nip) {
-        await deleteDoc(doc(db, "leaderboard", nip));
-        console.log("Siswa dihapus");
+      /* ================= SISANYA TIDAK BERUBAH ================= */
+      async getOne(nisn) {
+        const snap = await getDoc(doc(db, "leaderboard", nisn));
+        return snap.exists() ? { id: snap.id, ...snap.data() } : null;
       },
-      /* =========================
-         RANKING
-      ========================= */
-      async getRanking() {
-        const q = query(colRef, orderBy("total_keseluruhan", "desc"));
-        const snapshot = await getDocs(q);
-        const result = [];
-        snapshot.forEach(d => {
-          result.push({ id: d.id, ...d.data() });
+      async getAll() {
+        const snapshot = await getDocs(colRef);
+        return snapshot.docs.map(d => ({ id: d.id, ...d.data() }));
+      },
+      async update(nisn, data) {
+        await updateDoc(doc(db, "leaderboard", nisn), {
+          ...data,
+          updated_at: serverTimestamp()
         });
-        return result;
-      }
+      },
+      async delete(nisn) {
+        await deleteDoc(doc(db, "leaderboard", nisn));
+      },
+      async getRanking() {
+        const q = query(colRef, orderBy("nama", "asc"));
+        const snapshot = await getDocs(q);
+        return snapshot.docs.map(d => ({
+          id: d.id,
+          ...d.data()
+        }));
+      },
+      async filter(keyword) {
+        const semuaData = await this.getAll();
+        if (!keyword) return semuaData;
+        const key = keyword.toLowerCase();
+        return semuaData.filter(d => {
+          const nip = (d.nip || "").toLowerCase();
+          const nisn = (d.nisn || "").toLowerCase();
+          const nama = (d.nama || "").toLowerCase();
+          return nip.includes(key) || nisn.includes(key) || nama.includes(key);
+        });
+      },
     };
-    console.log("🔥 CRUD Leaderboard siap digunakan");
+    console.log("🔥 Leaderboard FINAL SIAP");
   </script>
 </body>
+
 </html>

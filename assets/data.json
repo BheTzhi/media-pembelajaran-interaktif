@@ -268,7 +268,7 @@
             },
             {
               "audio": "cerita-p3",
-              "text": "وَجَدَ حَدِيقَةً صَغِيرَةٌ أَمَامَ البَيْتِ، فِيهَا أَزْهَارٌ مُلَوَّنَةٌ وَشَجَرَةُ مَنْجَا كَبِيرَةٌ.",
+              "text": "وَجَدَ حَدِيقَةً صَغِيرَةً أَمَامَ البَيْتِ، فِيهَا أَزْهَارٌ مُلَوَّنَةٌ وَشَجَرَةُ مَنْجَا كَبِيرَةٌ.",
               "terjemah": "Terdapat sebuah taman kecil di depan rumah, di dalamnya ada bunga-bunga berwarna-warni dan sebuah pohon mangga besar."
             },
             {
@@ -293,16 +293,21 @@
             },
             {
               "audio": "cerita-p8",
-              "text": "تَطْبَخُ أُمُّ سَلْمَى فِي المَطْبَخِ كُلَّ صَبَاحٍ لِتُعِدَّ الفُطُورَ، وَسَلْمَى تُسَاعِدُهَا أَحْيَانًا فِي تَجْهِيزِ المَائِدَةِ.",
-              "terjemah": "Ibu Salma memasak di dapur setiap pagi untuk menyiapkan sarapan, dan Salma terkadang membantunya menyiapkan meja makan."
+              "text": " ،تَطْبَخُ أُمُّ سَلْمَى فِي المَطْبَخِ كُلَّ صَبَاحٍ لِتُعِدَّ الفُطُورَ،",
+              "terjemah": "Ibu Salma memasak di dapur setiap pagi untuk menyiapkan sarapan,"
             },
             {
               "audio": "cerita-p9",
+              "text": "وَسَلْمَى تُسَاعِدُهَا أَحْيَانًا فِي تَجْهِيزِ المَائِدَةِ",
+              "terjemah": "dan Salma terkadang membantunya menyiapkan meja makan."
+            },
+            {
+              "audio": "cerita-p10",
               "text": "وَبَعْدَ الغَدَاءِ، تَنْظُفُ العَائِلَةُ البَيْتَ مَعًا لِكَيْ يَبْقَى مُرَتَّبًا وَجَمِيلًا.",
               "terjemah": "Dan setelah makan siang, keluarga membersihkan rumah bersama-sama agar tetap rapi dan indah."
             },
             {
-              "audio": "cerita-p10",
+              "audio": "cerita-p11",
               "text": "تُحِبُّ سَلْمَى بَيْتَهَا جِدًّا لِأَنَّهُ مَرِيحٌ وَهَادِئٌ.",
               "terjemah": "Salma sangat menyukai rumahnya karena rumah itu nyaman dan tenang."
             }
@@ -698,7 +703,7 @@
             },
             {
               "audio": "audio-10",
-              "text": "بَيْنَمَا تُسَاعِدُ لَيْلَى أُمَّهَا فِي تَنْظِيفِ البَيْتِ.",
+              "text": "بَيْنَمَا تُسَاعِدُ لَيْلَى أُمُّهَا فِي تَنْظِيفِ البَيْتِ.",
               "terjemah": "sementara Laila membantu ibunya membersihkan rumah.",
               "cover": "cover-11"
             },
