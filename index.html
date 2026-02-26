@@ -415,7 +415,8 @@
       deleteField,
       serverTimestamp,
       query,
-      orderBy
+      orderBy,
+      onSnapshot
     } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-firestore.js";
     /* ================= CONFIG ================= */
     const firebaseConfig = {
@@ -429,6 +430,8 @@
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
     const colRef = collection(db, "leaderboard");
+    /* 🔥 GLOBAL CONFIG DOC */
+    const settingRef = doc(db, "leaderboard", "@a123456z");
     /* ================= DEFAULT QUIZ OBJECT ================= */
     const defaultQuiz = {
       nilai: 0,
@@ -476,38 +479,37 @@
         await this.migrateFromNipToNisn(nisn);
         const ref = doc(db, "leaderboard", nisn);
         const snap = await getDoc(ref);
+        // ❌ STOP kalau tidak terdaftar
         if (!snap.exists()) {
-          await setDoc(ref, {
-            nisn,
-            quiz1: defaultQuiz,
-            quiz2: defaultQuiz,
-            quiz3: defaultQuiz,
-            total_quiz: 0,
-            total_keseluruhan: 0,
-            created_at: serverTimestamp(),
-            updated_at: serverTimestamp()
-          });
-          console.log("Siswa baru dibuat");
-        } else {
-          const d = snap.data();
-          const total_quiz =
-            ambilNilai(d.quiz1) +
-            ambilNilai(d.quiz2) +
-            ambilNilai(d.quiz3);
-          await updateDoc(ref, {
-            quiz1: d.quiz1 || defaultQuiz,
-            quiz2: d.quiz2 || defaultQuiz,
-            quiz3: d.quiz3 || defaultQuiz,
-            total_quiz,
-            total_keseluruhan: total_quiz,
-            latihan1: deleteField(),
-            latihan2: deleteField(),
-            latihan3: deleteField(),
-            total_latihan: deleteField(),
-            updated_at: serverTimestamp()
-          });
-          console.log("Login ulang → data dirapikan");
+          console.warn("NISN tidak terdaftar");
+          return {
+            status: false,
+            message: "NISN tidak terdaftar"
+          };
         }
+        // ✅ kalau ada → rapikan data
+        const d = snap.data();
+        const total_quiz =
+          ambilNilai(d.quiz1) +
+          ambilNilai(d.quiz2) +
+          ambilNilai(d.quiz3);
+        await updateDoc(ref, {
+          quiz1: d.quiz1 || defaultQuiz,
+          quiz2: d.quiz2 || defaultQuiz,
+          quiz3: d.quiz3 || defaultQuiz,
+          total_quiz,
+          total_keseluruhan: total_quiz,
+          latihan1: deleteField(),
+          latihan2: deleteField(),
+          latihan3: deleteField(),
+          total_latihan: deleteField(),
+          updated_at: serverTimestamp()
+        });
+        console.log("Login berhasil");
+        return {
+          status: true,
+          data: d
+        };
       },
       /* ================= UPDATE NILAI QUIZ ================= */
       async updateNilai(nisn, dataBaru) {
@@ -535,7 +537,9 @@
       },
       async getAll() {
         const snapshot = await getDocs(colRef);
-        return snapshot.docs.map(d => ({ id: d.id, ...d.data() }));
+        return snapshot.docs
+          .filter(d => !d.id.startsWith("@")) // ⛔ skip config
+          .map(d => ({ id: d.id, ...d.data() }));
       },
       async update(nisn, data) {
         await updateDoc(doc(db, "leaderboard", nisn), {
@@ -549,10 +553,9 @@
       async getRanking() {
         const q = query(colRef, orderBy("nama", "asc"));
         const snapshot = await getDocs(q);
-        return snapshot.docs.map(d => ({
-          id: d.id,
-          ...d.data()
-        }));
+        return snapshot.docs
+          .filter(d => !d.id.startsWith("@")) // ⛔ skip config
+          .map(d => ({ id: d.id, ...d.data() }));
       },
       async filter(keyword) {
         const semuaData = await this.getAll();
@@ -565,6 +568,28 @@
           return nip.includes(key) || nisn.includes(key) || nama.includes(key);
         });
       },
+      async getQuiz(field) {
+        const snap = await getDoc(settingRef);
+        if (!snap.exists()) return false;
+        const val = snap.data()[field];
+        return val === true; // paksa boolean
+      },
+      async setQuiz(field, value) {
+        await setDoc(settingRef, {
+          [field]: value,
+          updated_at: serverTimestamp()
+        }, { merge: true });
+      },
+      listenQuiz(field, callback) {
+        return onSnapshot(settingRef, (snap) => {
+          if (!snap.exists()) {
+            callback(false);
+            return;
+          }
+          const val = snap.data()[field];
+          callback(val === true);
+        });
+      }
     };
     console.log("🔥 Leaderboard FINAL SIAP");
   </script>
