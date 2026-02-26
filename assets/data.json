@@ -1117,7 +1117,7 @@
           "id": 16,
           "type": "audio_pg",
           "audio": "bab4-16",
-          "question": "Perhatikan potongan hiwar berikut!\n1. بَيْتِي بَعِيدٌ عَنِ السُّوقِ\n2. هَلْ بَيْتُكَ قَرِيبٌ مِنَ السُّوقِ؟\n3. حَسَنًا\nUrutan yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -1142,7 +1142,7 @@
           "id": 17,
           "type": "audio_pg",
           "audio": "bab4-17",
-          "question": "Perhatikan potongan hiwar berikut!\n1. فِي الشَّارِعِ الأَوَّلِ\n2. أَيْنَ بَيْتُكَ؟\n3. شُكْرًا\nUrutan yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -1167,7 +1167,7 @@
           "id": 18,
           "type": "audio_pg",
           "audio": "bab4-18",
-          "question": "Perhatikan potongan hiwar berikut!\n1. نَعَمْ، أَعْرِفُهُ\n2. هَلْ تَعْرِفُ بَيْتَ أَحْمَدَ؟\n3. جَيِّدٌ\nUrutan yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -1192,7 +1192,7 @@
           "id": 19,
           "type": "audio_pg",
           "audio": "bab4-19",
-          "question": "Perhatikan potongan hiwar berikut!\n1. لَوْنُهُ أَخْضَرُ\n2. مَا لَوْنُ بَيْتِكَ؟\n3. جَمِيلٌ\nUrutan yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -1217,7 +1217,7 @@
           "id": 20,
           "type": "audio_pg",
           "audio": "bab4-20",
-          "question": "Perhatikan potongan hiwar berikut!\n1. خَلْفَ المَسْجِدِ\n2. أَيْنَ المَكْتَبَةُ؟\n3. فَهِمْتُ\nUrutan yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -1583,7 +1583,7 @@
         {
           "id": 16,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. يَقَعُ البَيْتُ قَرِيبًا مِنَ المَسْجِدِ وَالمَدْرَسَةِ\n2. تَسْكُنُ عَائِلَةُ سَلْمَى فِي بَيْتٍ جَمِيلٍ فِي حَيِّ النُّورِ\n3. تُحِبُّ سَلْمَى الجُلُوسَ فِي الحَدِيقَةِ فِي الصَّبَاحِ\nUrutan yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -1607,7 +1607,7 @@
         {
           "id": 17,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. غُرْفَةُ الجُلُوسِ\n2. غُرْفَةُ النَّوْمِ\n3. المَطْبَخُ وَالحَمَّامُ\nUrutan sesuai teks adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -1631,7 +1631,7 @@
         {
           "id": 18,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. تَطْبَخُ أُمُّ سَلْمَى فِي المَطْبَخِ\n2. تُسَاعِدُهَا سَلْمَى فِي تَجْهِيزِ المَائِدَةِ\n3. تَنْظُفُ العَائِلَةُ البَيْتَ مَعًا\nUrutan yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -1655,7 +1655,7 @@
         {
           "id": 19,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. بَيْتِي بَسِيطٌ وَجَمِيلٌ\n2. يَتَكَوَّنُ البَيْتُ مِنْ ثَلَاثِ غُرَفٍ\n3. الحَمَّامُ فِي طَرَفِ البَيْتِ\nUrutan yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -1679,7 +1679,7 @@
         {
           "id": 20,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. الجَوُّ فِي البَيْتِ مَرِيحٌ\n2. البَيْتُ كُلُّهُ مُرَتَّبٌ\n3. الإِقَامَةُ فِيهِ لَطِيفَةٌ\nUrutan yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -2026,7 +2026,7 @@
         {
           "id": 16,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. وَعَلَيْكُمُ السَّلَامُ يَا أُمِّي، أَنَا مُسْتَيْقِظٌ\n2. السَّلَامُ عَلَيْكُمْ يَا أَوْلَادُ، هَيَّا اسْتَيْقِظُوا\n3. وَأَنَا أَيْضًا يَا أُمِّي، مَاذَا سَنَفْعَلُ اليَوْمَ؟\nUrutan hiwar yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -2050,7 +2050,7 @@
         {
           "id": 17,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. أَوَّلًا، اغْتَسِلُوا ثُمَّ الْبَسُوا مَلَابِسَكُمْ\n2. حَاضِرٌ يَا أُمِّي، سَأَسْتَحِمُّ الآنَ\n3. وَأَنَا سَأُرَتِّبُ سَرِيرِي أَوَّلًا ثُمَّ سَأَسْتَحِمُّ\nUrutan hiwar yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -2074,7 +2074,7 @@
         {
           "id": 18,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. جَيِّدٌ\n2. بَعْدَ ذَلِكَ تَعَالَوْا إِلَى المَطْبَخِ لِلفُطُورِ\n3. مَاذَا أَعْدَدْتِ لِلفُطُورِ؟\nUrutan hiwar yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -2098,7 +2098,7 @@
         {
           "id": 19,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. خُبْزٌ، وَبَيْضٌ، وَحَلِيبٌ\n2. مَاذَا أَعْدَدْتِ لِلفُطُورِ؟\n3. رَائِعٌ! أَنَا أُحِبُّ البَيْضَ كَثِيرًا\nUrutan hiwar yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -2122,7 +2122,7 @@
         {
           "id": 20,
           "type": "urut_pg",
-          "question": "Perhatikan potongan berikut!\n1. حَسَنًا، وَبَعْدَ ذَلِكَ سَاعِدَانِي فِي تَنْظِيفِ البَيْتِ\n2. سَأَكْنُسُ غُرْفَةَ الجُلُوسِ\n3. وَأَنَا سَأَمْسَحُ المَائِدَةَ فِي المَطْبَخِ\nUrutan hiwar yang benar adalah …",
+          "question": "Dengarkan potongan hiwar berikut!",
           "options": [
             {
               "label": "A",
@@ -2154,7 +2154,7 @@
       },
       {
         "audio": "latihan-4-2",
-        "correct": "perpus"
+        "correct": "perpustakaan"
       },
       {
         "audio": "latihan-4-3",

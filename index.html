@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 <head>
   <meta charset="UTF-8" />
   <meta name="authoring-tool" content="Adobe_Animate_CC" />
@@ -16,7 +15,6 @@
       background-color: black;
       overflow: hidden;
     }
-
     #wrapper {
       display: flex;
       justify-content: center;
@@ -25,11 +23,9 @@
       height: 100vh;
       background-color: black;
     }
-
     #dom_overlay_container {
       pointer-events: none;
     }
-
     #animation_container {
       position: relative;
       width: 1280px;
@@ -37,14 +33,12 @@
       background-color: white;
       touch-action: none;
     }
-
     canvas {
       display: block;
       background-color: white;
       touch-action: none;
       -ms-touch-action: none;
     }
-
     /* Styling form siswa */
     #formSiswa {
       position: absolute;
@@ -57,18 +51,15 @@
       /* awalnya disembunyikan, nanti show/hide dari Animate */
       z-index: 1000;
     }
-
     #formSiswa .form-group {
       margin-bottom: 5px;
     }
-
     #formSiswa label {
       display: block;
       font-weight: bold;
       margin-bottom: 2px;
       font-size: 20px;
     }
-
     #formSiswa input[type="text"] {
       width: 100%;
       height: 34px;
@@ -80,38 +71,26 @@
       box-sizing: border-box;
       color: #000;
     }
-
     #searchBox {
       position: absolute;
       display: none;
       align-items: center;
-      width: 50px;
-      /* mode kecil */
+      width: 320px;
+      /* langsung lebar tetap */
       height: 45px;
       background: #fff;
       border-radius: 25px;
       border: 2px solid #ddd;
       padding: 0 12px;
       box-sizing: border-box;
-      overflow: hidden;
-      transition: width 0.3s ease;
       z-index: 1000;
-      cursor: pointer;
     }
-
-    /* saat aktif melebar */
-    #searchBox.active {
-      width: 320px;
-      cursor: auto;
-    }
-
     /* icon */
     #searchBox .searchIcon {
       font-size: 18px;
       color: #888;
       min-width: 20px;
     }
-
     /* input */
     #searchBox input {
       border: none;
@@ -121,15 +100,26 @@
       font-size: 15px;
       font-weight: bold;
       background: transparent;
-      opacity: 0;
-      transition: opacity 0.2s ease;
-      pointer-events: none;
     }
-
-    /* input muncul saat aktif */
-    #searchBox.active input {
-      opacity: 1;
-      pointer-events: auto;
+    #searchSuggest {
+      position: absolute;
+      width: 320px;
+      max-height: 220px;
+      overflow-y: auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      margin-top: 6px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      display: none;
+    }
+    .suggest-item {
+      padding: 10px 14px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .suggest-item:hover {
+      background: #f1f1f1;
     }
   </style>
   <!-- pakai lokal kalau untuk APK -->
@@ -165,6 +155,7 @@
       domInput = document.getElementById("isianInput");
       domFormSiswa = document.getElementById("formSiswa");
       domSearchBox = document.getElementById("searchBox");
+      domSuggest = document.getElementById("searchSuggest");
       inputNip = document.getElementById("inputNip");
       inputCari = document.getElementById("inputCari");
       var comp = AdobeAn.getComposition("068A7D7ED7551241A48EAE0CCAF9F5AF");
@@ -219,17 +210,46 @@
         updateFormSiswaPosition();
         updateSearchPosition();
       }, 50);
-      domSearchBox.addEventListener("click", () => {
-        domSearchBox.classList.add("active");
-        updateSearchPosition();
-        setTimeout(() => inputCari.focus(), 200);
+      inputCari.addEventListener("input", async function () {
+        const keyword = this.value.trim();
+        if (!keyword) {
+          domSuggest.style.display = "none";
+          return;
+        }
+        const hasil = await Leaderboard.filter(keyword);
+        tampilkanSuggest(hasil.slice(0, 5));
       });
-      inputCari.addEventListener("blur", () => {
-        if (!inputCari.value) {
-          domSearchBox.classList.remove("active");
-          updateSearchPosition();
+      document.addEventListener("click", function (e) {
+        if (!domSearchBox.contains(e.target) &&
+          !domSuggest.contains(e.target)) {
+          domSuggest.style.display = "none";
         }
       });
+    }
+    function tampilkanSuggest(data) {
+      if (!data.length) {
+        domSuggest.style.display = "none";
+        return;
+      }
+      domSuggest.innerHTML = "";
+      data.forEach(item => {
+        const div = document.createElement("div");
+        div.className = "suggest-item";
+        div.textContent =
+          `${item.nisn || "-"} - ${item.nama || "Tanpa Nama"}`;
+        div.onclick = () => {
+          const keyword = inputCari.value.trim();
+          const isAngka = /^\d+$/.test(keyword);
+          if (isAngka) {
+            inputCari.value = item.nisn || "";
+          } else {
+            inputCari.value = item.nama || "";
+          }
+          domSuggest.style.display = "none";
+        };
+        domSuggest.appendChild(div);
+      });
+      domSuggest.style.display = "block";
     }
     function updateInputPosition() {
       if (!canvas || !domInput) return;
@@ -276,16 +296,14 @@
       const scaleY = canvas.clientHeight / 720;
       domSearchBox.style.left = searchRect.x * scaleX + "px";
       domSearchBox.style.top = searchRect.y * scaleY + "px";
+      domSearchBox.style.width = searchRect.w * scaleX + "px";
       domSearchBox.style.height = searchRect.h * scaleY + "px";
-      // width mengikuti mode
-      const targetWidth = domSearchBox.classList.contains("active")
-        ? searchRect.w
-        : 50;
-      domSearchBox.style.width = targetWidth * scaleX + "px";
+      domSuggest.style.left = domSearchBox.style.left;
+      domSuggest.style.top = (searchRect.y * scaleY + searchRect.h * scaleY + 5) + "px";
+      domSuggest.style.width = domSearchBox.style.width;
     }    
   </script>
 </head>
-
 <body onload="init()">
   <div id="wrapper">
     <div id="animation_container">
@@ -327,6 +345,7 @@
         <span class="searchIcon">🔍</span>
         <input id="inputCari" type="text" placeholder="Cari NISN / Nama" maxlength="20" />
       </div>
+      <div id="searchSuggest"></div>
       <!-- END SEARCH  -->
     </div>
   </div>
@@ -550,5 +569,4 @@
     console.log("🔥 Leaderboard FINAL SIAP");
   </script>
 </body>
-
 </html>
