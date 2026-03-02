@@ -12371,7 +12371,7 @@ if (reversed == null) { reversed = false; }
 		}
 		this.stop();
 		
-		this.isUser = "guru";
+		this.isUser = window.user;
 		 
 		this.pageHistory = [];
 		this.currentPage = this.landing_page;
